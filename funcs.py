@@ -24,6 +24,7 @@ def remover_futeis(df):
         'CO_MUN_RES', #CÓDIGO MUNICÍPIO
         'NM_BAIRRO',  #NOME DO BAIRRO PADRONIZADO CORREIOS
         'CS_ZONA',    #ZONA (RURAL OU URBANA)  TUDO 1 
+        'PAC_DSCBO',  #OCUPAÇÃO PROFISSIONAL
         #Vacina covid
         'LOTE_1_COV', #CÓDIGO LOTE 1 COVID 
         'LOTE_2_COV', #CÓDIGO LOTE 2 COVID
@@ -59,7 +60,7 @@ def sintomas_mais_frequente(df):
 
     df_sintomas = df[list(mapa_sintomas)]
     
-    contagem = df_sintomas.applymap(lambda x: 1 if x == 1 else 0).sum()
+    contagem = df_sintomas.applymap(lambda x: 1 if (x == 1 or x == 2 or x == 9) else 0).sum()
     
     df_contagem = pd.DataFrame(contagem, columns=['frequencia']).reset_index()
     df_contagem.columns = ['sintoma', 'frequencia']
