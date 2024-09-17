@@ -81,31 +81,32 @@ def rag_chain(question, retriever):
     # mean_distance = np.mean(distances)
     return ollama_llm(question, formatted_context)
 
-def run_test(df):
+def run_test(df,retriever):
     
     correct = 0
     incorrect = 0
-    distance = 0
-    distance_list = []
+    # distance = 0
+    # distance_list = []
     
     for _, row in tqdm(df.iterrows()):
         text = row['text']
         try:
-            distance, response = rag_chain(text)
-            distance_list.append(distance)
+            response = rag_chain(text, retriever)
+            # print(response)
+            # distance_list.append(distance)
             response = ast.literal_eval(response)
             choice = response['classe'].lower()
             if choice == 'relevante':
                 correct += 1
             else:
                 incorrect += 1
-        except:
+        except Exception as e:
             flag = True
-            # print(f"Erro na linha: {_}")
+            print(f"Erro {e} na linha: {_}")
             break
     
     # mean_distance = np.mean(distance_list) 
-
+    print(flag)
     return correct, incorrect, flag
 
 def sending_wandb(corrects, incorrects, tipo):
@@ -133,7 +134,7 @@ if __name__ == "__main__":
     llm = Ollama(model='llama3.1')
 
     #Carregando os documentos de treino
-    loader = DataFrameLoader(df_train, page_content_column="text")
+    loader = DataFrameLoader(df_test, page_content_column="text")
     docs = loader.load()
 
     #Criando instanciando modelo de embedding e criando a vectorstore
@@ -143,7 +144,7 @@ if __name__ == "__main__":
     #Instanciando o retriever e rodando o teste
     for k in range(1, k_max+1):
         retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': 3})
-        corrects, incorrects, flag = run_test(df_test)
+        corrects, incorrects, flag = run_test(df_test,retriever)
         if flag: break
         sending_wandb(corrects, incorrects, tipo)
 
