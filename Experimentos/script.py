@@ -134,7 +134,7 @@ if __name__ == "__main__":
     llm = Ollama(model='llama3.1')
 
     #Carregando os documentos de treino
-    loader = DataFrameLoader(df_test, page_content_column="text")
+    loader = DataFrameLoader(df_train, page_content_column="text")
     docs = loader.load()
 
     #Criando instanciando modelo de embedding e criando a vectorstore
@@ -143,7 +143,7 @@ if __name__ == "__main__":
 
     #Instanciando o retriever e rodando o teste
     for k in range(1, k_max+1):
-        retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': 3})
+        retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': k})
         corrects, incorrects, flag = run_test(df_test,retriever)
         if flag: break
         sending_wandb(corrects, incorrects, tipo)
