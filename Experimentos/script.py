@@ -77,11 +77,11 @@ def ollama_llm(question, context):
 def rag_chain(question, retriever):
     retrieved_docs = retriever.invoke(question)
     formatted_context = "\n\n".join(doc.page_content for doc in retrieved_docs)
-    distances = [doc.distance for doc in retrieved_docs]
-    mean_distance = np.mean(distances)
-    return mean_distance, ollama_llm(question, formatted_context)
+    # distances = [doc.distance for doc in retrieved_docs]
+    # mean_distance = np.mean(distances)
+    return ollama_llm(question, formatted_context)
 
-def run_test(df,flag):
+def run_test(df):
     
     correct = 0
     incorrect = 0
@@ -104,13 +104,13 @@ def run_test(df,flag):
             # print(f"Erro na linha: {_}")
             break
     
-    mean_distance = np.mean(distance_list) 
+    # mean_distance = np.mean(distance_list) 
 
-    return correct, incorrect, flag, mean_distance
+    return correct, incorrect, flag
 
-def sending_wandb(corrects, incorrects, mean_distance, tipo):
+def sending_wandb(corrects, incorrects, tipo):
     accuracy = corrects / (corrects + incorrects)
-    wandb.log({f"accuracy/recall - {tipo}": accuracy, f"mean_distance - {tipo}": mean_distance})
+    wandb.log({f"accuracy/recall - {tipo}": accuracy})
     wandb.finish()
 
 
@@ -142,9 +142,10 @@ if __name__ == "__main__":
 
     #Instanciando o retriever e rodando o teste
     for k in range(1, k_max+1):
-        retriever = vectorstore.as_retriever(search_type='simalirty', k=k)
-        corrects, incorrects, flag, mean_distance = run_test(df_test)
-        sending_wandb(corrects, incorrects, mean_distance, tipo)
+        retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': 3})
+        corrects, incorrects, flag = run_test(df_test)
+        if flag: break
+        sending_wandb(corrects, incorrects, tipo)
 
 
-    if flag: sys.exit(0)
+    

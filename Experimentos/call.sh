@@ -7,7 +7,7 @@ url_test='../datasets/relevantes/EIOS_test.csv'
 tipo='Relevantes'
 # tipo='Irrelevantes'
 
-k_max=100
+k_max=1000
 
 python3 script.py $url_train $url_test $k_max $tipo
 
