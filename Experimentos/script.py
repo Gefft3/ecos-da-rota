@@ -16,6 +16,12 @@ def load_data(url_train, url_test):
     test = pd.read_csv(url_test)
     return train, test
 
+def format_text(text):
+    text = text.split("$")
+    # print(text[0])
+    # print(text[1])
+    return {"classe": text[0], "justificativa": text[1]}
+
 
 def ollama_llm(question, context):
 
@@ -41,33 +47,30 @@ def ollama_llm(question, context):
 
         Dica: Classifique como irrelevante quaisquer questões que não estejam diretamente relacionadas à saúde ou cuidados médicos.
 
-        O formato de saída deve ser o seguinte:
-        {
-            "classe": "",
-            "justificativa": ""
-        }
+        O formato de saída deve ser o seguinte: classe$justificativa
+        Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
 
         A classe deve ser uma string das categorias acima: 'Relevante' ou 'Irrelevante'.
         A justificativa deve ser um texto explicando o motivo da escolha da categoria.
 
         Exemplos:
         1. Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
-            Saída: { 'classe': 'Relevante', 'justificativa': 'O texto trata de um problema respiratório diretamente relacionado à área da saúde.' }
+            Saída: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
 
         2. Questão: 'Como posso aumentar minha produtividade no trabalho?'
-            Saída: { 'classe': 'Irrelevante', 'justificativa': 'A questão não está relacionada diretamente ao contexto da área da saúde.' }
+            Saída: Irrelevante$A questão não está relacionada diretamente ao contexto da área da saúde.
 
         3. Questão: 'Tenho dores nas costas após longas horas sentado.'
-            Saída: { 'classe': 'Relevante', 'justificativa': 'A questão aborda um problema de saúde ocupacional que afeta a coluna vertebral.' }
+            Saída: Relevante$A questão aborda um problema de saúde ocupacional que afeta a coluna vertebral.
 
         4. Questão: 'Quais são os melhores livros de autoajuda?'
-            Saída: { 'classe': 'Irrelevante', 'justificativa': 'A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.' }
+            Saída: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
         
         Não se esqueça das orientações e forneça a resposta no formato de saída indicado.
 
         A saída deve ser estritamente no formato indicado, com aspas simples e chaves.
 
-        A classificação deve ser exclusivamente entre 'Relevante' e 'Irrelevante'.
+        A classificação deve ser exclusivamente entre 'Relevante' e 'Irrelevante' e deve ser apenas uma classificação por questão.
     """
     
     formatted_prompt = f"{prompt_specs}\nQuestão: {question}\n\nContexto: {context}"
@@ -77,42 +80,42 @@ def ollama_llm(question, context):
 def rag_chain(question, retriever):
     retrieved_docs = retriever.invoke(question)
     formatted_context = "\n\n".join(doc.page_content for doc in retrieved_docs)
-    # distances = [doc.distance for doc in retrieved_docs]
-    # mean_distance = np.mean(distances)
     return ollama_llm(question, formatted_context)
 
 def run_test(df,retriever):
     
     correct = 0
     incorrect = 0
-    # distance = 0
-    # distance_list = []
+
     
-    for _, row in tqdm(df.iterrows()):
-        text = row['text']
+    for text in tqdm(df['text']):
+
+        # print('Soliciando resposta para a pergunta...')
+        response = rag_chain(text, retriever)
+        
         try:
-            response = rag_chain(text, retriever)
-            # print(response)
-            # distance_list.append(distance)
-            response = ast.literal_eval(response)
-            choice = response['classe'].lower()
-            if choice == 'relevante':
+            # print('Formatando a resposta...')
+            response = format_text(response)
+            
+            # print('Escolhendo a classe da resposta...')
+            choice = response['classe']
+            if choice == 'Relevante':
                 correct += 1
             else:
                 incorrect += 1
         except Exception as e:
             flag = True
-            print(f"Erro {e} na linha: {_}")
+            print(f"Erro {e}, texto: {text}")
+            print(f"Resposta: {response}")
             break
     
-    # mean_distance = np.mean(distance_list) 
-    print(flag)
+    # print(flag)
     return correct, incorrect, flag
 
 def sending_wandb(corrects, incorrects, tipo):
     accuracy = corrects / (corrects + incorrects)
     wandb.log({f"accuracy/recall - {tipo}": accuracy})
-    wandb.finish()
+    
 
 
 if __name__ == "__main__":
@@ -130,9 +133,6 @@ if __name__ == "__main__":
 
     df_train, df_test = load_data(path_train, path_test)
 
-    #Definindo o modelo a ser usado pela langchain
-    llm = Ollama(model='llama3.1')
-
     #Carregando os documentos de treino
     loader = DataFrameLoader(df_train, page_content_column="text")
     docs = loader.load()
@@ -145,8 +145,5 @@ if __name__ == "__main__":
     for k in range(1, k_max+1):
         retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': k})
         corrects, incorrects, flag = run_test(df_test,retriever)
-        if flag: break
         sending_wandb(corrects, incorrects, tipo)
-
-
-    
+        if flag: break
