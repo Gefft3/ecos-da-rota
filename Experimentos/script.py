@@ -9,6 +9,7 @@ import ast
 from tqdm import tqdm
 import sys
 import wandb
+import threading
 
 def load_data(url_train, url_test):
     # Datasets definidos pelo shell script
@@ -52,6 +53,7 @@ def ollama_llm(question, context):
 
         A classe deve ser uma string das categorias acima: 'Relevante' ou 'Irrelevante'.
         A justificativa deve ser um texto explicando o motivo da escolha da categoria.
+        Deve haver apenas uma resposta por questão.
 
         Exemplos:
         1. Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
@@ -67,8 +69,6 @@ def ollama_llm(question, context):
             Saída: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
         
         Não se esqueça das orientações e forneça a resposta no formato de saída indicado.
-
-        A saída deve ser estritamente no formato indicado, com aspas simples e chaves.
 
         A classificação deve ser exclusivamente entre 'Relevante' e 'Irrelevante' e deve ser apenas uma classificação por questão.
     """
@@ -91,6 +91,8 @@ def run_test(df,retriever):
     for text in tqdm(df['text']):
 
         # print('Soliciando resposta para a pergunta...')
+        
+
         response = rag_chain(text, retriever)
         
         try:
