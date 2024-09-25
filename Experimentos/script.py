@@ -1,15 +1,14 @@
 import pandas as pd
-import numpy as np
 from langchain_community.llms import Ollama
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.document_loaders import DataFrameLoader
 import ollama
-import ast
 from tqdm import tqdm
+import numpy as np
 import sys
-import wandb
-import threading
+import tiktoken
+
 
 def load_data(url_train, url_test):
     # Datasets definidos pelo shell script
@@ -19,121 +18,89 @@ def load_data(url_train, url_test):
 
 def format_text(text):
     text = text.split("$")
-    # print(text[0])
-    # print(text[1])
     return {"classe": text[0], "justificativa": text[1]}
 
 
 def ollama_llm(question, context):
 
     prompt_specs = """
-        Classifique se as questões são relevantes ou irrelevantes para o contexto da área de saúde epidemiológica.
-        Pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
 
-        Você deve classificar cada questão em uma das 2 categorias:
-        1. Relevante
-        2. Irrelevante
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
 
-        Para cada questão, forneça uma justificativa detalhada para a escolha feita.
-        Certifique-se de que a justificativa seja clara e esteja relacionada ao contexto da área da saúde.
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
 
-        Faça:
-        1. Seja específico e claro.
-        2. Compreenda o contexto da questão relacionada à saúde antes de categorizá-la.
-        3. Aja como um profissional de saúde.
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
 
-        NÃO faça:
-        1. Não adivinhe ou invente informações.
-        2. Não crie novas categorias de justificativa; utilize apenas as fornecidas acima.
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
 
-        Dica: Classifique como irrelevante quaisquer questões que não estejam diretamente relacionadas à saúde ou cuidados médicos.
-
-        O formato de saída deve ser o seguinte: classe$justificativa
-        Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
-
-        A classe deve ser uma string das categorias acima: 'Relevante' ou 'Irrelevante'.
-        A justificativa deve ser um texto explicando o motivo da escolha da categoria.
-        Deve haver apenas uma resposta por questão.
-
-        Exemplos:
-        1. Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
-            Saída: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
-
-        2. Questão: 'Como posso aumentar minha produtividade no trabalho?'
-            Saída: Irrelevante$A questão não está relacionada diretamente ao contexto da área da saúde.
-
-        3. Questão: 'Tenho dores nas costas após longas horas sentado.'
-            Saída: Relevante$A questão aborda um problema de saúde ocupacional que afeta a coluna vertebral.
-
-        4. Questão: 'Quais são os melhores livros de autoajuda?'
-            Saída: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
-        
-        Não se esqueça das orientações e forneça a resposta no formato de saída indicado.
-
-        A classificação deve ser exclusivamente entre 'Relevante' e 'Irrelevante' e deve ser apenas uma classificação por questão.
-    """
-    
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+"""
     formatted_prompt = f"{prompt_specs}\nQuestão: {question}\n\nContexto: {context}"
     response = ollama.chat(model='llama3.1', messages=[{'role': 'user', 'content': formatted_prompt}])
-    return response['message']['content']
+    response = response['message']['content']
+    return response
 
-def rag_chain(question, retriever):
+
+def rag_chain(question, retriever, max_prompt_length):    
     retrieved_docs = retriever.invoke(question)
-    formatted_context = "\n\n".join(doc.page_content for doc in retrieved_docs)
+
+    encoding = tiktoken.get_encoding("cl100k_base")
+    num_tokens_question = len(encoding.encode(question))
+    prompt_tokens = num_tokens_question + 318
+    
+    for doc in retrieved_docs:
+        if len(encoding.encode(doc.page_content)) + prompt_tokens < max_prompt_length:
+            prompt_tokens += len(encoding.encode(doc.page_content))
+            formatted_context = "\n\n".join(doc.page_content)
+
     return ollama_llm(question, formatted_context)
 
-def run_test(df,retriever):
+def run_test(df, retriever, tipo, max_prompt_length):
     
-    correct = 0
-    incorrect = 0
-
-    
+    i = 0
     for text in tqdm(df['text']):
-
-        # print('Soliciando resposta para a pergunta...')
-        
-
-        response = rag_chain(text, retriever)
-        
         try:
-            # print('Formatando a resposta...')
+            response = rag_chain(text, retriever, max_prompt_length) 
             response = format_text(response)
-            
-            # print('Escolhendo a classe da resposta...')
             choice = response['classe']
-            if choice == 'Relevante':
-                correct += 1
+
+            if choice == "Relevante" or choice == "Irrelevante":
+                with open(f"classificacoes {tipo}.txt", "a") as f:
+                    f.write(f"{choice}\n")
             else:
-                incorrect += 1
+                with open(f"Erros {tipo}.txt", "a") as f:
+                    f.write(f"Question {i}\n")
+                    f.write(f"Texto de entrada: {text}\n\n")
+                    f.write(f"Resposta LLM: {response}\n\n")
+                    f.write(f"Resposta final: {choice}\n\n")
+                    f.write("------------------------------------------------\n\n")
+                pass
+                
         except Exception as e:
-            flag = True
             print(f"Erro {e}, texto: {text}")
             print(f"Resposta: {response}")
-            break
+            pass
+
+        i += 1
+
+def main():
+    df_train, df_test = load_data(sys.argv[1], sys.argv[2])
     
-    # print(flag)
-    return correct, incorrect, flag
-
-def sending_wandb(corrects, incorrects, tipo):
-    accuracy = corrects / (corrects + incorrects)
-    wandb.log({f"accuracy/recall - {tipo}": accuracy})
-    
-
-
-if __name__ == "__main__":
-
-    run = wandb.init(
-        project="ECOS da Rota",
-    )
-
-    path_train = sys.argv[1]
-    path_test = sys.argv[2]
     k_max = int(sys.argv[3])
     tipo = sys.argv[4]
-
-    flag = False
-
-    df_train, df_test = load_data(path_train, path_test)
+    max_prompt_length = int(sys.argv[5])
 
     #Carregando os documentos de treino
     loader = DataFrameLoader(df_train, page_content_column="text")
@@ -141,11 +108,8 @@ if __name__ == "__main__":
 
     #Criando instanciando modelo de embedding e criando a vectorstore
     embeddings = OllamaEmbeddings(model='nomic-embed-text')
-    vectorstore = Chroma.from_documents(docs, embedding=embeddings)
-
-    #Instanciando o retriever e rodando o teste
-    for k in range(1, k_max+1):
-        retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': k})
-        corrects, incorrects, flag = run_test(df_test,retriever)
-        sending_wandb(corrects, incorrects, tipo)
-        if flag: break
+    vectorstore = Chroma(collection_name='v_db', persist_directory="./chroma_db", embedding_function=embeddings)
+    
+    #Criando o modelo de recuperação
+    retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': k_max})
+    run_test(df_test, retriever, tipo, max_prompt_length)
