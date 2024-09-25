@@ -78,7 +78,7 @@ def run_test(df, retriever, tipo, max_prompt_length):
 
             if choice == "Relevante" or choice == "Irrelevante":
                 with open(f"classificacoes {tipo}.txt", "a") as f:
-                    f.write(f"{choice}\n")
+                    f.write(f"{i} {choice}\n")
             else:
                 with open(f"Erros {tipo}.txt", "a") as f:
                     f.write(f"Question {i}\n")
