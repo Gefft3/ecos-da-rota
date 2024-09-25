@@ -9,7 +9,7 @@ url_train='../datasets/relevantes/EIOS_train.csv'
 url_test='../datasets/relevantes/EIOS_test.csv'
 
 #Tamanho máximo do k (número de documentos retornados)
-k_max=1
+k_max=2
 
 #Tamanho máximo de tokens por prompt
 max_prompt_tokens=50000

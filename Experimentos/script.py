@@ -21,7 +21,7 @@ def format_text(text):
     return {"classe": text[0], "justificativa": text[1]}
 
 
-def ollama_llm(question, context):
+def ollama_llm(question, context, i):
 
     prompt_specs = """
 Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
@@ -48,31 +48,38 @@ Não faça:
 - Não mostre a questão ou o contexto na saída.
 """
     formatted_prompt = f"{prompt_specs}\nQuestão: {question}\n\nContexto: {context}"
+
+    with open("prompts.txt", "w") as f:
+        f.write(f'Question {i}\n')
+        f.write(f'{formatted_prompt}\n')
+        f.write("--------------------------------\n\n")
+
     response = ollama.chat(model='llama3.1', messages=[{'role': 'user', 'content': formatted_prompt}])
     response = response['message']['content']
     return response
 
 
-def rag_chain(question, retriever, max_prompt_length):    
+def rag_chain(question, retriever, max_prompt_length, i):    
     retrieved_docs = retriever.invoke(question)
 
     encoding = tiktoken.get_encoding("cl100k_base")
     num_tokens_question = len(encoding.encode(question))
     prompt_tokens = num_tokens_question + 318
     
+    formatted_context = ""
     for doc in retrieved_docs:
         if len(encoding.encode(doc.page_content)) + prompt_tokens < max_prompt_length:
             prompt_tokens += len(encoding.encode(doc.page_content))
-            formatted_context = "\n\n".join(doc.page_content)
+            formatted_context += "\n\n" + doc.page_content
 
-    return ollama_llm(question, formatted_context)
+    return ollama_llm(question, formatted_context, i)
 
 def run_test(df, retriever, tipo, max_prompt_length):
     
     i = 0
     for text in tqdm(df['text']):
         try:
-            response = rag_chain(text, retriever, max_prompt_length) 
+            response = rag_chain(text, retriever, max_prompt_length, i) 
             response = format_text(response)
             choice = response['classe']
 

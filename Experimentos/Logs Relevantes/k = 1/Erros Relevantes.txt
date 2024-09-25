@@ -1,0 +1,2037 @@
+Question 4
+Texto de entrada: Após 20 dias de espera e esperança, o sorriso se foi. O garotinho de apenas 2 anos e 5 meses de idade, vítima de violência extrema, não resistiu e morreu na Santa Casa de Campo Grande. Para a investigação policial, não há duvida: mãe e padrasto são autores das agressões. Presos por tentativa de homicídio, agora serão indiciados por homicídio qualificado.A criança deu entrada no hospital com graves ferimentos e já em coma no dia 23 de janeiro. Havia sinais evidentes de agressão e traumatismo craniano. Exames clínicos constataram lesões no pulmão, acúmulo de líquido e hematoma no abdômen, além de escoriações nos membros inferiores. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 13
+Texto de entrada: Pfizer disse que a vacinação materna poderia evitar até 16 mil hospitalizações devido ao VSR a cada ano, se a vacina fosse aplicada universalmente.A Food and Drug Administration dos EUA aprovou, na segunda-feira (21), a primeira vacina que protege os recém-nascidos do vírus sincicial respiratório, conhecido como VSR. A vacina, produzida pela Pfizer, é administrada às mães no final da gravidez e oferece proteção aos bebês durante os primeiros seis meses de vida. Em um teste com mais de 7 mil grávidas e seus bebês, a vacina, chamada Abrysvo, cortou o risco de que os bebês precisassem consultar um médico ou serem internados no hospital. O VSR é uma doença comum e a principal causa de hospitalização em bebês e idosos a cada ano. Normalmente atinge mais duramente durante os meses de inverno, e a última temporada foi mais longa do que o normal, sobrecarregando os hospitais infantis.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 16
+Texto de entrada: O Governo do Estado tem reforçado o monitoramento contra a influenza aviária de alta patogenicidade (vírus H5N1) em aves migratórias e residentes, em ninhais da região do Pantanal. Equipes de vigilância do Instituto de Defesa Agropecuária do Estado de Mato Grosso (Indea), da Secretaria de Estado de Meio Ambiente (Sema), do Ministério da Agricultura e Pecuária (Mapa) e da Organização Não Governamental (ONG) ambientalista Ecotrópica percorreram na última semana pontos de paradas e reprodução de aves silvestres do pantanal. O trabalho irá contemplar cinco cidades: Barão de Melgaço, Cáceres, Nossa Senhora do Livramento, Poconé e Santo Antônio do Leverger.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 22
+Texto de entrada: Aprovado no dia 28 de janeiro pela Anvisa (Agência Nacional de Vigilância Sanitária), o autoteste da covid-19 deve começar a ser vendido em Campo Grande por R$ 69,90 até o dia 11 de março. Ao menos é o que promete a rede de farmácias Pague Menos, que anunciou já ter começado a distribuir o produto para as unidades pelo Brasil e é a única da Capital que já tem data para começar a ter o teste nas prateleiras
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 28
+Texto de entrada: Apesar de a doença de Hansen (lepra) já praticamente não existir em Portugal, vão aparecendo alguns casos de imigrantes nesta consulta do Centro Hospitalar Universitário Lisboa Central (CHULC), a única de Lisboa e do sul do país. Os novos doentes atualmente seguidos nesta consulta são sobretudo do Brasil, do Bangladesh, da índia, do Nepal., mas também temos alguns doentes dos países africanos de expressão portuguesa. “Em termos gerais devemos seguir entre 30 a 40 doentes por ano, sendo que a maior parte deles já fez o tratamento e está só em vigilância”, adiantou.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 29
+Texto de entrada: A taxa de testes positivos para Covid-19 aumentou no Brasil nas primeiras semanas de agosto, segundo dois relatórios independentes divulgados na quarta-feira (30). A alta em ambos os levantamentos é da ordem de 7 pontos percentuais, o que representa o dobro de pessoas que testaram positivo para o vírus Sars-Cov-2. O aumento ocorre diante de um cenário distinto do já verificado em momentos anteriores da pandemia, com a maioria da população já vacinada e menos risco de casos graves:Variante, Gravidade, Vacinação, Grupos vulnerávei, Duração da onda.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 31
+Texto de entrada: A prefeitura de Campo Grande abriu nesta quinta-feira (16) o cadastro de identificação prévia para a vacinação contra Covid-19 de crianças de 5 a 11 anos. O calendário para atendimento deste público ainda deverá ser definido. A Anvisa (Agência Nacional de Vigilância Sanitária) aprovou hoje o uso da vacina produzida pelo consórcio Pfizer-BioNTech, a Comirnaty, contra a Covid-19 em crianças com idade de 5 a 11 anos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 33
+Texto de entrada: A faixa etária para a vacinação contra o Papilomavirus humano (HPV4) na população masculina imunossuprimida foi ampliada. A partir de agora, homens de até 45 anos transplantados, pacientes oncológicos ou vivendo com HIV/aids podem se vacinar. O esquema tradicional de três doses será usado, independentemente da idade.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 34
+Texto de entrada: A professora Lucineide de Souza Dantas, 51, transita, há cinco anos, entre irritabilidade, indisposição, falta de libido e fogachos -fortes ondas de calor que impregnam o corpo. "São sintomas que incomodam", diz. E são associados à menopausa. Mais de 24 milhões de mulheres no Brasil já estão na menopausa ou no climatério, fase em que ocorrem mudanças hormonais que afetam sono, sexualidade e emoções, variando em intensidade, às vezes descritas como "desesperadoras". Projetos de lei no Congresso Nacional propõem programas de saúde específicos para ajudar, mas não há previsão sobre o término da tramitação nem sobre quando, se aprovados, serão efetivados. Um desses projetos está na Câmara desde 2019.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 40
+Texto de entrada: A Secretaria de Estado da Saúde (Sesau) emitiu um comunicado para alertar as autoridades municipais a intensificarem as medidas de combate ao Aedes Aegypti, o mosquito transmissor de doenças como dengue, chikungunya e zika vírus. A informação foi divulgada pela Sesau neste sábado (26) após a confirmação de dois casos de dengue tipo 3 em Bonfim, cidade fronteiriça com a Guiana.Os dados do mais recente Levantamento Rápido de Índice para o Aedes aegypti (LIRAa Nacional) destacaram o alto risco de arboviroses em diversas cidades, incluindo Alto Alegre (12,5%), Mucajaí (10,0%), Caracaraí (8,8%), Amajari (8,2%). Boa Vista (6,3%), São João da Baliza (5,7%), São Luiz (4,4%) e Caroebe (4,2%).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 46
+Texto de entrada: Campo Grande registrou dois casos confirmados para zika vírus em novembro, elevando o número para 16 desde o começo do ano. Os três últimos casos positivos desde outubro em Mato Grosso do Sul são da Capital. De acordo com o boletim epidemiológico mensal da SES (Secretaria Estadual de Mato Grosso do Sul), o Estado contabiliza 89 casos confirmados de janeiro a novembro. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 47
+Texto de entrada: Uma vacina com tecnologia semelhante à usada na imunização contra Covid-19 está sendo testada em centros de pesquisa brasileiros para prevenir a infecção pelo HIV, o vírus causador da Aids. A pesquisa está na fase três, quando são realizados testes em seres humanos. Os resultados saem em dois anos e meio.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 49
+Texto de entrada: A COVID-19 trouxe uma mudança sem precedentes na abordagem ao rastreio e tratamento do cancro da mama na Austrália. Uma análise clínica retrospectiva de dados de pacientes do Hospital Adventista de Sydney (SAH), em Nova Gales do Sul,  relacionou um aumento nos casos de câncer de mama avançado desde a pandemia às suspensões de exames de mama que ocorreram devido às restrições da COVID-19. Pesquisadores da Universidade Nacional  Australiana analisaram novos casos de câncer de mama feminino diagnosticados no SAH entre julho de 2019 e junho de 2022 e os categorizaram em grupos pré-pandêmicos, pandêmicos e pós-pandêmicos. Eles encontraram um aumento de pacientes com câncer de mama avançado (estágio 3 ou 4) no grupo pandêmico e pós-pandêmico (8,5% e 7%), em comparação ao grupo pré-pandêmico (4,6%).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 51
+Texto de entrada: Seis unidades básicas de saúde e dois pontos itinerantes estarão aplicando o reforço vacinal durante o final de semana, informa a Prefeitura de Campo Grande em nota enviada à imprensa nesta sexta-feira (1º).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 55
+Texto de entrada: Indiana relatou seu primeiro caso de gripe aviária em 2023. Um bando de passatempo de 23 aves em Posey County testou positivo para gripe aviária na quarta-feira, o Conselho Estadual de Saúde Animalanunciou quinta-feira. O pequeno bando foi relatado ao conselho depois que um número “significativo” de aves morreu, diz o conselho. A localização específica do rebanho do Condado de Posey não foi fornecida. Amostras retiradas das aves estão sendo enviadas ao Departamento Nacional de Agricultura dos EUA para testes de confirmação, com resultados esperados nos próximos dias.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 58
+Texto de entrada: O El Niño deste ano deve ser, no mínimo, forte e começar no início de junho. O fenômeno, caracterizado pelo aquecimento das águas do Oceano Pacífico, aumenta as temperaturas do planeta e, ao Rio Grande do Sul, costuma trazer calor e chuva. Há chances também do fenômeno evoluir para um nível “muito forte”, de “Super El Niño”.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 59
+Texto de entrada: A Comissão Nacional de Incorporação de Tecnologias ao Sistema Único de Saúde (Conitec) aprovou, nesta quarta-feira (6), a incorporação do fostensavir trometamol 600mg à lista de antirretrovirais disponíveis no SUS. O tratamento será uma alternativa para pessoas adultas que vivem com HIV ou aids, mas apresentam multirresistência aos demais medicamentos oferecidos pelo sistema público. A incorporação está alinhada ao propósito da pasta de contribuir para melhorar a qualidade de vida das pessoas que vivem com vírus ou aids, pois aquelas que desenvolvem multirresistência estão mais suscetíveis às doenças oportunistas e ao risco de morte.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 67
+Texto de entrada: Zepbound, um medicamento popular para perda de peso, também pode ajudar pessoas com apneia obstrutiva do sono, de acordo com declaração da fabricante de medicamentos Eli Lilly, feita nesta na quarta-feira (17). Com base nos resultados de testes realizados em pessoas com apneia do sono, a empresa afirmou que planeja enviar o material para a FDA (Food and Drug Administration) para potencialmente expandir o uso do Zepbound para apneia obstrutiva do sono.O distúrbio também pode tornar as pessoas muito mais propensas a desenvolver outros problemas de saúde graves, como doença coronariana, insuficiência cardíaca e derrame. A OMS (Organização Mundial da Saúde) estima que cerca de 100 milhões de pessoas têm esse distúrbio globalmente.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 71
+Texto de entrada: Testada em animais, versão sintética do vírus, que não transmite a doença, multiplica-se nas células tumorais e as leva à morte; testes clínicos devem começar em junho, após aprovação da Anvisa. A transformação do vírus da zika em produto de biotecnologia para o tratamento de tumores do sistema nervoso é o resultado do projeto de uma startup criada por pesquisadores da USP. Testada com êxito em animais, uma versão sintética e modificada do vírus, que não transmite a doença, penetra nas células tumorais e, ao se multiplicar, leva essas células à morte. Os testes clínicos do tratamento devem começar em junho, após a aprovação pela Agência Nacional de Vigilância Sanitária (Anvisa).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 72
+Texto de entrada: O Ministério de Saúde e Proteção Social da Colômbia relata 25.002 casos totais de dengue, incluindo 363 casos de dengue grave, até os primeiros três meses de 2023. Na Colômbia, os casos de dengue vêm de 32 departamentos e cinco distritos, distribuídos em 657 municípios. Meta, Tolima, Barranquilla, Sucre, Cundinamarca, Atlantic, Cartagena, Cali, Córdoba, La Guajira, Huila, Norte de Santander, Santander e Cesar contribuem com 73,3% (18.249) dos casos em todo o país. 62,1% (15.524) dos casos de dengue foram notificados em 47 municípios, com as cinco principais cidades sendo Barranquilla com 6,7% (1.686); Villavicencio – Meta com 5,6% (1.405); Cartagena com 4,3% (1.072); Cali com 4,1% (1013) e Soledad – Atlântico com 3,1% (775).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 83
+Texto de entrada: Desde o fim de semana, um ciclone extratropical presente na costa sul do Brasil, provocou ventos fortes sobre o oceano, deixando o mar bastante agitado. De acordo com a Climatempo, ainda nesta terça-feira (20) a circulação de ventos reforça as instabilidades nestas regiões, assim como no Centro-Oeste do País, sendo alto o potencial para temporais. De forma geral, esta semana será marcada por muita chuva, com alto risco para alagamentos, e frio.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 87
+Texto de entrada: Um dos objetivos do ENANI-2024 é conhecer o cenário alimentar e nutricional das crianças brasileiras depois da pandemia de covid-19. Segundo o coordenador nacional da pesquisa, Gilberto Kac, a perda imediata de renda e a interrupção ou redução do acesso a serviços de saúde durante a pandemia afetaram diretamente o estado nutricional das crianças, gerando vulnerabilidades imediatas e riscos de médio e longo prazo. “Conhecer esse cenário nos permitirá apoiar o redirecionamento de políticas públicas. Além de contribuir com a orientação de ações em nível nacional, o estudo fornecerá evidências que, somadas às produzidas em outros países, serão úteis para compreender os impactos da pandemia globalmente”, explica.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 95
+Texto de entrada: Funcionários da escola estadual entraram em contato com o Jornal Midiamax para reclamar sobre a transparência da unidade com relação a casos de coronavírus. Professores temem serem infectados pelo coronavírus mesmo vacinados, já que o imunizante não protege 100% contra infecções.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 98
+Texto de entrada: O Instituto de Tecnologia em Fármacos (Farmanguinhos/Fiocruz) iniciou o uso de modelagem de simulação computacional para realizar estudos não clínicos em medicamentos pediátricos dispersíveis em água para bebês, crianças e adolescentes. A nova metodologia é inovadora e oferece uma solução para acelerar a comprovação da segurança e da eficácia de medicamentos em diferentes estratos da população pediátrica.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 107
+Texto de entrada: No mês passado, em outubro de 2023, foi confirmada a presença da Influenza Aviária Altamente Patogênica (IAAP) na Ilha Bird, sul da Geórgia, nas populações de gaivota marrom. Desde então, vários outros casos de aves sintomáticas e mortalidade acima do padrão foram relatados ao Governo da Geórgia do Sul e Ilhas Sandwich do Sul (GSGSSI).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 108
+Texto de entrada: Mato Grosso do Sul possui 12.771 casos ativos da Covid. Os foram apresentados pela Secretaria de Estado de Saúde (SES) nesta quarta-feira (19). Desde o começo do ano, todos os indicadores voltaram a subir. O boletim epidemiológico desta quarta-feira apresenta 1.709 novas infecções no Estado. A média móvel indica 1.131 confirmações diárias na última semana. A secretária adjunta da SES, Christinne Maymonne enfatizou o aumento da taxa de positividade no Laboratório Central do Estado. “A transmissão é muito rápida e dos testes que fazemos, aquele swab que é feito no Lacen, nós saímos do dia 2 de janeiro de taxa de positividade 10 para 50,1. Então o vírus está circulando bastante. Por isso esse alerta está mais expressivo em relação aos cuidados que você deve ter com você e as pessoas que você ama”, alertou.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 109
+Texto de entrada: Anvisa realizou, nesta sexta-feira (3/12), uma reunião com instituições médicas ligadas à saúde da criança e imunologia. A reunião faz parte da agenda da Agência para avaliação do pedido da Pfizer de utilização da vacina contra Covid-19 em crianças de 5 a 11 anos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 111
+Texto de entrada: A ação acontece até o dia 23 de setembro e o público-alvo, crianças e adolescentes até os 15anos, podem ser imunizados em qualquer Unidade Básica de Saúde, disponível nos 79 municípios do estado.A campanha é uma forma de garantir o controle e eliminação de doenças como a poliomielite, sarampo, rubéola, febre amarela e varicela (catapora), e que podem ser prevenidas com a atualização da caderneta de vacinação.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 126
+Texto de entrada: O Departamento de Saúde da Flórida (DOH-Charlotte) no Condado de Charlotte confirmou um caso da Flórida recentemente infectado com Naegleria fowleri, possivelmente como resultado de práticas de enxágue nasal utilizando água da torneira. Naegleria fowleri é uma ameba viva unicelular microscópica. A infecção por Naegleria fowleri é RARA e só pode acontecer quando a água contaminada com amebas entra no corpo pelo nariz. Você NÃO pode ser infectado por beber água da torneira. Em raras situações, a ameba pode causar uma infecção no cérebro chamada meningoencefalite amebiana primária (PAM). O DOH-Charlotte, como parte de uma resposta de várias agências, continua investigando como essa infecção ocorreu e está trabalhando com os serviços públicos locais para identificar possíveis vínculos e tomar as ações corretivas necessárias.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 136
+Texto de entrada: Dificuldades com o idioma, julgamentos e desconhecimento dos direitos fazem com que menos mulheres denunciem. Os casos de feminicídio de mulheres e adolescentes indígenas no Brasil aumentaram alarmantes 500% entre 2003 e 2022. As vítimas são predominantemente jovens, solteiras e com menor escolaridade. As informações são do Relatório Técnico sobre Homicídios contra Mulheres e Adolescentes Indígenas no Brasil, desenvolvido pela Universidade Federal do Paraná (UFPR) em parceria com o Ministério dos Povos Indígenas. No total, foram registrados 394 homicídios de mulheres e adolescentes indígenas. A região Centro-Oeste teve o maior número de mortes, com 157 casos e uma taxa de 9,7 por 100 mil. Mato Grosso do Sul lidera com 149 homicídios.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 137
+Texto de entrada: Cientistas do LPTN (Laboratório de Produtos Tecnológicos Naturais), da UFF (Universidade Federal Fluminense), e da UFRJ (Universidade Federal do Rio de Janeiro), dentre outras instituições, produziram um inseticida capaz de matar a larva do mosquito Aedes aegypti a partir de um óleo essencial de uma planta nativa da mata atlântica. Com os extratos da canela-sassafrás (Ocotea indecora), uma planta endêmica da área de restinga, como é conhecida a vegetação que ocorre após a faixa de areia das praias e que faz parte do bioma mata atlântica, o grupo isolou uma molécula em escala nanométrica (muito pequena) que pode ser dissolvida na água, encerrando a fase larval do inseto. A dengue é uma doença causada por um vírus e transmitida a partir da picada da fêmea do mosquito. Em 2023, o Brasil apresentou um aumento de cerca de 16% dos casos de dengue, com aumento também de mortes -a OMS (Organização Mundial da Saúde) classifica o país como o de maior incidência no mundo.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 138
+Texto de entrada: A Prefeitura de Campo Grande tem buscado mobilizar e conscientizar toda a sociedade sobre a importância da vacinação, sobretudo contra a poliomielite em razão do risco de reintrodução da doença diante do baixo índice de cobertura vacina . O Município mantém mais de 70 locais abertos durante a semana e tem adotado estratégias como a busca ativa e ações itinerantes para atingir o maior número de crianças ainda não vacinadas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 139
+Texto de entrada: As vacinas COVID-19 inspiraram os médicos do Reino Unido a usar o mRNA para um tratamento preciso e menos tóxico do câncer. Os resultados parecem promissores para todos os tipos de câncer. Um novo tratamento revolucionário para o câncer, denominado terapia com mRNA, está sendo administrado a pacientes do Hospital Amersmith, no oeste de Londres. Este tratamento tem como objetivo avaliar a segurança e eficácia do tratamento de melanoma (câncer de pele), câncer de pulmão e outros tumores sólidos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 142
+Texto de entrada: Desde o início dos Jogos Escolares Brasileiros (Jebs), pelo menos 30 participantes teriam notificado o início de uma intoxicação alimentar. O evento, que reúne cerca de 6.100 atletas e 1.120 técnicos, teve início em 26 de outubro. O Metrópoles apurou que os dois primeiros casos de intoxicação foram notificados em 29 de outubro.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 145
+Texto de entrada: Na unidade não tem vacinação, na página consta que sim, mas segundo os funcionários a geladeira está estragada há 3 meses, o atendimento pelo telefone não funciona também. Sendo assim, gostaria que tirassem do calendário da prefeitura ou colocassem mais informações na página para que não aconteça com mais famílias. Avisem a população”, reclamou em sua postagem, Wilson Lima Alves, sobre a UBSF (Unidade Básica de Saúde da Família), no Bairro Ana Maria do Couto, em Campo Grande.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 169
+Texto de entrada: De acordo com os dados, mais de 1,2 milhão de doses já foram aplicadas na Capital. Dessas, 544.771 foram destinadas para completar o esquema vacinal de 2 doses ou foram aplicadas como dose única — no caso da Janssen. O número representa exatos 60,12% dos habitantes.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 173
+Texto de entrada: Tucunaré, pirarucu, tambaqui e tilápia são alguns dos peixes de água doce mais consumidos no Brasil, especialmente por comunidades ribeirinhas da região norte. Porém, espécies de rios ou lagos podem ser prejudiciais à saúde. Uma pesquisa divulgada na revista Environmental Research mostrou que o consumo anual de uma única porção corresponde à ingestão de água potável contaminada com PFAS durante um mês. Esses químicos, chamados substâncias per e polifluoralquílicas (PFAS), são utilizados em diversos produtos, para deixá-los impermeáveis, antiaderentes e resistentes a manchas e, em níveis elevados, são nocivas. "A extensão em que o PFAS contaminou os peixes é impressionante", disse, em nota, Nadia Barbo, estudante de pós-graduação da Universidade de Duke, nos Estados Unidos, e pesquisadora principal do projeto.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 181
+Texto de entrada: Já é possível perceber impactos pontuais do calor intenso na inflação. Segundo analistas, altas temperaturas nos próximos meses, com a chegada do verão em dezembro, aumentam os riscos para os preços. Os efeitos da crise do clima podem pressionar itens como alimentos e energia elétrica. O calor já atingiu a inflação de produtos como o ar-condicionado. Em outubro, os preços subiram 6,09%, conforme o IPCA (Índice Nacional de Preços ao Consumidor Amplo), calculado pelo IBGE (Instituto Brasileiro de Geografia e Estatística).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 188
+Texto de entrada: O Brasil foi o primeiro país do mundo a lançar uma política governamental para eliminar ou reduzir, como problemas de saúde pública, 14 doenças e infecções que acometem, de forma mais intensa, as populações em situação de maior vulnerabilidade social. Essa é a proposta do Brasil Saudável, programa do governo federal, instituído por decreto em fevereiro deste ano. Com a iniciativa, o país estabelece um marco internacional alinhado à OMS, às metas globais estabelecidas pela Organização das Nações Unidas (ONU) por meio dos Objetivos de Desenvolvimento Sustentável (ODS) da Agenda 2030 e à iniciativa da Organização Pan-Americana da Saúde (Opas) para a eliminação de doenças nas Américas. A política proposta pelo Ministério da Saúde, em conjunto com outros ministérios, representa a força do Sistema Único de Saúde (SUS) brasileiro, que desde sua criação por meio da Lei 8080/1990, é construída por muitas mãos solidárias e programas de combate às doenças e desigualdades sociais.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 190
+Texto de entrada: Em 2022, foram registrados no Pará 4.995 casos de tuberculose, e, em 2023, 5.006, sendo que de janeiro até esta terça-feira (16), em 2024, são 1.049 casos da doença no estado, ou seja, em 107 dias do corrente ano. Esse levantamento foi divulgado, nesta terça-feira (16), pela Secretaria de Estado de Saúde Pública do Pará (Sespa). Já a Secretaria Municipal de Saúde (Sesma) informa que, segundo os dados do Sistema de Informação de Agravos de Notificação (Sinan), no ano de 2022 foram notificados 1.440 casos novos de tuberculose em Belém.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 194
+Texto de entrada: A SES (Secretaria de Estado de Saúde) confirmou nesta segunda-feira (3), o quarto óbito por H3N2 em Mato Grosso do Sul. Trata-se de uma mulher de 35 anos, residente de Campo Grande. Os primeiros sintomas começaram no dia 29 de dezembro.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 198
+Texto de entrada: Embora a febre amarela não seja uma doença contagiosa, o padrão de difusão descrito por pesquisadores brasileiros em um novo estudo é conhecido como "espalhado por contágio".BRASIL (Vax Antes de Viajar)
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 207
+Texto de entrada: Quatro casos de meningite viral foram confirmados pela Secretaria Municipal de Saúde (Semus), em São Luís.apenas um dos pacientes está internado. Em 2023, não houve nenhum óbito por meningite viral, apesar dos casos. Já no ano passado, foram apontados quatro mortes em virtude da doença.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 232
+Texto de entrada: Nesta sexta-feira, 24 de fevereiro, mais um tremor de terra foi registrado no estado da Bahia, a área epicentral foi localizada na região do município de Araci. As estações sismográficas operadas pelo Laboratório Sismológico da UFRN captaram a atividade sísmica às 03h05 UTC (00h05, hora local). De acordo com a análise técnica, a magnitude preliminar deste evento foi calculada em 1.7 mR. Até o momento desta publicação, não há informações se moradores da localidade sentiram ou ouviram o evento de hoje.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 236
+Texto de entrada: Chegou a vez de quem tem 40 anos tomar a terceira dose da vacina contra a covid-19, na Capital. Amanhã (20), pessoas nessa faixa etária e trabalhadores da saúde, que tenham tomado a 2ª dose até 20 de julho tomam o reforço, bem como imunossuprimidos com 18 anos ou mais, que tenham tomado a segunda dose há no mínimo 28 dias.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 242
+Texto de entrada: Secretário Municipal de Saúde, Sandro Benites admitiu nesta segunda-feira (29), durante audiência pública na Câmara de Municipal de Campo Grande, que a falta de médicos tem dificultado a montagem de escalas, resultando na superlotação de pacientes em UPAs (Unidades de Pronto Atendimento) e unidades de atendimento da rede municipal de saúde. Nas últimas semanas, o Campo Grande News tem relatado as diversas reclamações da população em busca de consultas.Para tentar resolver a situação, o gestor informou que serão convocados 45 médicos inscritos no programa de contratação temporária para reforçar o atendimento e que a situação deverá ser normalizada a partir do dia 1º de junho.“Tomamos agora o chamamento de enfermeiros e 45 médicos. Todas as vacâncias foram zeradas, portanto não teremos ausência de médicos. Serão reforçadas as escalas nas UPAs a partir do dia primeiro e temos uma maior quantidade de médicos procurando a Sesau”, garantiu o secretario.Além disso, será implantada a digitalização dos prontuários para dar mais celeridade aos atendimentos, pois em muitas unidades o prontuário ainda é feito à caneta. “Estão para chegar 2,5 mil computadores em pareceria com o Ministério da Saúde e a SES. Assim, eu vou saber o número que cada profissional vai atender. A partir do segundo semestre, isso vai acontecer”, finalizou Benites.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 257
+Texto de entrada: Doenças que já haviam sido controladas no Brasil, como a poliomielite e o sarampo, estão ameaçando retornar devido à baixa cobertura vacinal. Nos últimos anos, os índices de vacinação têm diminuído de forma preocupante, com a cobertura total não ultrapassando sequer 70%, de acordo com dados do DataSUS. Essa situação é alarmante, considerando que o Ministério da Saúde estabelece uma meta de manter as taxas de vacinação em 95%. A queda constante nas taxas de vacinação, especialmente contra a poliomielite e o sarampo, é motivo de grande preocupação. Em um período de apenas 10 anos, a cobertura vacinal contra a poliomielite diminuiu aproximadamente 20%, passando de 96,5% em 2012 para 77% em 2022.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 262
+Texto de entrada: O presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Aloizio Mercadante, defendeu ações estratégicas de Estado que impulsionem e mobilizem as instituições para fazer frente ao que chamou de gigantesco desafio da humanidade, os efeitos das mudanças climáticas. A declaração foi feita nesta segunda-feira (22), na abertura do encontro States of the Future, que ocorre entre 22 e 24 de julho na sede do BNDES, no Rio de Janeiro.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 274
+Texto de entrada: O Instituto de Tecnologia em Fármacos (Farmanguinhos/Fiocruz) fará entrega emergencial do artesunato + mefloquina, também conhecido como ASMQ. Em concentração reduzida para a população pediátrica, medicamento será direcionado ao tratamento da malária em terras indígenas Yanomami. Doações saíram, na última terça-feira (18/6), do Rio de Janeiro.Por ser uma combinação de dose fixa, o medicamento apresenta resultados mais rápidos e eficazes contra a doença. “Farmanguinhos possui uma posição estratégica no combate as doenças negligenciadas e são as melhorias em nossos processos que tornam isso possível. O ASMQ é um desses exemplos. Ele foi projetado para atender às necessidades específicas das crianças, que são as principais vítimas da malária em todo o mundo, sendo um dos medicamentos com maior avanço no tratamento da malária dos últimos 15 anos", disse o diretor de Farmanguinhos/Fiocruz, Jorge Mendonça.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 283
+Texto de entrada: Reforço de segurança em escolas de Leiria frente a ameaça de ataque em redes sociais.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 301
+Texto de entrada: A vacinação da 3ª dose em idosos começou em Mato Grosso do Sul no último dia 26 de agosto, imunizando pessoas que tomaram duas doses da Coronavac com nova dose da Pfizer. Até agora, o estado já tem mais de 8 mil pessoas imunizadas com a 3ª dose contra a Covid, conforme o vacinômetro da SES (Secretaria de Estado de Saúde).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 309
+Texto de entrada: O ministério da saúde do Talibã informou na sexta-feira que, desde o início do ano, o Afeganistão registrou 667 casos de febre hemorrágica da Crimeia-Congo (CCHF), incluindo 70 mortes (10% CFR), de acordo com a mídia local . A febre hemorrágica da Crimeia-Congo é uma doença generalizada causada por um vírus transmitido por carrapatos ( Nairovirus ) da família Bunyaviridae . O vírus CCHF causa surtos graves de febre hemorrágica viral, com uma taxa de letalidade de 10 a 40%. Os animais são infectados pela picada de carrapatos infectados e o vírus permanece em sua corrente sanguínea por cerca de uma semana após a infecção, permitindo que o ciclo carrapato-animal-carrapato continue quando outro carrapato pica. Embora vários gêneros de carrapatos sejam capazes de se infectar com o vírus CCHF, os carrapatos do gênero Hyalomma são o principal vetor. O vírus está disseminado em alguns países da África e da Ásia, nos Bálcãs, no Oriente Médio e no sul da parte européia da Rússia.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 321
+Texto de entrada: Um levantamento feito pela prefeitura de Campinas aponta que 3.03 doses de vacina foram aplicadas nos terminais de ônibus durante a ação da Campanha de Multivacinação realizada por cinco dias nas regiões do Centro, Campo Grande, Padre Anchieta, Barão Geraldo e Ouro Verde.A vacinação nos terminais de ônibus aconteceu entre os dias 16 e 20 de outubro.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 327
+Texto de entrada: A coqueluche, uma doença respiratória que parecia controlada, está voltando com força em várias partes do mundo. Na União Europeia 17 países da União Europeia registraram um aumento significativo nos casos. Entre janeiro e dezembro do ano passado, foram notificados 25.130 casos naquele continente, e de janeiro a março deste ano, esse número subiu para 32.037. Em meio a surtos de coqueluche em países da Ásia e da Europa, o Ministério da Saúde no Brasil publicou uma nota técnica em que recomendou ampliar, em caráter excepcional, a vacinação contra a doença no Brasil.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 331
+Texto de entrada: As autoridades sanitárias peruanas reportaram à Organização Mundial de Saúde Animal (OMSA), nesta semana, a ocorrência de um surto do vírus da influenza aviária de alta patogenicidade em uma fazenda comercial com 27 mil galinhas de postura. A doença matou 4 mil aves e outras 23 mil foram sacrificadas após a confirmação da doença.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 335
+Texto de entrada: AFundação Oswaldo Cruz (Fiocruz) encerra o mês de outubro tendo recebido quantitativo recorde de Ingrediente Farmacêutico Ativo (IFA). De acordo com a instituição, com os três lotes que chegarão no domingo (31), a farmacêutica terá recebido nove lotes de insumo em um único mês, o suficiente para produzir 48 milhões de doses da vacina Covid-19 Astrazeneca
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 349
+Texto de entrada: A secretaria de Saúde de Santos emitiu um alerta para o número de faltosos da dose de reforço da vacina contra a covid-19. O aviso se dá após uma alta na confirmação de casos positivos da doença no município. Mais de 100 mil pessoas ainda não tomaram a primeira dose de reforço na Cidade. Segundo dados do e-SUS, plataforma do Ministério da Saúde (MS), os casos positivos de covid-19 em relação ao total de testes e exames feitos cresceram na última semana.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 353
+Texto de entrada: A Organização Mundial da Saúde (OMS) fez um alerta, na terça-feira (6), para o aumento de casos de Covid-19 no mundo. Segundo a entidade, a doença continua “muito presente” em todos os países, sobretudo em regiões da Europa, da América e do Pacífico Ocidental, onde foram registradas novas ondas de infecções. “A Covid-19 continua muito presente. O percentual de testes positivos vem aumentando nas últimas semanas. No geral, a porcentagem de positividade está em 10%. Na Europa, a porcentagem de positividade está acima de 20%”, disse a diretora da OMS para a Prevenção de Epidemias e Pandemias, Maria Van Kerkhove.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 377
+Texto de entrada: A prefeitura de Japorã - cidade da região sul de Mato Grosso do Sul, a 467 km de Campo Grande - instituiu o passaporte vacinal nas escolas da rede municipal. A medida vale, inclusive, para alunos. As aulas retornam em 21 de fevereiro. Servidores e os pais ou responsáveis dos estudantes devem comprovar que foram imunizados contra a covid-19. O trabalhador que, por razões médicas, não tomou vacina deverá apresentar laudo e exercer suas atividades em casa.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 381
+Texto de entrada: Mosquitos infectados com a bactéria Wolbachia podem estar associados a uma queda de 97% nas infecções de dengue em três cidade do vale de Aburra, na Colômbia, segundo o resultado de um estudo realizado pelo programa sem fins lucrativos World Mosquito, que foi divulgado no final de outubro.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 383
+Texto de entrada: O aumento da procura em emergências pediátricas faz com que alguns pais fiquem preocupados com os sintomas respiratórios apresentados pelas crianças. No entanto, especialistas salientam que a maioria dos casos que chegam ao serviço de urgência poderia ter sido controlada em casa. Por essa razão, é importante saber diferenciar as doenças respiratórias e reconhecer os sintomas.Para a otorrinolaringologista pediatra e foniatra Berenice Dias Ramos, se os pais ficarem mais tranquilos com relação ao controle da febre alta com um antitérmico e souberem monitorar possíveis agravantes, a ida para a emergência pode ser evitada.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 401
+Texto de entrada: Segundo dados atualizados da dengue, chikungunya e zika em Minas Gerais e Patos de Minas, informados pelo boletim estadual, divulgado nesta segunda-feira (19), a cidade registrou sete mortes por dengue em 2023. Minas Gerais registrou mais de 390 mil casos prováveis de dengue esse ano, com mais de 217 mil confirmados, 122 mortes e 131 em investigação por dengue. Em Patos de Minas, conforme o boletim da Secretaria de Saúde do Estado, são quase 8 mil casos de dengue e sete mortes confirmadas. De chikungunya em Minas, são 75.400 casos prováveis, 43.560 confirmados, 24 mortes e outros 18 óbitos são investigados.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 402
+Texto de entrada: Até o mês de outubro, a Sesau (Secretaria Municipal de Saúde) contabilizou 68 casos de meningite tipo C em Campo Grande, contra 62 em todo o ano de 2021. O cenário é reflexo da baixa cobertura vacinal dos imunizantes disponíveis pelo município contra a doença Meningocócica C e Meningocócica ACWY.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 413
+Texto de entrada: Com estoque baixo, a Sesau (Secretaria Municipal de Saúde) informou que vai mudar o critério para fornecer o teste da covid-19. Ontem, paciente de 26 anos percorreu três unidades de saúde e não conseguiu faz o exame. Conforme a Sesau (Secretaria Municipal de Saúde), como houve redução no repasse por parte do Ministério da Saúde e alguns postos estão sem o teste, será recomendado aos profissionais que o exame seja feito após o paciente passar pelo médico. Atualmente, os testes são realizados dentro do processo de triagem. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 418
+Texto de entrada: A Organização Mundial da Saúde (OMS) está se preparando para um aumento na disseminação de doenças virais como dengue, zika e chikungunya ligadas ao evento El Niño. O evento se trata de um aquecimento das temperaturas da superfície da água no leste e centro do Oceano Pacífico, voltou oficialmente após três anos do padrão climático La Niña. Esse fenômeno pode levar a eventos climáticos extremos, como ciclones tropicais, chuvas intensas na América do Sul e secas na Austrália e em partes da Ásia. Segundo o diretor-geral da OMS, Tedros Adhanom Ghebreyesus, há uma probabilidade muito alta de que 2023 e 2024 sejam marcados por um evento El Niño. Isso pode aumentar a transmissão dessas doenças virais. Ele também alertou que a mudança climática está alimentando a reprodução de mosquitos e a propagação dessas doenças.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 424
+Texto de entrada: Não é mais necessário preencher o formulário disponível no guia do medicamento para a prescrição e dispensação do antiviral nirmatrelvir/ritonavir (NMV/r) para pacientes com covid-19. A recomendação do Ministério da Saúde busca ampliar e facilitar o acesso da população ao medicamento. De acordo com a nova recomendação, a prescrição do medicamento deverá ser realizada em receituário comum, em duas vias conforme prescrição do médico assistente que se responsabiliza em usá-lo nos pacientes até os primeiros cinco dias dos sintomas e que façam parte do grupo elegível para utilização. O medicamento é indicado para pacientes com Covid-19 não grave, que apresentam alto risco para agravamento da doença e até 5 dias desde o início dos sintomas. O tratamento busca evitar o agravamento da enfermidade, especialmente em pessoas com fatores de risco e menor resposta vacinal.  Caso a prescrição do médico ainda seja realizada pela ficha contida no “Guia do NMV/r”, o medicamento ainda sim deverá ser dispensado. A orientação é que o laudo de exame positivo ou a ficha de notificação do caso de covid-19 no e-SUS não devem ser exigidos pelo farmacêutico para dispensação do medicamento. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 432
+Texto de entrada: Boletim epidemiológico alerta que, em comparação com 2020, houve aumento de 444% das confirmações de arboviroses na cidade
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 434
+Texto de entrada: A vacinação de bebês com mais de seis meses de idade contra covid-19, e que tenham comorbidades, foi liberada com o imunizante da Pfizer na semana passada pelo Ministério da Saúde. No entanto, até o momento Mato Grosso do Sul não tem previsão de recebimento do produto para iniciar a campanha aqui, segundo a SES (Secretaria de Estado de Saúde). O Estado tem 61.928 bebês de 6 meses a menores de 2 anos no total, com ou sem comorbidades.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 435
+Texto de entrada: O Ministério da Agricultura e Pecuária (MAPA), pode decretar estado de Emergência Zoosanitária em todo o Brasil, diante casos de infecção pelo vírus da Influenza Aviária de alta patogenicidade ( H5 N1 ). O Estado de Emergência deverá vigorar inicialmente por um prazo de 180 dias e poderá ser prorrogado por tempo indeterminado. No estado do Espírito Santo vem sendo investigado um caso suspeito de Gripe Aviária.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 445
+Texto de entrada: Micróbios ficaram retidos no gelo durante milênios, mas por conta do aumento da atividade marítima na Sibéria, isso pode mudar; entenda. O mundo pode enfrentar novamente uma pandemia.´Isso porque cientistas alertam que vírus antigos congelados no pergelissolo do Ártico podem ser libertos pelo aquecimento do clima da Terra e desencadear um surto de doenças, de acordo com informações do The Guardian. Preocupados com essa possibilidade, os cientistas estão desenvolvendo uma rede de monitoramento no Ártico para identificar os primeiros casos de doenças causadas por microrganismos antigos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 452
+Texto de entrada: A Estação Ecológica do Taim, na Região Sul do Rio Grande do Sul, foi interditada após 36 cisnes terem sido encontrados mortos no local. A suspeita é de que a causa da morte tenha sido gripe aviária. Caso a doença seja confirmada, serão os primeiros casos de gripe aviária a serem registrados no Rio Grande do Sul.Desde sexta-feira (28), não é permitida a entrada de pesquisadores ou visitantes no local, que é uma das maiores áreas ambientais do mundo,Em 22 de maio, o Ministério da Agricultura declarou estado de emergência zoossanitária por 6 meses por causa da gripe aviária, que teve os seus primeiros casos registrados no Brasil no dia 15. Até agora, dez casos foram confirmados em aves no Brasil, sendo 8 no Espírito Santo e 2 no Rio de Janeiro.De acordo com Fernando Weber, chefe da estação do Taim, a interdição do parque ocorre por segurança, pois o contato com animais contaminados ou mortos põe em risco a saúde de seres humanos. Equipes da estação monitoram espécies de animais que vivem no local. Na última quarta-feira (24), uma equipe da estação encontrou na Lagoa Mangueira, que fica dentro da reserva, os 36 cisnes-de-pescoço-preto mortos. A equipe notificou o Centro Nacional de Pesquisa e Conservação de Aves Silvestres (Cemav) e o Ministério da Agricultura e Pecuária (MAPA). Os órgãos fizeram as coletas de amostras das aves mortas e o material foi encaminhado para São Paulo, onde será feita a análise pelo MAPA. O prazo para o resultado é de 72 horas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 453
+Texto de entrada: Nove pessoas, incluindo uma menina de 13 anos, morreram dos 39 casos confirmados de febre de Lasser no estado de Benue. O comissário para a saúde e serviços humanos, Dr. Yanmar Ortese, que revelou isto numa conversa ontem com o nosso correspondente em Makurdi, disse que o governo do estado estava a tomar providências para o enterro das vítimas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 456
+Texto de entrada: No último dia 12 de março uma mulher indígena moradora da aldeia Jaguapiru, localizada na periferia de Dourados (Mato Grosso do Sul), passou mal e morreu momentos depois que uma fazenda vizinha à comunidade realizou uma aplicação de agrotóxicos. A vítima estava grávida de dois meses e chegou a ser hospitalizada, mas não resistiu.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 463
+Texto de entrada: O primeiro caso de sarampo na Irlanda do Norte desde 2017 foi confirmado. A Agência de Saúde Pública (PHA) disse que os contactos próximos foram notificados e todas as ações de saúde pública apropriadas estão a ser tomadas. A PHA está a exortar as crianças e os jovens adultos que não receberam ambas as doses da vacina contra o sarampo, a papeira e a rubéola (MMR) a fazê-lo. A agência activou recentemente uma campanha de vacinação em massa em colaboração com fundos de saúde e consultórios médicos de família para todos aqueles com idades compreendidas entre os 12 meses e os 25 anos que não receberam uma ou ambas as vacinas MMR na primeira vez.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 468
+Texto de entrada: Após 1.467 pessoas atendidas em 20 ações, Campo Grande encerrou a campanha Maio Amarelo, voltada para a prevenção de acidentes. Após um mês de intensa programação, o Detran-MS (Departamento Estadual de Trânsito de Mato Grosso do Sul) encerrou as ações educativas do movimento Maio Amarelo em 2024. Apesar das ações preventivas, o problema persiste: motociclistas seguem como as principais vítimas do trânsito de Campo Grande. Campo Grande contabilizou 28 mortes em decorrência de acidentes de trânsito.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 472
+Texto de entrada: Tendo em vista os desafios relacionados à persistência da baixa cobertura da primeira e da segunda dose da vacina contra sarampo, rubéola e caxumba (SCR1 e SCR2), o aumento dos casos de sarampo em todo o mundo e a ocorrência de casos importados em países da Região das Américas, a Organização Pan-Americana da Saúde/Organização Mundial da Saúde (OPAS/OMS) incentiva os Estados Membros a continuarem as atividades para aumentar e manter a cobertura adequada de vacinação contra sarampo, rubéola e caxumba e reitera que a vacinação, a vigilância epidemiológica e a preparação para uma resposta rápida a surtos de sarampo e rubéola constituem as três principais estratégias para monitorar e reverificar anualmente a interrupção da transmissão endêmica desses vírus.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 479
+Texto de entrada: O risco para a saúde humana encontra-se limitado às pessoas que trabalham na exploração onde foram identificados os casos, pela continuidade de contacto com um elevado número de animais doentes", esclarece a autarquia. Na nota é ainda referido que "o risco de transposição do vírus para os humanos é baixo, mas pode acontecer quando há exposição continuada e associada à manipulação dos animais ou dos resíduos produzidos". Na nota é ainda referido que "o risco de transposição do vírus para os humanos é baixo, mas pode acontecer quando há exposição continuada e associada à manipulação dos animais ou dos resíduos produzidos".
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 485
+Texto de entrada: A Secretaria da Saúde do Estado da Bahia (Sesab) registrou, no primeiro semestre de 2023, um aumento de 168% nas formas graves da dengue em comparação ao ano passado. Foram 670 casos em 2023 contra 250 no mesmo período de 2022. Por outro lado, o número de mortes por dengue grave no primeiro semestre caiu de 20 no ano passado para nove neste ano, redução de 55%".A gravidade da dengue não é definida apenas pela existência de hemorragias. Outras condições também se colocam como gravidade, a exemplo do choque e manifestações neurológicas. Por esse motivo, utiliza-se a nomenclatura dengue grave”, explica Márcia São Pedro, diretora da Vigilância Epidemiológica da Sesab. Ela ressalta ainda que nem todo caso de dengue grave é caso de dengue hemorrágica.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 492
+Texto de entrada: os solos de uma floresta de New England, nos Estados Unidos, cientistas identificaram vírus gigantes com atributos físicos sem precedentes, incluindo estruturas exteriores em forma de estrela e peculiares protrusões tubulares.s vírus gigantes têm uma diversidade de formas e tamanhos muito maior do que até agora se sabia, revela um novo estudo, recentemente pré-publicado no bioRxiv.Segundo Matthias Fischer, coautor do estudo e virologista no Max Planck Institute,na Alemanha, muitas destas estruturas únicas são vírus completamente novos, ainda desconhecidos pela ciência.Os vírus gigantes são notavelmente grandes, com dimensões que variam entre 0,2 e 1,5 micrómetros, e genomas complexos com até 2,5 milhões de pares de bases de DNA.ipicamente, estes vírus gigantescos infetam organismos unicelulares, como amebas, em vez de animais ou humanos. São encontrados em vários ecossistemas do planeta, desde oceanos e lagos no Ártico até ao permafrost em degelo da Sibéria.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 497
+Texto de entrada: 90% dos afetados pela doença, que pode levar à morte, não tem o controle adequado.A asma, uma doença crônica que causa inflamação dos brônquios e dificulta a passagem de ar para os pulmões, afeta cerca de 20 milhões de brasileiros. Apesar de ser uma condição tratável, a asma mata, em média, seis pessoas por dia no Brasil. O Sistema Único de Saúde (SUS) oferece gratuitamente 12 tipos de medicamentos para o controle da doença, que variam de casos leves a graves. Muitos pacientes ainda não utilizam esses tratamentos de forma adequada, o que poderia evitar grande parte dessas mortes. Especialistas alertam sobre a importância de um tratamento contínuo para prevenir crises e emergências.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 501
+Texto de entrada: O ano de 2022 se encaminha para terminar com sensação de “déjà vu”, repetindo os passos seguidos no início de 2021, quando o Estado registrou aumento dos casos de covid-19. A expectativa para um futuro próximo, porém, é mais otimista, com o resultado da campanha de vacinação e retomada de Programa Nacional de Imunizações. A população já experimentava o gostinho da liberdade no fim de 2021 e extravasou nas festas de fim de ano. As consequências não tardaram a chegar: em janeiro, a população teve que enfrentar filas quilométricas para fazer exames de covid-19.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 502
+Texto de entrada: Trabalhadores da saúde com 30 anos ou mais poderão procurar os postos de vacinação contra a covid para receber o reforço na imunidade a partir desta terça-feira (27). Os profissionais devem ter tomado a dose 2 até 28 de março.Nesta terça, em Campo Grande, também serão vacinados idosos com 60 anos ou mais que tenham completado a carteirinha de vacinação até o dia 25 de maio e pessoas com 18 anos ou mais que tenham alto grau de imunossupressão (comprovada por meio de laudo médico).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 525
+Texto de entrada: Pesquisadores da Embrapa já encontraram em capivaras e quatis na região do Lago do Amor, nas proximidades da UFMS (Universidade Federal do Mato Grosso do Sul), o carrapato-estrela, que causa a febre maculosa, doença grave com alto índice de letalidade. Apesar de baixa incidência em Campo Grande, especialistas apontam que é necessário ter atenção à possibilidade de surto. O doutor em Biologia Molecular e pesquisador da Embrapa, Renato Andreotti, coordena uma linha de pesquisa relacionada ao controle de carrapatos, no núcleo de Sanidade Animal da Embrapa. A partir do trabalho desenvolvido no setor, são disponibilizados materiais didáticos com orientações para prevenção e diagnóstico precoce da doença. De acordo com Andreotti, as chances de contágio são baixas, mas dada a gravidade da doença e a rapidez da evolução para óbito, é necessário monitorar e controlar a proliferação, que acontece principalmente em áreas com vegetação abundante.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 530
+Texto de entrada: O diretor executivo de saúde e serviços sociais, Ben Nangombe, diz que uma avaliação da preparação do país para um surto de poliomielite revelou que o país está 83% pronto. Ele diz que isso dobrou desde a última avaliação realizada em 2018. Nangombe anunciou isso no encerramento de um exercício de simulação de resposta a um surto de pólio de três dias em Windhoek
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 534
+Texto de entrada: O Candida auris é um fungo que pode causar infecções graves e potencialmente fatais. Normalmente, afeta pessoas em hospitais ou residências geriátricas e é considerado uma ameaça global devido à sua resistência aos medicamentos disponíveis e à dificuldade de identificação laboratorial.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 543
+Texto de entrada: Nesta segunda-feira (3), a Prefeitura de Campo Grande divulgou no Diário Oficial a convocação de 29 médicos recém-chegados para suprir as necessidades das unidades de saúde da cidade. Além desses profissionais, outros 56 médicos tiveram seus contratos renovados, garante o município. Segundo Ana Paula Resende, superintendente da rede de assistência à saúde, a contratação de médicos é facilitada pelo sistema de cadastro temporário. Os profissionais interessados se inscrevem nesse cadastro e, quando necessário, assinam contratos de seis meses, com possibilidade de renovação posteriormente. Ana Paula também destacou que a convocação dos novos médicos tem o objetivo de preencher as vagas existentes nas unidades de saúde, principalmente aquelas ocasionadas por licenças prolongadas ou pedidos de exoneração.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 549
+Texto de entrada: A resistência antimicrobiana é uma verdadeira ‟pandemia silenciosa”, um problema de saúde pública global, que ocorre quando microrganismos como bactérias, vírus, parasitas ou fungos resistem a tratamentos que antes eram eficazes. Para combatê-la no Brasil é urgente incorporar estratégias que permitam um diagnóstico mais rápido e acurado.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 552
+Texto de entrada: Dados são do Fórum Brasileiro de Segurança Pública, divulgados nesta quinta-feira (20). Estado também apresentou número alarmante em relação aos casos de feminicídio, se mantendo com a maior média do país. Dados de Mato Grosso do Sul chamaram atenção em relação aos casos de feminicídio, porte de armas em escolas, injúria racial, entre outros.Porte de arma em escolas: no último ano, foram registrados 51 ocorrências de porte de armas como revólver, faca, canivete, etc. O estado apresentou a 2ª maior média país: 5,4%, proporcionalmente calculada em relação ao número de habitantes, perdendo apenas para o Distrito Federal, que teve 6%.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 560
+Texto de entrada: Pelo menos 20 capitais do Brasil exigem algum tipo de passaporte da vacina para entrar em eventos ou frequentar determinados tipos de estabelecimento. Para especialistas, a medida ajuda a reduzir o risco de transmissão da covid-19, principalmente em ambientes fechados, e ganhou importância extra diante da chegada da variante Ômicron, cujos estudos preliminares apontam maior risco de contágio
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 578
+Texto de entrada: O Paraná decretou, nesta semana, emergência zoosanitária em todo o estado pelo prazo de 180 dias após detecção de gripe aviária. Ao todo, são sete casos em aves silvestres migratórias no litoral do estado. Segundo o governo do Paraná, todos os casos já foram declarados encerrados pelo Ministério da Agricultura e Pecuária (Mapa). A medida, de acordo com comunicado, busca agilizar atendimento de casos suspeitos e facilitar o acesso a recursos para combater a doença.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 579
+Texto de entrada: A Secretaria Municipal da Saúde (SMS) de Caxias do Sul está alertando a população para o aumento da circulação de morcegos, comum nessa época do ano. Em comunicado emitido nesta quinta-feira (2), o órgão afirma que os animais são transmissores do vírus da raiva e, embora não existam, no Estado, registros da doença em humanos desde 1980, aproximadamente, é imprescindível manter cuidados.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 591
+Texto de entrada: A semana começará com geada na Campanha Gaúcha; neve em Santa Catarina e na Serra Gaúcha; frio adentrando na Região Centro-Oeste; e ventos cada vez mais fortes no litoral do Rio Grande do Sul e de Santa Catarina. É o que prevê o Instituto Nacional de Meteorologia (Inmet). Tudo em decorrência da formação e deslocamento de uma frente fria pelo país, que deverá causar também chuvas fortes em áreas do Mato Grosso do Sul, no sul do Mato Grosso, Goiás e Minas Gerais e em áreas de São Paulo e Rio de Janeiro.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 598
+Texto de entrada: Primeira vacina do Distrito Federal foi no dia 19 de janeiro de 2021; hoje, 425.945 pessoas ainda não estão imunizadas. Após três anos da aplicação da primeira vacina contra Covid-19 no Distrito Federal, 14,2% da população elegível não tomaram nenhuma dose do imunizante. Segundo a Secretaria de Saúde (SES), 425.945 pessoas não estão protegidas da doença. Em 19 de janeiro de 2021, a enfermeira Lídia Rodrigues Dantas foi a primeira pessoa a receber a vacina do DF,
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 601
+Texto de entrada: Durante a pandemia, uma das principais questões era por que algumas pessoas escapavam da COVID-19, enquanto outras contraíam o vírus várias vezes. Por meio de uma colaboração entre o University College London, o Wellcome Sanger Institute e o Imperial College London, no Reino Unido, nos propusemos a responder a essa pergunta usando o primeiro “ensaio de desafio” controlado para COVID-19 no mundo, no qual os voluntários foram deliberadamente expostos ao SARS-CoV-2, o vírus que causa a COVID-19, para que este processo pudesse ser estudado em detalhes.Os últimos sete voluntários permaneceram negativos nos testes e não desenvolveram nenhum sintoma. Esse foi o “grupo de infecção abortada”. Essa é a primeira confirmação de infecções abortadas, que antes não eram comprovadas.Apesar das diferenças nos resultados da infecção, os participantes de todos os grupos compartilharam algumas respostas imunes específicas, inclusive naqueles cujos sistemas imunes impediram a infecção.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 604
+Texto de entrada: A Secretaria Municipal de Educação pretende admitir, por meio de concurso público, 50 psicólogos e 50 assistentes sociais para atuar nas escolas da rede municipal. O projeto de lei solicitando a criação desses cargos, que terão formação específica, vai ser encaminhado à Câmara Municipal de Campinas, na próxima semana. “Esses profissionais, dentro das suas competências, serão canais facilitadores para auxiliar a convivência ética nas escolas, reforçando os programas já existentes de combate ao bullyng, racismo e intolerâncias e assim garantem que o ambiente escolar seja permeado pelo respeito à diversidade”, explicou o secretário municipal de Educação, José Tadeu Jorge.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 614
+Texto de entrada: Espera-se que o Sri Lanka administre uma dose extra da vacina contra sarampo, caxumba e rubéola (MMR) para crianças de 6 a 8 meses em nove dos 25 distritos do país após o ressurgimento do sarampo. , disse um funcionário do governo aqui na quinta-feira. A secretária do Ministério da Saúde, Palitha Mahipala, disse em conferência de imprensa que, além disso, as crianças dos nove meses aos 15 anos que não receberam a vacina MMR poderão ser vacinadas a partir de 6 de Janeiro do próximo ano. Houve mais de 700 casos de sarampo notificados em todo o país desde maio deste ano, principalmente no distrito de Colombo, disse ele.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 623
+Texto de entrada: A Polícia Civil de Goiânia e de São Paulo investiga o uso da substância popularmente conhecida como "alucinógeno do sapo" em rituais xamânicos. O alucinógeno contém o composto psicodélico 5-MeO-DMT, também presente em dezenas de plantas. Ele é fumado em pipes de vidro (cachimbos). A Anvisa informa que o alucinógeno não pode ser comercializado no Brasil com fins terapêuticos. Segundo a agência, o composto 5-MeO-DMT, presente na secreção do sapo, consta da lista F2 (substâncias psicotrópicas proscritas) de drogas proibidas no Brasil. A agência destaca que representam alto risco de dano e ameaça à saúde das pessoas. São irregulares quaisquer produtos que não atendam às regras definidas pela agência e que não tenham garantia de eficácia, segurança e qualidade.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 636
+Texto de entrada: A partir desta quarta-feira (04), a vacina contra Covid-19 estará na rotina das unidades de saúde da Capital. O calendário, anteriormente atualizado diariamente, passa a ser fixo, descrevendo quais os públicos contemplados e em quais locais o imunizante está disponível. “Desde o início da campanha da vacinação temos divulgado calendários diários que dizem a data exata de cada uma das doses. Essa informação ainda está disponível no informe que está divulgado no site, porém o paciente deve acompanhar a data exata para receber o imunizante”, explica o secretário municipal de saúde, José Mauro Filho.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 642
+Texto de entrada: Com o intuito de fortalecer o movimento nacional e melhorar as políticas públicas acerca de situações de desastre e catástrofe que possam vir a acontecer, na manhã desta sexta-feira, 20, o Serviço de Atendimento Móvel de Urgência (Samu 192 Sergipe), gerenciado pela Secretaria de Estado da Saúde (SES), apresentou uma proposta de implantação e implementação da Força Estadual da Saúde de Sergipe.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 654
+Texto de entrada: Referência no atendimento aos pacientes de covid-19 em Mato Grosso do Sul, no Hospital Regional, em Campo Grande, a maioria dos internados em UTI (Unidade de Terapia Intensiva), não completou o ciclo de imunização, o que reforça a importância da vacina. O dado é que de 40 pacientes com dados sobre a vacinação, 70% tomaram apenas a 1ª ou nenhuma dose. Dos 28 nessa condição 6 receberam a 1ª e 22 não se vacinaram. Os demais, 12 pacientes (30%) receberam as duas doses e estão com o esquema vacinal completo.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 670
+Texto de entrada: Os casos de violência doméstica no Rio Grande do Norte cresceram 29,2% nos sete primeiros meses de 2023 em comparação ao mesmo período do ano passado, de acordo com dados da Coordenadoria de Informações Estatísticas e Análises Criminais (COINE) da Secretaria de Segurança e Defesa Social do Estado (Sesed). Os números indicam que de janeiro a julho deste ano foram 7.526 registros ante 5.825 em igual recorte de 2022. A tipificação que mais cresceu foi o crime de injúria (587 registros no ano passado e 1.157 em 2023 – aumento de 97,10%). Já os casos de feminicídio cresceram 45,45% no mesmo período (11 em 2022 e 16 este ano).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 674
+Texto de entrada: Lamentando e reclamando da alteração das escalas de trabalho nas unidades de saúde 24 horas de Campo Grande, vários servidores, inclusive médicos, procuraram o Campo Grande News reforçando que já foram informados pela direção dos postos que a nova adequação passa a valer em 1º de julho, próximo sábado.Entre as mudanças, está a de que apenas as UPAs (Unidades de Pronto Atendimento) dos bairros Coronel Antonino e Universitário continuam com pediatras atendendo. Até então, os CRSs (Centros Regionais de Saúde) do Nova Bahia e do Tiradentes e a UPA Leblon mantinham escala com médicos para atendimento infantil. Para esta noite, por exemplo, estão previstos três e dois para cada um dos CRSs citados, respectivamente, e seis na Leblon.Nos grupos de mensagem das direções dos postos de saúde 24 horas, o lamento foi constante durante anúncio na readequação de escalas com redução de gastos. “Com o coração na mão, apresento a nova escala, conforme já é ciência de todos. Ordens vindas da prefeitura”, cita uma das mensagens. Em outra, a direção comenta que serão mantidas as folhas normais, ou seja, contratadas e firmadas via concurso público. Já as horas eventuais, ou seja, extras, muitas vezes acordadas para adequação de plantões, serão cortadas. Também há mensagens em que os diretores dizem sentir muito em “ter que mandar esse tipo de mensagem” ou que “com certeza, em uma situação como essa, não temos como deixar todos satisfeitos com a mudança”.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 683
+Texto de entrada: Em março, aproximadamente 250 mil alunos da REE (Rede Estadual de Ensino) devem voltar a frequentar as aulas de maneira 100% presencial. Os protocolos de biossegurança já usados desde 2021 continuam, mas, após um novo surto de covid se instalar no Estado, fica uma dúvida: o que acontece se um aluno contaminado vai à escola e tem contato com outros estudantes? O Jornal Midiamax questionou as autoridades sobre o procedimento. Segundo a SED (Secretaria de Estado de Educação), o protocolo adotado é o mesmo já usado no último ano letivo, que terminou com 205 mil estudantes matriculados. A pasta pontuou que, se um aluno testar positivo, os estudantes da sala recebem um acompanhamento e, dependendo do número de casos confirmados, as aulas podem ficar suspensas. A SED também destaca que, quando existe a confirmação de algum aluno contaminado, os pais são avisados e recebem um encaminhamento para realizar o teste gratuito em alguma da unidade de saúde. Além disso, se um estudante ou profissional da escola confirmar o quadro da covid-19, além do afastamento da instituição pelo período estabelecido, deverão comunicar o diagnóstico à direção da escola, a fim de que as pessoas que com eles mantiveram contato possam tomar as providências necessárias.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 699
+Texto de entrada: Pacientes que usaram o baricitinibe apresentaram menor necessidade de fazer uso diário de aplicações de insulina.O medicamente Baricitinibe, utilizado para o tratamento de artrite reumatoide, dermatite atópica e alopecia, pode frear a progressão do diabetes tipo 1. A conclusão é de um estudo realizado pelo Instituto de Pesquisa Médica de St. Vincent, em Melbourne, publicado nesta terça-feira (6) na revista científica "New England Journal of Medicine". De acordo com a pesquisa, o remédio é capaz de preservar a capacidade do corpo de produzir insulina. Os testes da fase dois do estudo foram realizados mundialmente em pessoas que haviam recebido o diagnóstico da doença em um prazo de até 100 dias antes do início do tratamento. Segundo o Ministério da Saúde, o Baricitinibe é um "medicamento que atua sobre o sistema imune, auxiliando no processo de recuperação de quadros inflamatórios". Além do uso para tratar artrite, dermatite e alopecia, durante a pandemia, foi autorizada a administração do remédio para tratamento da Covid-19.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 708
+Texto de entrada: Estudo realizado na Flórida constatou os efeitos positivos do zika vírus em camundongos com neuroblastomas, câncer infantil grave.O zika vírus pode ser usado como terapia para tratar pacientes com alguns tipos de câncer, de acordo com um grupo de especialistas do centro de pesquisas do Nemours Children’s Hospital, na Flórida, Estados Unidos. Segundo os resultados publicados na última terça-feira (9/1) na revista Cancer Research Communications, o vírus transmitido pelo mosquito Aedes aegypti é capaz de reduzir a expressão de uma proteína que se desenvolve em excesso no organismo de pacientes com, por exemplo, neuroblastomas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 709
+Texto de entrada: A vacina contra a chikungunya desenvolvida em parceria entre o Instituto Butantan e a empresa de biotecnologia francesa Valneva é segura e tem alta resposta imune com uma única dose em quase 100% dos voluntários. É o que mostram os resultados do ensaio clínico de fase 3 publicados na revista Lancet na 2ª feira ...
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 711
+Texto de entrada: Em meio a alta de casos, infectologista aponta existência de subnotificação de Covid-19 neste ano e reforça a necessidade de retomada da rotina de testes clínicos em hospitais.Os pacientes que tiveram diagnósticos seguidos ou simultâneos de dengue e Covid-19 correm riscos de desenvolverem quadros severos e de maior chance de letalidade, principalmente idosos e pessoas com doenças crônicas. Esse é o alerta do médico responsável pelo Instituto de Vacinação e Infectologia de Piracicaba (SP), Hamilton Bonilha.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 717
+Texto de entrada: Uma nova onda de infecções por coronavírus está se espalhando rapidamente pela Ásia, provocando alertas para moradores da Nova Zelândia ao Japão para tomarem precauções para retardar o surto e ajudar a evitar que os sistemas de saúde fiquem sobrecarregados. O novo aumento de casos, principalmente das variantes BA.4/5 Omicron, representa um desafio adicional para as autoridades que lidam com as consequências econômicas de ondas anteriores da pandemia, enquanto tentam evitar estender ou reintroduzir restrições impopulares.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 719
+Texto de entrada: A procura por exames de coronavírus continua a maior em toda a pandemia e a circulação da variante Ômicron é a principal hipótese para o aumento de infecções e consequente busca para realização dos diagnósticos. Mesmo que haja número expressivo de testes, a taxa de positividade também é alta - cerca de um a cada cinco dão positivo, conforme dados da SES (Secretaria Estadual de Saúde)
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 720
+Texto de entrada: A comunidade agrícola de Ayrshire, na Escócia, está em alerta após a confirmação de um caso de Encefalopatia Espongiforme Bovina (EEB),conhecida como Doença da Vaca Louca, em uma fazenda da região.Restrições de eslocamento foram implementadas como precaução nas propriedades afetadas que tiveram contato com o caso. As investigações para identificar a origem da doença estão em andamento. Comentário: Segundo nota publicada pelo governo Escocês, o caso foi identificado por meio de rotina de vigilância e as medidas de controle rigorosas garantiram que o animal não entrasse na cadeia alimentar humana, sem risco para a saúde pública. A Animal and Plant Health Agency está realizando investigações para  identificar a origem da doença.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 731
+Texto de entrada: Pesquisadores da Fiocruz Mato Grosso do Sul apontam preocupação com o aumento do número de cães com leishmaniose em diversos estados, o que, segundo eles, pode indicar uma possível disseminação da doença em humanos. Para o pesquisador em Saúde Pública da Fiocruz Mato Grosso do Sul Eduardo de Castro Ferreira, é essencial intensificar as ações de vigilância, controle vetorial e educação da população.Esses animais podem servir como fonte de infecção para os vetores, aumentando o risco de transmissão da doença para humanos. Se não forem tomadas medidas urgentes de controle e prevenção, a leishmaniose em humanos pode crescer substancialmente no nosso país", afirma Ferreira.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 738
+Texto de entrada: Desde que começou, 10 dias atrás, a aplicação da dose de reforço contra a Covid-19 em idosos, a escolha do estado de São Paulo vem levantando dúvidas e críticas de especialistas. O motivo é a decisão do governador de SP, João Doria (PSDB), de adotar a Coronavac para a terceira dose. A medida contraria o esquema de vacinação heteróloga recomendado pelo Ministério da Saúde, com base em estudos científicos que apontam melhor resultado com o uso de imunizantes diferentes do adotado nas primeiras duas doses.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 754
+Texto de entrada: Os investigadores desenvolveram uma vacina intranasal contra a COVID-19 que melhora a resposta do sistema imunitário ao vírus, proporcionando uma protecção maior e mais duradoura do que as injecções de vacina, mesmo contra variantes novas e emergentes. A nova vacina candidata pode significar menos reforços no futuro. Assim, num estudo liderado pela Duke-NUS Medical School, em Singapura, os investigadores começaram a desenvolver e testar uma vacina contra a COVID-19 que é administrada por via intranasal, na esperança de que seja mais eficaz.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 760
+Texto de entrada: A Agência Nacional de Vigilância Sanitária (Anvisa) tornou definitiva a prática da entrega de medicamento controlado na casa dos pacientes. A medida foi autorizada durante a pandemia em caráter provisório. No entanto, a agência alterou a quantidade máxima de remédios por receita para a entrega remota. Durante a pandemia, a quantidade havia sido ampliada, porém essa permissão perdeu a validade na semana passada.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 761
+Texto de entrada: A queda no número de vacinação faz com que doenças “esquecidas” voltem a aparecer. A coqueluche, por exemplo, é uma dessas doenças. Em São Paulo, por exemplo, já foram 17 casos nesse ano, o dobro de todo o registrado no último ano. A infectologista Ana Carolina D’Ettorres explica a importância da vacina e o que é, como é transmitida e como evitar a doença. A coqueluche é altamente contagiosa e se propaga rapidamente através do contato próximo e da inalação de gotículas respiratórias contaminadas. Essa característica de disseminação rápida é um dos motivos pelos quais a doença é tão preocupante. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 765
+Texto de entrada: A Agência Goiana de Defesa Agropecuária (Agrodefesa), em conjunto com entidades parceiras, intensificou ações de sensibilização da população sobre a Influenza Aviária. A ação aproveita o período de férias de julho, quando aumenta o número de turistas que visitam a região do Araguaia em Goiás. Desde o início do mês são realizadas visitas a acampamentos e abordagens às pessoas que chegam aos municípios de Aruanã, Aragarças, São Miguel do Araguaia e distrito de Luiz Alves para compartilhamento de informações e entrega do material Não dê asas para a Influenza Aviária! A prevenção é a solução.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 766
+Texto de entrada: O estudante de zootecnia Augusto Galhardo Gonçalves, de 29 anos, morreu na segunda-feira (26), após 45 dias internado no Humap (Hospital Universitário Maria Aparecida Pedrossian), em Campo Grande, com neurotoxoplasmose, uma grave doença neurológica causada por protozoário adquirido por água ou alimento contaminado.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 767
+Texto de entrada: O atendimento prioritário na Rede Pública de Saúde Mental para crianças e adolescentes vítimas de violência sexual foi autorizado pelo Governo de Rondônia, por meio da lei-5.727 – 5 de janeiro de 2024, que institui que as vítimas tenham atendimento preferencial no serviço psicológico do Sistema Único de Saúde (SUS). O objetivo é fornecer apoio emocional, promovendo qualidade de vida social, auto aceitação e a construção de relacionamentos saudáveis. O titular da Secretaria de Estado da Saúde (Sesau), Jefferson Rocha, destacou a importância do projeto para a proteção das vítimas. “O acompanhamento psicológico oferece um espaço seguro para expressar emoções, processar o trauma e aprender estratégias para lidar”, afirmou.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 779
+Texto de entrada: Confirmação de PCR em tempo real de um caso fatal de meningoencefalite amebiana primária na Turquia causada por Naegleria fowleri ou ameba comedora de cérebros. Naegleria fowleri , o agente causador da meningoencefalite amebiana primária (PAM), é uma ameba de vida livre. É uma infecção transmitida pela água geralmente detectada em crianças e jovens com sistema imunológico saudável que nadam, mergulham e realizam atividades em fontes frescas e termais.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 784
+Texto de entrada: Mato Grosso do Sul tem a maior taxa de feminícidio do Brasil: 3,5 a cada 100 mil mulheres. De acordo com dados do Monitor da Violência, divulgados pelo Portal G1 neste 8 de março, Dia Internacional da Mulher, o Estado também lidera o ranking nacional com a maior taxa de assassinatos: 8,3 a cada 100 mil mulheres.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 804
+Texto de entrada: Vacina com maior capacidade de resposta frente às variantes do vírus', diz Nísia Trindade. O Ministério da Saúde afirma que a nova vacina contra Covid-19 para a variante XBB deve chegar no Brasil no final de março e começar a ser distribuída em abril. O imunizante é monovalente, de dose única e pode ser utilizado por pessoas acima de 5 anos de idade, independente do estágio de vacinação, mas será indicado apenas para grupo prioritários.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 805
+Texto de entrada: Na contramão do alerta de que outubro teria novas ondas de calor extremo e ainda mais intensas, uma frente fria chega ao Brasil trazendo alívio e promessa de relativo refresco para as próximas semanas. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 808
+Texto de entrada: A vítima de estupro na Cadeia Pública José Frederico Marques, em Benfica, disse ao EXTRA nesta segunda-feira, após a Justiça concedê-la liberdade , que "está tentando esquecer" o pesadelo que viveu. A jovem de 24 anos, que havia sido presa por tráfico de drogas, explicou que só deverá receber o coquetel de medicamentos contra doenças sexualmente transmissíveis na quarta-feira, considerando o feriado desta terça-feira.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 816
+Texto de entrada: O Ministério da Saúde planeja estender a aplicação da quarta dose da vacina contra a Covid-19 para a população com 50 anos ou mais e para profissionais da área de saúde. Já pessoas imunossuprimidas, aquelas que têm baixa imunidade devido a doenças como câncer e Aids ou que já fizeram transplante, por exemplo, a partir de 12 anos deverão tomar uma dose de reforço, a quinta para o grupo. As informações foram antecipadas ao GLOBO por integrantes da pasta, mas ainda não há data para que as medidas sejam oficializadas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 831
+Texto de entrada: A Secretaria de Estado de Saúde de Mato Grosso do Sul (SES), através do Diário Oficial do Estado desta segunda-feira (05), definiu regras para a utilização da combinação Nirmatrelvir e Ritonavir, produzidas pela Pfizer, como medicamentos para combater casos leves ou moderados (não graves) de Covid-19.Ainda, segundo a publicação, é recomendado o uso para pacientes diagnosticados entre 18 e 65 anos, mas que não utilizam oxigênio suplementar para respirar. Além disso, a pessoa precisa estar entre o 1º e 5º dia de sintomas e ter covid-19 confirmado por teste rápido de antígeno ou por teste de biologia molecular.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 834
+Texto de entrada: A elevada taxa de ocupação dos leitos de UTI em hospitais da região do Litoral Norte de Santa Catarina tem preocupado moradores que precisam de atendimento médico. A tendência é estadual, e em algumas regiões a taxa se aproxima de 100% de ocupação.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 835
+Texto de entrada: A Zâmbia está a sofrer com um grande surto de cólera que já matou mais de 400 pessoas e infectou mais de 10.000, levando as autoridades a ordenar que as escolas em todo o país permanecessem fechadas após as férias de fim de ano. Um grande estádio de futebol na capital foi convertido em uma instalação de tratamento. O governo da Zâmbia está a iniciar um programa de vacinação em massa e afirma que está a fornecer água potável – 2,4 milhões de litros por dia – às comunidades afectadas em todo o país da África Austral.A cólera é uma infecção diarreica aguda causada por uma bactéria que normalmente se espalha por meio de alimentos ou água contaminados. A doença está fortemente ligada à pobreza e ao acesso inadequado à água potável.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 842
+Texto de entrada: O desmatamento e as mudanças climáticas colocaram a Organização Mundial da Saúde em alerta para a ameaça de uma nova pandemia. Para os cientistas, a presença de seres humanos em áreas até então inabitadas, como florestas, pode provocar o surgimento de doenças causadas por vírus ainda desconhecidos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 848
+Texto de entrada: Um novo artigo destaca a necessidade de conter o uso indevido de antibióticos na agricultura e na saúde para prevenir mortes por sepse devido à resistência aos antibióticos. A sepse  ocorre quando o sistema imunológico de uma pessoa tem uma resposta extrema a uma infecção. É uma condição que ameaça a vida: globalmente, é responsável por cerca de  11 milhões  de mortes — 20 por cento de todas as mortes por ano.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 851
+Texto de entrada: Crianças e adolescentes, entre seis e 16 anos, terão prioridade na vacinação contra a dengue em 2024. A expectativa é que 3,2 milhões pessoas recebam as duas doses da vacina a partir de fevereiro. O diretor do Programa Nacional de Imunizações do Ministério da Saúde, Eder Gatti, explica que a pasta segue recomendação da Organização Mundial da Saúde. Para apoiar estados e municípios nas ações de controle da dengue, o ministério disponibilizou R$ 256 milhões. Desse total, mais de R$ 111 milhões foram transferidos em 2023. Ainda haverá repasse de R$ 144 milhões. No ano passado foram notificados mais de 1,6 milhão de casos de dengue e quase 1.100 mortes no país. A prevenção é a melhor forma de evitar a proliferação do mosquito Aedes aegypti, como eliminar água armazenada em vasos de plantas, pneus, garrafas plásticas e piscinas sem uso.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 861
+Texto de entrada: De acordo com o Needier/UFRJ, medida se deve ao aumento de casos de covid-19 diagnosticados na instituição e à preocupação com nova onda da doença. O Núcleo de Enfrentamento e Estudos em Doenças Infecciosas Emergentes e Reemergentes (Needier) da UFRJ, coordenado pela pesquisadora Terezinha Castiñeiras, emitiu nota técnica na quarta-feira, 16/8, em que recomenda ao corpo social da Universidade o retorno do uso de máscaras em ambientes fechados, bem como em aglomerações. O Núcleo também orienta a higienização frequente das mãos. As recomendações se devem à preocupação com uma nova onda de covid-19, o que tem sido constatado em outros países. No mundo, cerca de 1,5 milhão de novos casos de covid-19 foram registrados entre 10/7 e 6/8, segundo dados da Agência Brasil, com base em informações da Organização Mundial da Saúde (OMS). O aumento de casos de covid-19 que foram diagnosticados no Needier também é uma das motivações para as recomendações na UFRJ.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 868
+Texto de entrada: Foi depois de quase dois meses com os sintomas de tuberculose que a social media Andressa Marques decidiu procurar um médico. A razão da demora até a busca por tratamento era porque ela imaginava se tratar de uma forte gripe. Com o avanço dos sintomas, ela buscou um médico e o diagnóstico para tuberculose pulmonar deu positivo.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 874
+Texto de entrada: QUARTA-FEIRA, 22 de maio de 2024 (HealthDay News) – Os peregrinos muçulmanos que participam do Hajj anual podem estar em risco de contrair meningite devido a surtos ocorridos na Arábia Saudita, alertaram autoridades de saúde dos EUA esta semana. Doze casos de meningite associados à viagem de Umrah à Arábia Saudita foram notificados às agências nacionais de saúde em três países, informou o CDC num aviso de saúde para viagens. Umrah é uma peregrinação islâmica a Meca, na Arábia Saudita, que pode ser realizada em qualquer época do ano, disse o CDC.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 876
+Texto de entrada: Projeto piloto de iniciativa da Defensoria Pública de Mato Grosso do Sul junto com a administração de Campo Grande, criou um protocolo de atendimento e acompanhamento das vítimas secundárias da violência contra a mulher, no caso filhos que tiveram as mães vítimas de feminicídio.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 883
+Texto de entrada: A Secretaria de Saúde de Porto Alegre (SMS) divulgou o boletim 88, que traz dados epidemiológicos da incidência de hepatites virais e leptospirose em moradores da Capital gaúcha. O documento foi elaborado pela Equipe de Vigilância das Doenças Transmissíveis da Diretoria de Vigilância em Saúde. A primeira parte mostra a análise de uma série histórica dos últimos cinco anos (2018 a 2022) das hepatites virais. Foram 7.601 casos confirmados registrados no Sistema de Informação de Agravos de Notificação (Sinan). Desses, 314 (4,1%) são de hepatite A, 1.355 (17,6%) de hepatite B e 5.932 de hepatite C (78%).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 889
+Texto de entrada: Todas as unidades de saúde da Capital estão com a vacina que protege contra três vírus da gripe disponíveis nesta sexta-feira (17) durante o dia todo. Há também mais de 45 locais abertos com o imunizante que protege contra a Covid-19 funcionando no mesmo horário.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 891
+Texto de entrada: Campo Grande já ultrapassou a marca de 1 milhão de doses aplicadas de vacina contra a Covid-19. O alívio da tão esperada imunização em alguns casos pode vir acompanhado de reações como febre baixa, dores de cabeça e no corpo e, principalmente, na região de aplicação da vacina. Mas, você sabe o que fazer em casos de reações graves?
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 895
+Texto de entrada: Campo Grande tem ao menos 39 mil pessoas que decidiram não tomar a vacina contra a covid até o momento. A informação foi dada pelo secretário municipal de saúde, José Mauro Filho, na manhã desta sexta-feira (12). Conforme José Mauro, o município está na busca ativa por essas pessoas para tentar convencê-las a tomar o imunizante, que proporcionou redução de casos e mortes da doença em todo o mundo. Ainda conforme o secretário, 80% da população acima de 12 anos já está vacinada com duas doses.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 898
+Texto de entrada: Em meio às preocupações com a disseminação da Influenza Aviária de Alta Patogenicidade (IAAP), a equipe de Defesa Sanitária Animal da Empresa de Desenvolvimento Agropecuário de Sergipe (Emdagro) tem intensificado suas ações de prevenção e vigilância nos municípios do estado. Essas medidas são respaldadas pelo Decreto n°358 de 24 de julho de 2023, que declara Emergência Zoossanitária por Influenza Aviária de Alta Patogenicidade em Sergipe, como medida preventiva. Até o momento, fiscalizações e vigilâncias já foram realizadas em diversos municípios, incluindo Areia Branca, Aquidabã, Estância, Indiaroba, Itaporanga, Japaratuba, Nossa Senhora de Lourdes e São Cristóvão. Durante essas inspeções, foram realizadas vistorias de registro e vigilância zoossanitária, com o objetivo de garantir que as propriedades avícolas estejam em conformidade com as normas de biossegurança.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 903
+Texto de entrada: Um estudo realizado pela Confederação Nacional dos Municípios (CNM), ainda não publicado na íntegra, mostra que, entre 2013 e 2023, 94% dos municípios brasileiros (ou 5.233 dos 5.570) precisaram decretar situação de emergência ou calamidade pública por conta de eventos climáticos. Como detalha um vídeo produzido pela CNM e divulgado no 3º dia da Marcha dos Prefeitos, realizada entre segunda-feira (20) e ontem (23) em Brasília, foram 64.742 decretos do tipo em municípios de todo o Brasil nesse período, afetando 418 milhões de pessoas – em média, é como se toda a população do país fosse afetada duas vezes.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 908
+Texto de entrada: O maior estudo até o momento sugere que receber uma vacina contra a COVID-19 baseada em mRNA durante a gravidez pode estar associada a menos complicações gerais durante o parto.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 909
+Texto de entrada: Voluntários que participaram dos testes da Coronavac, em Campo Grande, não estão conseguindo se imunizar com a terceira dose da vacina contra o coronavírus no grupo de profissionais de saúde. Isto porque não consta no sistema da Sesau (Secretaria Municipal de Saúde) que esse grupo foi vacinado. Durante os testes feitos pelo Instituto Butantan no município, um grupo recebeu as duas doses da Coronavac e outro tomou placebo, no Humap (Hospital Universitário Maria Aparecida Pedrossian). Com a autorização para a terceira dose após a finalização dos testes, os voluntários precisaram esperar a quebra do sigilo da pesquisa e a autorização do Butantan para procurarem os pontos de vacinação.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 921
+Texto de entrada: O relatório Epidemiológico do Centro de Operações de Emergência em Saúde Pública (Coesp), aponta o aumento de 83,29% nos casos de covid-19. A taxa de ocupação de leitos é 19,67% para UTIs e de 22,81% para leitos clínicos. Das internações, 50% são de pacientes não vacinados. Outros 36% tomaram as duas doses da vacina e 14% apenas uma dose. O Estado orienta que os municípios exijam a apresentação do cartão de vacina com as duas doses para participação em atividades presenciais e eventos realizados em boates, casas de show, casas de espetáculos e shows artísticos, além de que também devem cumprir o limite de 50% da taxa de ocupação do espaço.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 924
+Texto de entrada: Os casos de sarampo em Bulacan aumentaram 720%, mostraram dados da unidade provincial de epidemiologia e vigilância. Quarenta e um casos foram notificados de janeiro a 8 de abril, em comparação com cinco no mesmo período do ano passado. Para atingir 95% da meta de vacinação contra sarampo e poliomielite, Bulacan Gov. Daniel Fernando liderou ontem uma orientação de três dias para oficiais de barangay e Sangguniang Kabataan serem convocados para uma campanha geral de imunização no próximo mês.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 942
+Texto de entrada: A vacinação dos brasileiros reflete cada dia mais na contenção da crise pandêmica da Covid-19. Nesse domingo (12), Acre, Amapá, Rio Grande do Norte e Sergipe não registraram mortes em 24 horas pela doença. Outros 15 estados notificaram menos de 10 óbitos pela doença no sistema LocalizaSUS, do Ministério da Saúde
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 957
+Texto de entrada: Sim, existe certa probabilidade de haver atividades sísmicas incomuns no Brasil. Veja quais regiões são mais vulneráveis e entenda como o país se prepara para possíveis abalos. As regiões com maior probabilidade de terremotos de maior magnitude no Brasil incluem Ceará, Rio Grande do Norte, norte do Mato Grosso, nordeste de Goiás, Mato Grosso do Sul, leste do Amazonas e Acre.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 961
+Texto de entrada: Apenas um mês e meio após a Organização Mundial de Saúde Animal (OIE) declarar as Filipinas livres da última cepa A(H5N6) restante da gripe aviária em 8 de janeiro, o Departamento de Agricultura das Filipinas (DA) relata quatro surtos – uma em uma fazenda de codornas de quintal no México, Pampanga, duas fazendas comerciais de codornas em Candaba, Pampanga, e uma fazenda comercial de patos em Baliuag, Bulacan.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 962
+Texto de entrada: A Índia relatou a detecção de dois casos da variante Omicron , o primeiro neste país de 1.350 milhões passando por um período de relativa calma após ser em maio o epicentro global da pandemia. Os dois casos foram confirmados em dois homens, de 66 e 46 anos, no estado de Karnataka , no sul do país , e ambos mostraram sintomas leves da doença, disse o secretário adjunto do Ministério da Saúde indiano, Lav Agarwal, em entrevista coletiva .
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 980
+Texto de entrada: Meningite matou criança em Bombinhas e teve explosão de casos em todo o Brasil. Alunos de escola de Tijucas foram diagnosticados com meningite viral, que é mais fraca, mas também causa preocupação
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 990
+Texto de entrada: A vacina bivalente, que protege contra variantes da Covid-19, está disponível nos postos de saúde há quase três meses. No entanto, a procura está muito baixa em todo o país. Os números da vacinação estão muito menores do que o esperado, mesmo com o fim da emergência de saúde global. O reforço é importante para todo adulto acima dos 18 anos de idade. E de acordo com o Ministério da Saúde, desde 24 de abril, data da liberação da bivalente, apenas 14% do público-alvo já tomou a nova dose.Podem tomar a vacina as pessoas acima de 18 anos que tomaram ao menos duas doses da vacina contra o coronavírus.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 991
+Texto de entrada: Medida foi tomada por causa da possibilidade de pequenos fragmentos de vidro estarem presentes na bebida. Agência diz que recolhimento será de 2,2 milhões de garrafas, e que 0,2% podem ter fragmentos.A Agência Nacional de Vigilância Sanitária (Anvisa) determinou na sexta-feira o recolhimento de 28 lotes, com 2,2 milhões de garrafas, da bebida Sidra Cereser sabor maçã. A medida foi tomada por causa da possibilidade de pequenos fragmentos de vidro estarem presentes na bebida, o que representa risco à saúde dos consumidores.Segundo a Anvisa, aproximadamente 0,2% das garrafas dos lotes afetados podem conter os fragmentos de vidro devido a "alterações nos vasilhames durante o processo de envase". A ingestão acidental desses fragmentos pode causar cortes na boca ou em outras partes do sistema digestivo, de acordo com a Anvisa.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 992
+Texto de entrada: Processo de assoreamento do Rio Miranda avança a cada ano e flagrantes mostram rio secando.Os vídeos da situação do Rio Miranda continuam a impressionar. Por conta da estiagem prolongada - desde maio - e do acumulo do reflexo da ação humana, como no caso da retirada da mata ciliar, o rio tem acumulado bancos de areia em alguns trechos, onde a água parece até que parou de correr. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 993
+Texto de entrada: Espera nos corredores e noites em cadeiras tem sido a realidade de pacientes à espera de atendimento no HU (Hospital Universitário) de Campo Grande. Segundo a administração da unidade de saúde, há demanda excessiva de pacientes encaminhados pela regulação municipal. Ainda segundo o hospital, o local está “hiper lotado”. “Não temos mais leitos, já fizemos inúmeros documentos relatando e ainda assim continuamos recebendo pacientes. Nós somos contratados para atender um número X, mas recebemos X, Y… E não é só uma questão de ter leitos, tem outras coisas que envolvem uma internação: leitos, medicamentos, alimentação e equipe. É preciso um número determinado de profissionais para atender um número X de pacientes”, afirma o hospital.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 994
+Texto de entrada: Depois de vacinar a população adulta nas 13 cidades de fronteira de Mato Grosso do Sul com a dose da vacina Janssen, o estudo de imunização em massa teve resultados divulgados nesta segunda-feira (18). A vacina é diferente das outras que já eram utilizadas no Estado e precisa de apenas uma dose para proteger contra o coronavírus. Dados da pesquisa mostram resultados positivos: o imunizante tem eficácia de 90,5% contra mortes por covid.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1009
+Texto de entrada: Quase 20 dias após o início da vacinação contra a dengue no Distrito Federal, apenas 32% das crianças de 10 e 11 anos foram imunizadas. Dados do governo do Distrito Federal (GDF) mostram que, entre os dias 9 e 27 de fevereiro, foram aplicadas 23.502 doses foram aplicadas. A própria pasta avalia que a procura pelo imunizante está abaixo do esperado.  Os números mostram que, das 71.708 doses recebidas do Ministério da Saúde, ainda há 48.206 doses disponíveis para aplicação em todos os 67 pontos de vacinação do Distrito Federal. “Como todo imunobiológico, a vacina da dengue também tem prazo de validade. Os imunizantes estão válidos até o dia 30 de abril”, destacou o GDF em nota. O comunicado ressalta que “tratativas estão sendo feitas para uma possível ampliação no público-alvo, a fim de garantir que todas as doses sejam efetivamente aplicadas na população”.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1010
+Texto de entrada: No início de abril de 2024, o Departamento de Serviços de Saúde do Estado do Texas, nos EUA, reportou o segundo caso de pessoa infectada com o vírus da gripe aviária H5N1 no país. O que impressiona é a capacidade desse vírus de se diversificar geneticamente.Sobretudo, alguns pesquisadores estimam que a gripe aviária H5N1 pode causar uma nova pandemia de gripe, caso haja rearranjos no genoma, o que pode acontecer com o aumento da transmissão do vírus. Além disso, como em 2024 já está acontecendo o aumento de casos de gripe aviária H5N1 em diversos lugares do mundo, alguns órgãos também tem alertado para uma possível pandemia. É o caso da Autoridade Europeia para a Segurança dos Alimentos (EFSA), que já registrou a preocupação.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1015
+Texto de entrada: O Brasil tem atualmente 1942 cidades com risco de desastre ambiental, o que representa quase 35% do total dos municípios brasileiros. O Governo federal fez o mapeamento das regiões suscetíveis a desastres associados a deslizamentos de terras, alagamentos, enxurradas e inundações e concluiu que as áreas dentro dessas quase duas mil cidades consideradas em risco concentram mais de 8,9 milhões de brasileiros, o que representa seis por cento da população nacional. Segundo o mesmo estudo, em 2012, eram 821 cidades em risco e as populações pobres são as mais prováveis de sofrerem com os desastres ambientais no Brasil.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1019
+Texto de entrada: A Secretaria da Saúde (Sesa), o Espírito Santo contabiliza 15 casos confirmados e 5 óbitos pela meningite, entre viral, bacteriana e fúngica, no primeiro mês de 2022. De janeiro a dezembro de 2021, foram confirmados 79 casos em todo o Estado, com 18 óbitos. O subsecretário de Estado de Vigilância em Saúde, Luiz Carlos Reblin, destacou que a meningite é uma doença imunoprevenível, ou seja, pode ser evitada pela vacinação. “Por isso, é importante estarmos com a vacinação em dia, especialmente a de crianças e adolescentes, cuja vacinação contra a meningite está presente no Calendário Vacinal”, ressaltou.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1029
+Texto de entrada: No Brasil, mais de 54% das pessoas entre 16 e 25 anos estão infectadas com HPV, sendo que 38,4 % são casos de alto risco. As informações são do Ministério da Saúde. Com o feriado de Carnaval se aproximando, a pasta alerta para que a população fique atenta em relação à saúde, já que esse período favorece a transmissão de Infecções Sexualmente Transmissíveis (ISTs).A ginecologista Denise Yanasse informa que o HPV é a IST mais frequente do mundo — e o grande causador de câncer de colo de útero em mulheres. Além disso, tem associação com outros tumores em homens e mulheres.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1045
+Texto de entrada: O Conselho Federal de Medicina (CFM) está realizando uma pesquisa para ouvir a opinião dos médicos sobre a obrigatoriedade da vacinação contra a Covid em crianças de seis meses a 5 anos, em que está em vigor desde 1 de janeiro. O questionário, aberto a todos os médicos brasileiros, vem causando polêmica entre os profissionais da saúde. A nova estratégia de vacinação inclui a população infantil no grupo prioritário porque a Covid entrou para o rol de doenças respiratórias que levam a quadros graves e mortes em crianças com menos de 5 anos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1049
+Texto de entrada: O Ministério da Agricultura e Pecuária (Mapa), buscando dar transparência e agilidade nas informações, disponibilizou um painel BI (Business Intelligence) para consulta de casos confirmados do vírus da influenza aviária de alta patogenicidade (IAAP) - H5N1. A plataforma pode ser consultada por qualquer pessoa e será atualizada duas vezes ao dia, às 13h e às 19h, quando sair o laudo de uma investigação confirmando a detecção de IAAP. À medida que for necessário, o Mapa continuará aperfeiçoando a ferramenta para facilitar o acesso às informações para toda a população brasileira.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1050
+Texto de entrada: A edição extraordinária do Boletim Observatório Covid-19 Fiocruz publicada nesta quarta-feira (8/9) revela que o cenário de melhora nas taxas de ocupação de leitos de UTI para adultos no SUS persiste, com mais de 90% das unidades da Federação e 85% das capitais estando fora da zona de alerta (taxas < 60%). Roraima (82%) é o único estado na zona crítica, com índice superior a 80%, mas encontra-se em situação particular de poucos leitos disponíveis. O Rio de Janeiro apresentou queda no indicador de 72% para 66%, o que agora o coloca na zona de alerta intermediário.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1052
+Texto de entrada: O Estado do Espírito Santo passa a compor uma rede mundial de treinamento dos profissionais de saúde para controle da hemorragia materna pós-parto, sendo o primeiro estado brasileiro a integrar o projeto multicêntrico coordenado pela médica Grethe Heitmann, do Hospital de Ostfold, na Noruega
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1057
+Texto de entrada: O primeiro caso de gripe aviária na cidade de São Paulo foi registrado na quinta-feira (6). O caso ocorreu na região de Pirituba. Segundo a Secretaria do Verde e do Meio Ambiente, a Guarda Civil Metropolitana Ambiental foi acionada e isolou o local onde a ave da espécie trinta-reis-de-bando foi encontrada, na última segunda-feira (3). Em nota, informaram que não houve registro de contato humano direto com o animal, somente à distância.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1074
+Texto de entrada: Novembro, mês mundial da campanha Novembro Azul, que tem como objetivo conscientizar os homens sobre o câncer de próstata passou, mas o alerta à população masculina sobre outras doenças, bem como os caminhos para se ter uma melhor qualidade de vida precisam ser colocadas em prática o ano todo, para um melhor viver.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1084
+Texto de entrada: Pouco depois de o prefeito do Rio, Eduardo Paes (PSD), anunciar o cancelamento do Réveillon de 2022 na cidade, e convocar até coletiva para falar do assunto, o governador do estado, Cláudio Castro (PL), disse que a decisão final das autoridades sobre o tema vai sair só na próxima semana. Antes, será feita uma reunião entre os chefes do Executivo municipal e estadual. Também participarão do encontro membros dos comitês científicos da capital e do estado.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1089
+Texto de entrada: À medida que as taxas de infecção diminuem, grande parte da América Latina parece estar respirando fundo do ataque COVID-19. No entanto, o acesso às vacinas é desigual, tanto dentro como entre os países, enquanto a cobertura vacinal é heterogênea.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1095
+Texto de entrada: Os casos de coqueluche continuam a crescer em Belo Horizonte e em apenas seis dias registraram alta de 44,4%. O número acende um alerta para os índices de vacinação, principalmente nas crianças de até 4 anos de idade. O ideal é que a cobertura vacinal para a Tríplice Bacteriana (dTp) chegue em 95% do público-alvo, mas em Belo Horizonte, de acordo com dados da Secretaria Municipal de Saúde (SMSA-BH), o índice é agora de 74% para as crianças de até 1 ano, a parcela mais suscetível a casos graves da doença. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1098
+Texto de entrada: Um surto mortal de gripe aviária que migrou da Ásia para a Europa e África já está a ter impactos na América. Medo com a velocidade de propagação da doença. A OMS em alerta. Esta semana, uma equipa internacional de cientistas liderada pela Universidade de Hong Kong analisou os surtos mortais de gripe aviária na Ásia. Descobriram que os surtos de H5N1, ou vírus da gripe aviária altamente patogênica (GAAP), deslocaram-se para várias áreas da Europa e de África, onde as variantes que surgiram entre 2020 e 2022 foram muito virulentas. A preocupação com a expansão deste vírus reside na elevada mortalidade que produz nas aves, e na possibilidade de este vírus infectar outras espécies... e de poder passar aos humanos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1111
+Texto de entrada: O Zimbabué e a Zâmbia registaram um aumento nos casos de cólera no final de 2023. Na luta contra a doença, o acesso à água potável e à higiene são particularmente importantes. É por isso que a Cruz Vermelha está a instalar estações de reidratação oral nas aldeias.  
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1122
+Texto de entrada: Por que vários pacientes testam negativo mesmo tendo todos os sintomas clássicos? GA: Cada fase da doença tem um exame específico. Os testes para o período dos sintomas são o RT-PCR, o do Antígeno NS1 ou o de Isolamento Viral. Se a pessoa usar os testes de Anticorpo IgG/IgM no período de sintomas, o resultado será negativo, porque esse teste IgG/IgM é para outra fase da doença. O segundo motivo é que todo exame tem um limite de detecção, sensibilidade e especificidade. Essas três propriedades afetam quando o exame "acerta" ou "erra". As configurações de ciclo, enzimas e temperaturas no teste RT-PCR podem diminuir a especificidade, afetar o limite de detecção e dar falso negativo. Por fim, a parte pré-analítica pode diminuir a qualidade da amostra dificultando a detecção. Laboratórios com certificações e acreditações tem chance maior de acertar o exame.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1123
+Texto de entrada: Em quatro dias, sete cidades de Minas Gerais começaram a desinfetar as escolas municipais como forma de reduzir ou prevenir os casos de infecção de crianças pela bactéria Streptococcus. Em São João del-Rei, no Campo das Vertentes, a primeira cidade a suspender aulas e propor desinfecção, três mortes de crianças são investigadas por suspeita de avanço da doença, e os exames ainda estão sendo realizados. Dos sete municípios que estão em força-tarefa de higienização, só um não pertence à região do Campo das Vertentes. Segundo a SES-MG, no entanto, a medida é ineficaz. Lista de cidades que suspenderam aulas para desinfecção, por risco da bactéria Streptococcus:  São João del-Rei, Tiradentes, Santa Cruz de Minas, Ritápolis, Conceição da Barra de Minas, Felício dos Santos, Barroso.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1125
+Texto de entrada: Uma pesquisa conduzida pela Vigilância Sanitária da Secretaria de Estado da Saúde de São Paulo, em parceria com o Instituto do Coração (Incor) e o Laboratório de Toxicologia da FMUSP, aponta que o consumo de cigarro eletrônico provoca níveis de intoxicação no organismo superiores aos do cigarro convencional. O estudo inicial, realizado com base nos dados de 200 fumantes dos chamados vapes, revelou que os níveis de nicotina presentes nesses usuários são de três a seis vezes maiores em comparação aos fumantes de cigarros tradicionais.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1132
+Texto de entrada: O Departamento de Agricultura dos Estados Unidos (USDA) anunciou um caso atípico de Encefalopatia Espongiforme Bovina (BSE), uma doença neurológica do gado, conhecida popularmente como mal da vaca louca, em um animal de corte de aproximadamente cinco anos de idade ou mais em um matadouro na Carolina do Sul. Este animal nunca entrou nos canais de abate e em nenhum momento apresentou risco ao abastecimento de alimentos ou à saúde humana nos Estados Unidos. Dado o status de risco insignificante dos Estados Unidos para BSE, o país não espera nenhum impacto comercial como resultado dessa descoberta.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1140
+Texto de entrada: Com roupagem moderninha e sabores, o cigarro eletrônico não foge aos perigos do produto tradicional. “O risco para a saúde é importante e isso tem que ser dito, cigarro eletrônico faz mal. Qualquer tipo de dispositivo eletrônico para fumar faz mal e não deve ser utilizado”, afirma o presidente da Sociedade de Pneumologia e Tisiologia do Mato Grosso do Sul, Henrique Ferreira de Brito. O pneumologista também é docente dos cursos de Medicina da Uniderp e UFMS (Universidade Federal de Mato Grosso do Sul). Proibidos pela Anvisa (Agência Nacional de Vigilância Sanitária), os cigarros eletrônicos, ancorados no gosto popular e na fiscalização displicente, são facilmente encontrados à venda em Campo Grande. Quem usa o vape, como os adeptos preferem chamar o dispositivo, diz acreditar que a ausência da queima de tabaco torna o uso menos nocivo.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1147
+Texto de entrada: O alerta máximo para contaminação da água acendeu em 28 municípios brasileiros em 2022. Em cidades de Goiás, Minas Gerais, São Paulo, Mato Grosso e Tocantins, testes de qualidade encontraram agrotóxicos na rede de abastecimento em níveis acima do limite considerado seguro pelo Ministério da Saúde. O consumo de água com altas concentrações de agrotóxicos aumenta os riscos para doenças crônicas, como câncer e distúrbios hormonais, e para problemas no sistema nervoso, nos rins e no fígado, explica Fábio Kummrow, professor de toxicologia da Universidade Federal de São Paulo (Unifesp).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1148
+Texto de entrada: As infecções bacterianas ocupam o segundo lugar no ranking das doenças que mais matam no mundo, de acordo com um estudo publicado no periódico científico The Lancet no ano passado, ficando atrás apenas das doenças do coração.O levantamento mostra que a resistência aos antibióticos esteve associada a quase 5 milhões de mortes, e foi diretamente responsável por cerca de 1,27 milhão de óbitos em 2019 (período do levantamento).“As infecções por bactérias resistentes , ou seja, aquelas que precisam de antibióticos mais potentes devido ao uso descontrolado e sem acompanhamento médico dos antibióticos, já são um problema de saúde pública e precisamos desenvolver ações que ajudem a reduzir o número de casos dentro e fora dos hospitais”, explica Ricardo Kosop, coordenador do projeto Antimicrobial Stewardship no Hospital Angelina Caron (HAC), na Região Metropolitana de Curitiba.De acordo com o médico, a higienização das mãos é considerada uma estratégia de prevenção de infecções com maior e mais robusta evidência de efetividade, além do baixíssimo custo e relativa simplicidade. Contudo, embora simples, e mesmo após tudo o que vivemos durante a pandemia, ainda costuma ser ignorada no dia a dia, tanto por pessoas comuns como por profissionais de saúde.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1165
+Texto de entrada: Anvisa aprovou nesta quarta-feira (13/7) a ampliação da autorização de uso emergencial da vacina CoronaVac, que passa a incluir na bula do imunizante a faixa etária de 3 a 5 anos de idade. Os diretores votaram por unanimidade de acordo com o voto da diretora relatora. Em sua aprovação a Anvisa não impôs restrição de aplicação para crianças de 3 a 5 anos imunossuprimidas. Para a avaliação desta nova indicação para o imunizante contra Covid-19, a Anvisa analisou e buscou todos os dados disponíveis sobre a vacina e seu uso em crianças.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1171
+Texto de entrada: São Paulo e Rio de Janeiro sofrem com cortes de luz. Usinas térmicas são acionadas pela primeira vez desde 2021. Calor vai trazer novos apagões.A excepcional e histórica onda de calor que assola grande parte do Brasil força a adoção de medidas emergenciais no setor elétrico que não eram adotadas desde a grande crise hídrica de 2021. Embora os reservatórios das hidrelétricas estejam hoje com níveis excelentes, ao contrário de 2021, a demanda está muito alta pela onda de calor, o que aumenta a necessidade de geração de energia. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1193
+Texto de entrada: Com a baixa procura pela vacina contra a gripe, a Sesau (Secretaria Municipal de Saúde) estuda a implementação de uma agenda de ações itinerantes em locais de grande fluxo de pessoas, como shopping e escolas infantis. O último boletim parcial, divulgado pela pasta na sexta-feira (14), revelou que a Capital atingiu apenas 7,64% do público-alvo. O número corresponde a 25,8 mil pessoas imunizadas. Um novo boletim será divulgado na próxima segunda-feira (24).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1197
+Texto de entrada: O Junho Vermelho, mês no qual a importância da doação de sangue ganha ainda mais destaque, termina com números preocupantes no Hemosul de Campo Grande. São poucas bolsas de sangue dos tipos O positivo e negativo.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1200
+Texto de entrada: Em razão dos 31 casos de gripe aviária (H5N1) confirmados no Brasil até a segunda-feira (12), a Secretaria de Meio Ambiente (Semam) de Santos determinou que os parques Aquário, Orquidário e Jardim Botânico Chico Mendes não receberão mais aves encaminhadas pela Guarda Civil Municipal (GCM) e Polícia Militar Ambiental por um prazo de 180 dias — os animais ficarão em quarentena na unidade da Coordenadoria de Defesa da Vida Animal (Codevida) do Bom Retiro.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1207
+Texto de entrada: A Organização Mundial da Saúde disse que o crescente surto de varíola em quase 50 países deve ser monitorado de perto, mas não justifica ser declarado uma emergência de saúde global. “Enquanto alguns membros expressaram opiniões diferentes, o comitê decidiu por consenso aconselhar o diretor-geral da OMS que, nesta fase, o surto deve ser determinado como não constituindo” uma emergência de saúde global, disse a OMS em comunicado. A OMS, no entanto, apontou a “natureza emergencial” do surto e disse que controlar sua propagação requer uma resposta “intensa”.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1214
+Texto de entrada: A decisão surge um dia depois da abertura de uma investigação pelo Ministério da Saúde japonês à morte de dois homens que receberam a vacina da Moderna contra o novo coronavírus, provenientes de lotes com 1,63 milhões de doses, após relatos da presença de impurezas em certas embalagens do produto.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1218
+Texto de entrada: Pessoas com síndrome de Down costumam apresentar defeitos cardíacos e, agora, uma equipa de cientistas britânicos conseguiu identificar um gene responsável por essas alterações.Esta investigação foi publicada na quarta-feira na revista Science Translational Medicine, num artigo no qual também é demonstrado que a redução da hiperatividade desse gene reverte parcialmente esses defeitos em testes com ratos de laboratório.A descoberta prepara o terreno para possíveis terapias futuras para problemas cardíacos em pessoas com síndrome de Down, destacaram os cientistas do Instituto Francis Crick e da University College London.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1224
+Texto de entrada: O médico infectologista Julio Croda é categórico ao dizer que as medidas existentes para o controle do mosquito Aedes aegypti são ineficazes. Conforme o último boletim divulgado pela SES (Secretaria de Estado de Saúde), no dia 8 de novembro, desde o início do ano 39.997 pessoas tiveram dengue. Destes, 40 pessoas morreram e outras cinco estão em investigação para confirmação da doença como causa. O inseticida é uma medida extremamente ineficaz e a eliminação de foco domiciliar carece do apoio da população, o que não acontece”, alega o médico. Ele explica que é necessário que a eliminação dos focos ocorra semanalmente, já que o ciclo da lava do mosquito é de 7 a 10 dias. Por isso, toda semana focos devem ser verificados e eliminados todo o domicílio e terreno baldio.  
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1230
+Texto de entrada: Ocorrência de casos em aves silvestres no Espírito Santo divulgada pela Ministério da Agricultura e Pecuária não afeta a avicultura comercial, mas é imprescindível manter vigilância e cuidados sanitários
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1235
+Texto de entrada: Entre 2007 e 2021, foram notificados 36.497 casos de febre maculosa no Brasil, segundo o Boletim Epidemiológico divulgado pelo Ministério da Saúde. Destes, 7% foram confirmados, em uma média de 170 por ano nesse período. Dentre os 2.545 casos confirmados, 2.538 informaram que estiveram envolvidos em situações referentes à exposição de risco e, destes, 68,5% circularam por regiões de mata.Segundo o documento, a maioria (70,7%) dos casos confirmados foram de pessoas de homens e, na maior parte, na faixa etária de 35 a 49 anos. Com relação à exposição de risco aos animais, 74,7% declararam que foram expostos a carrapatos. A exposição a cães e gatos ocupou o segundo lugar, com 41% dos casos. O Brasil registrou 49 casos de febre maculosa até junho deste ano, conforme atualização do Ministério da Saúde divulgada no dia 13 do último mês. Dentre os infectados, seis pacientes vieram a óbito por conta doença. Segundo a análise, a região Sudeste reúne a maior parte dos casos: Espírito Santo (oito), São Paulo (sete), Rio de Janeiro (seis) e Minas Gerais (quatro) somam 25 infectados. Em 2022, foram registrados 190 casos da doença no Brasil, com 70 vítimas fatais.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1239
+Texto de entrada: Autoridades de saúde de Nevada relataram a morte de um jovem do condado de Lincoln devido a uma infecção por Naegleria fowleri , também conhecida como ameba comedora de cérebro.Naegleria fowleri é uma ameba viva unicelular microscópica que ocorre naturalmente no meio ambiente. Essa ameba pode causar uma infecção rara muito grave do cérebro chamada meningoencefalite amebiana primária (PAM), que destrói o tecido cerebral e é quase sempre fatal.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1240
+Texto de entrada: O ifosfamida, medicamento necessário no tratamento contra alguns tipos de câncer, está em falta no Hospital Regional de Mato Grosso do Sul desde julho deste ano. Como resultado, pacientes da instituição não conseguem dar andamento a sessões de quimioterapia. A denúncia foi feita ontem (19), no plenário da Assembleia Legislativa de Mato Grosso do Sul, pelo deputado Pedro Kemp. Ele pediu ao secretário estadual de Saúde, Maurício Simões, providências urgentes para que os estoques sejam repostos.Nesta quarta-feira (20), o Hospital Regional confirmou à reportagem, via assessoria, que enfrenta o desabastecimento do fármaco devido ao descumprimento de contrato vigente com a NSA Distribuidora de Medicamentos Eirelli, por parte da empresa.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1245
+Texto de entrada: Em 1918, um vírus da gripe passou das aves para os seres humanos e matou entre 50 milhões e 100 milhões de pessoas em um mundo com menos de um quarto da população atual. Dezenas de mamíferos também foram infectados.Agora estamos diante de outra investida da gripe aviária. Há anos, vem devastando populações de aves no mundo todo e, mais recentemente, começou a infectar mamíferos, inclusive gado, transmissão nunca vista antes. Em outro caso inédito recente, o vírus quase certamente passou de uma vaca para pelo menos um ser humano — felizmente, um caso leve. Embora muito ainda tenha de acontecer para que esse vírus desencadeie outra pandemia humana, esses acontecimentos fornecem mais um motivo – como se fosse preciso – para que governos e autoridades de saúde pública se preparem para a próxima pandemia.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1261
+Texto de entrada: A Vigilância Ambiental em Saúde de Caxias do Sul emitiu um documento em que informa que o município chegou a 200 focos do mosquito causador da dengue em 2021. O número é considerado "alarmante" e a cidade, está em estado de alerta para combater o Aedes aegypti. O principal objetivo é impedir que o mosquito se reproduza, o que ocorre em água parada, por isso é preciso redobrar os cuidados com pneus, reservatórios de água não tampados, potes de plantas e outros recipientes. "Neste período de férias é sempre bom separar um tempo para olhar o pátio de casa, baldes, garrafas de vidro, bebedouro de cachorro, gato, pássaros.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1269
+Texto de entrada: 11 pacientes foram considerados positivos com um único epítipo da bactéria Enterobacter hormaechei . O que os pacientes têm em comum é que tomaram o medicamento dicloxacilina em cápsulas do mesmo fabricante. Organismos produtores de carbapenemases (CPO) são um grupo de bactérias que podem ser difíceis de tratar porque são resistentes aos antibióticos normalmente usados ​​para tratar infecções graves. De outubro de 2022 a janeiro de 2023, foram registrados 9 casos de CPO com o mesmo epítipo único: dois casos em outubro de 2022, dois casos em dezembro de 2022 e 5 casos em janeiro de 2023. Os casos não tinham relação entre si, não havia suspeita que a infecção ocorreu no hospital ou durante uma viagem. O epítipo encontrado era tão único e característico que os departamentos de microbiologia clínica foram contatados para esclarecer a causa do surto.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1272
+Texto de entrada: A esclerose múltipla (EM) é uma das doenças mais comuns do sistema nervoso central, que afetam o cérebro e a medula espinhal. O transtorno neurológico é autoimune e afeta a maneira como os impulsos elétricos são enviados de e para o cérebro, o que gera fadiga intensa e problemas com a fala e deglutição. Um estudo realizado pelo Instituto do Cérebro de Paris e publicado na revista Neurology nesta quarta-feira revela que enfermidades que afetam pacientes com esclerose múltipla podem ser identificados até cinco anos antes do diagnóstico clínico.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1284
+Texto de entrada: A rede pública hospitalar de Campo Grande está à beira de um novo colapso. A nova onda da pandemia de covid-19 e a epidemia de gripe (Influenza “A” H3N2) estão voltando a provocar uma ocupação próxima dos 100%. Nas UTIs (Unidades de Terapia Intensiva) Covid-19, não há mais vagas. A Capital tem 29 leitos, mas já trata um paciente a mais neste domingo (23), fazendo a ocupação atingir 103,45%
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1289
+Texto de entrada: A Secretaria Estadual de Saúde do Rio (SES) confirmou, nesta quarta-feira, o sexto caso de varíola dos macacos. Segundo a Secretaria Municipal de Saúde do Rio (SMS), trata-se de um homem de 28 anos, residente no município e sem histórico de viagem internacional. No momento, há quatro casos confirmados na capital e outros quatro casos suspeitos em investigação pela SMS. A transmissão local no estado foi confirmada na sexta-feira (24). São 31 casos suspeitos de varíola do macaco notificados no estado e 17 casos descartados. Há ainda outros quatro pacientes que estão em investigação.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1299
+Texto de entrada: O chefe de Doenças Zoonóticas do Ministério da Saúde, Grover Paredes, disse que até o momento deste ano, 92 casos de raiva canina foram notificados no território nacional. Isso é quatro vezes o que foi relatado durante o mesmo período em 2022. Isso motivou os preparativos para uma campanha de vacinação em setembro com o objetivo de atingir mais de 3 milhões de animais de estimação.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1300
+Texto de entrada: Um mês e meio após a vacina da gripe ser liberada para toda a população, a procura pelo imunizante segue abaixo do esperado em Campo Grande, repetindo desempenho da aplicação em pessoas do grupo de risco. Com a chegada do inverno, a Prefeitura teme novo surto da Influenza, a exemplo do registrado em janeiro deste ano. “É uma situação preocupante. As pessoas não estão dando a devida importância para a proteção individual. A vacina é o que reduz internações, complicações e óbitos decorrentes de infecções e quem não se vacina fica vulnerável”, avalia a superintendente de vigilância em saúde do Município, Veruska Ladho.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1306
+Texto de entrada: Adose de reforço da vacina contra a Covid-19 será reduzida de seis para cinco meses. A medida, que será anunciada nesta terça-feira, 16, valerá para idosos, profissionais de saúde e imunossuprimidos — pessoas com baixa imunidade, soropositivas, transplantadas ou que tenham câncer. O órgão avalia, ainda, a recomendação de dose de reforço da para a população de 18 a 59 anos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1307
+Texto de entrada: De acordo com a Organização Mundial da Saúde (OMS), houve um aumento significativo nos casos de mpox nos Estados Unidos, com 906 casos adicionais relatados em novembro de 2023, representando um aumento de 26% em comparação com outubro. A maior parte desse aumento foi observada nos estados da Califórnia, Nova York e Texas. Cerca de metade (52%) dos casos com informações disponíveis nesta epidemia são relatados em pessoas vivendo com HIV. Em resposta, o Comitê Consultivo sobre Práticas de Imunização dos Centros de Controle e Prevenção de Doenças dos EUA (CDC) votou em 25 de outubro de 2023 para recomendar o uso da vacina para pessoas em risco de infecção por mpox. No entanto, apenas 23% da população em risco foram totalmente vacinadas até dezembro de 2023.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1313
+Texto de entrada: Fenômeno começará a se formar madrugada desta segunda-feira, 4, no oeste do Estado; Defesa Civil alerta para temporais, descargas elétricas, eventual queda de granizo e rajadas de vento. A passagem de um ciclone extratropical pelo Rio Grande do Sul trará frente fria à região Sul do país. Segundo o Instituto Nacional de Meteorologia (Inmet), o frio vindo do Uruguai vai provocar tempestades localizadas, com possibilidade de queda de granizo em áreas isoladas do Estado gaúcho, Santa Catarina, Paraná e sul do Mato Grosso do Sul.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1316
+Texto de entrada: A prisão, por estupro, do padrasto de uma menina de 11 anos em Duque de Caxias, na Baixada Fluminense, no último domingo (17), chamou a atenção para uma rotina de violência sexual contra crianças no estado do Rio. Apenas em 2021, 257 padrastos aparecem em registros de ocorrência como tendo estuprado enteadas ou enteados de 0 a 11 anos. Quando existe uma relação entre agressor e vítima, padrastos são os abusadores sexuais mais frequentes. Os dados são do Instituto de Segurança Pública (ISP), obtidos via Lei de Acesso à Informação. Analisando-se os anos de 2018 a 2021, foram 994 crianças vítimas de estupro por padrastos. Nesse período, o ano com mais ocorrências foi 2018: 271 abusos sexuais. As 257 ocorrências do ano passado representam um aumento de 3,2% em relação a 2020. A proporção entre meninas e meninos estuprados é de 11 para um: 911 garotas e 83 vítimas do sexo masculino.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1320
+Texto de entrada: A covid é uma síndrome respiratória assim como a gripe. Tosse, dor de garganta, coriza, congestão nasal e febre, por exemplo, são sintomas destas duas doenças e facilmente confundíveis. No entanto, “donas do próprio diagnóstico”, muitas pessoas acreditam estar somente com Influenza e sequer usam máscara ou então agendam o teste em uma unidade de saúde. “Nesta época de inverno, temos uma maior incidência das doenças respiratórias, como gripes, resfriados, crises de rinite, de asma brônquica, mas, especialmente as infecções gripes e resfriados, tem sintomas comuns: garganta arranhando, nariz escorrendo, dor de cabeça, sensação de mal estar, corpo dolorido e febre baixa. Entretanto, mesmo no fim da pandemia, temos casos da variante Ômicron”, afirmou a o pneumologista Ronaldo Queiroz.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1321
+Texto de entrada: A Prefeitura de Campo Grande, por meio do Comitê Municipal de Prevenção e Combate aos Incêndios Florestais e Urbanos (COMIF), coordenado conjuntamente pela Agência Municipal de Meio Ambiente e Planejamento Urbano (Planurb) e pela Coordenadoria Municipal de Proteção e Defesa Civil lançou na segunda-feira (20), a “Campanha Diga Não às Queimadas Urbanas – Agosto Alaranjado 2022”, no Plenarinho da Câmara Municipal de Campo Grande. Com o tema deste ano “Queimadas, apague essa ideia!”, a campanha, instituída em 2017, faz parte das ações realizadas pelo Executivo Municipal durante o Agosto Alaranjado, mês de prevenção e combate ao uso de fogo na vegetação em âmbito municipal.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1327
+Texto de entrada: A doença do verme da Guiné é geralmente contraída ao se beber água contendo pulgas d'água que carregam as larvas do parasita. Assim como a erradicação parecia iminente, descobriu-se que os cães domésticos também abrigam o parasita. A vigilância direcionada mostrou que em 2020, 93% dos vermes da Guiné detectados em todo o mundo estavam em cães no Chade, na África central.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1330
+Texto de entrada: A China somou mais 28 casos positivos de Covid-19, todos importados.A China enfrentou, nas últimas semanas, vários surtos, mas aparentemente estão agora sob controlo, após as autoridades imporem medidas de confinamento nas regiões afetadas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1342
+Texto de entrada: O governo federal estuda flexibilizar, em breve, a obrigatoriedade do uso de máscaras de proteção respiratória em ambientes de trabalho. A informação foi confirmada hoje (30) pelo ministro da Saúde, Marcelo Queiroga. “Estamos procurando harmonizar as medidas que já vêm sendo adotadas por estados e municípios”, disse Queiroga. O ministro participou da cerimônia de apresentação do novo plano de integridade da pasta, com ações que serão desenvolvidas ao longo deste e do próximo ano para combater a corrupção no âmbito do ministério.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1344
+Texto de entrada: Com a disseminação da varíola dos macacos em várias partes do mundo, Estados Unidos, Canadá e países da Europa começaram a implementar a vacinação contra a doença. No Brasil, o imunizante ainda não está disponível e seguindo as orientações da Organização Mundial da Saúde (OMS), não haverá vacinação em massa, apenas a de bloqueio para os contactantes, que são aquelas pessoas que tiveram contato com alguém infectado.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1353
+Texto de entrada: O Ministério da Saúde dobrou o investimento para custear os serviços das unidades de acolhimento a pessoas e familiares em situação de abandono, ameaça ou violação de direitos, após seis anos sem atualização. Com os novos valores, o custeio mensal para a assistência a adultos passa de R$ 25 mil para R$ 50 mil. O valor repassado para manutenção da unidade de acolhimento infanto-juvenil sobe de R$ 30 mil para R$ 60 mil. A recomposição orçamentária foi estabelecida por meio de portaria.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1355
+Texto de entrada: Diferentemente da quimioterapia e da terapia-alvo, que possuem ação  diretamente nas células tumorais, a imunoterapia estimula o próprio sistema imunológico do paciente a identificar e combater o câncer, e tem se tornado uma ferramenta importante para os oncologistas nos últimos oito anos, quando o seu uso foi autorizado no Brasil.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1358
+Texto de entrada: Testes feitos em 2022 pelo Sisagua (Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano), do Ministério da Saúde, identificou presença de 27 tipos de agrotóxicos na água tratada distribuída em seis cidades de Mato Grosso do Sul. Além de Dourados, maior cidade do interior com quase 250 mil habitantes, estão na lista Rio Brilhante, Deodápolis, Itaporã, Maracaju e Nova Alvorada do Sul. Quinze desses 27 agrotóxicos encontrados estão associados ao desenvolvimento de doenças crônicas como câncer, disfunções hormonais e reprodutivas. O resultado da pesquisa, feita em 210 cidades brasileiras, foi publicado pela ONG “Repórter Brasil”. Segundo a publicação, os 27 tipos de agrotóxicos foram encontrados na água que sai das torneiras dessas cidades pesquisadas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1365
+Texto de entrada: Angola está enfrentando um surto de conjuntivite hemorrágica, uma condição contagiosa de causa viral ou bacteriana que afeta a região dos olhos. O surto, que começou na província de Cabinda, já se espalhou para outras áreas, incluindo a capital, Luanda. As autoridades de saúde estão em alerta, e medidas estão sendo tomadas para conter a propagação da doença.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1373
+Texto de entrada: Uma doença hemorrágica está a afetar milhares de bovinos na região de Trás-os-Montes e só na zona do Planalto Mirandês há mais de 70 explorações infetadas com registo de, pelo menos, 150 mortes.Chama-se Hemorrágica Epizoótica a doença que está a afetar as explorações de bovinos no Planalto Mirandês. Os produtores estão alarmados com a quantidade de animais infetados.Os animais começam por apresentar dificuldades em andar, mas há outros sintomas da doença, desde emagrecimento, diminuição da produção de leite e lesões na mucosa oral e nasal. A doença viral é transmitida aos bovinos por um mosquito, provavelmente oriundo do sul do país ou de Espanha. Os prejuízos são incalculáveis para a economia da região.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1375
+Texto de entrada: Pessoas a partir dos 20 anos de idade podem tomar a partir desta sexta-feira, em Campo Grande, a segunda dose de reforço, desde que tenham tomado o primeiro reforço da vacina contra covid há pelo menos quatro meses.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1402
+Texto de entrada: A quarta dose da vacina contra a covid-19 para pessoas com alto grau de imunossupressão começa a ser aplicada neste domingo (26), em Campo Grande. As doses estarão disponíveis para pessoas com 18 anos ou mais que receberam a terceira aplicação até 26 de agosto. A primeira dose segue disponível para todos os moradores com 18 anos ou mais. A segunda, para quem tomou a primeira dose da Pfizer até 6 de dezembro, da Astrazeneca até 26 de outubro e da Coronavac até 5 de dezembro. O imunizante da Janssen já pode ser aplicado em quem recebeu a primeira vacina até 26 de julho.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1403
+Texto de entrada: A comercialização e o consumo de cigarros eletrônicos têm sido objeto de debate em todo o mundo. Globalmente, cerca de 80 países reconhecem os vapes como uma opção de menor potencial de dano à saúde em relação aos cigarros convencionais, incluindo Estados Unidos, Canadá, Suécia, Alemanha, Portugal e Nova Zelândia. Por outro lado, 32 nações vetaram o comércio do produto, segundo Organização Mundial de Saúde (OMS). No Brasil, o desafio da regulamentação dos cigarros eletrônicos está em plena discussão. A Agência Nacional de Vigilância Sanitária (Anvisa) mantém aberta uma consulta pública para discutir a possibilidade e os termos técnicos da eventual liberação desses produtos. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1410
+Texto de entrada: A coqueluche é caracterizada por uma infecção respiratória bacteriana que afeta principalmente bebês de até um ano. A principal medida de prevenção é a vacinação. Diante dos números de casos em relação ao aumento de coqueluche no Brasil, a Secretaria Municipal de Saúde do Rio de Janeiro está intensificando as ações de prevenção da doença no município do Rio. O último caso notificado na cidade havia sido em agosto de 2021 e, neste ano, já são 19 casos confirmados. A principal medida preventiva inclui a vacinação com a pentavalente, DTP e dTpa adulto, todas parte do Programa Nacional de Imunização.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1412
+Texto de entrada: O Departamento de Saúde Pública de Connecticut ( DPH ) anunciou hoje que quatro residentes de Connecticut testaram positivo para infecção pelo vírus Powassan (POWV). Esses quatro casos de doença associada ao POWV são os primeiros a serem identificados em Connecticut em 2023.Dois pacientes do sexo masculino com 60 anos ou mais, residentes no condado de Middlesex e no condado de Litchfield, adoeceram no início de julho. Duas pacientes do sexo feminino com 50 anos ou mais, residentes de Windham e Litchfield County, adoeceram no final de julho.Todos os pacientes relataram uma picada de carrapato conhecida e foram hospitalizados com uma doença do sistema nervoso central. Eles receberam alta e estão se recuperando.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1420
+Texto de entrada: Autoridades de saúde no distrito de Kaberamaido, no leste de Uganda, relatam seu primeiro caso de febre hemorrágica da Crimeia e Congo (CCHF). De acordo com o responsável distrital de saúde, Dr. James Daniel Odongo, o doente, residente na Aldeia de Abirabira, no sub-concelho de Aperkira, foi recentemente internado no Hospital Geral de Kaberamaido antes de ser encaminhado para o Hospital Regional de Soroti.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1436
+Texto de entrada: Na semana em que o primeiro foco de gripe aviária completa um mês no Rio Grande do Sul, o chefe da estação e servidor do Instituto Chico Mendes de Biodiversidade (ICMBio) Fernando Weber informou, que chega a 101 o número de aves encontradas mortas na Estação Ecológica do Taim. A reserva, que fica entre os municípios de Rio Grande e Santa Vitória do Palmar, no litoral Sul, segue fechada para visitação, por tempo indeterminado.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1445
+Texto de entrada: A psilocibina, alucinógeno ativo encontrado em cogumelos psicodélicos – também conhecidos como “cogumelos mágicos” –, pode efetivamente aliviar um grave ataque de depressão quando administrado em uma única dose e combinado com terapia, segundo estudo clínico revisado por pares e divulgado nesta semana. Adultos com depressão que receberam uma única dose de 25 miligramas de psilocibina tiveram maior probabilidade de experimentar melhorias significativas em sua saúde mental – tanto imediatamente quanto por até três meses – do que outros que receberam aleatoriamente doses menores da mesma droga, aponta o estudo publicado no New England Journal of Medicine.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1449
+Texto de entrada: Porto Alegre registrou aumento de 508% no número de casos de hepatite A entre janeiro e julho deste ano, em comparação ao mesmo período do ano de 2022. Em 2023, até o mês de julho, foram notificadas à vigilância epidemiológica 117 casos da doença. Em 2022, no mesmo período, foram 23 casos. A hepatite A pode ocorrer devido ao contato com água ou alimentos contaminados, exposição a baixos níveis de saneamento básico e de higiene pessoal e relação sexual desprotegida. No alerta, a SMS recomenda reforço na estratégia de vacinação contra hepatite A em crianças de 15 meses até 5 anos incompletos. A vacina está disponível na rede de Atenção Primária em Saúde pelo SUS. Também há recomendação para vacinação de populações específicas nos Centros de Referência de Imunobiológicos Especiais. Entre o público estão portadores de HIV, pessoas com hepatite B e C e outras hepatopatias, portadores de fibrose cística e transplantados.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1451
+Texto de entrada: As autoridades de saúde da África do Sul relataram dois casos adicionais de raiva humana em Agosto nos distritos de Zululand e eThekwini da província de KwaZulu-Natal, respectivamente, elevando o total para 2023 para oito casos confirmados de raiva humana.Os casos foram identificados nas províncias de KwaZulu-Natal (n=4), Cabo Oriental (n=3) e Limpopo (n=1).Devido à falta de conscientização pública sobre a doença, às baixas taxas de vacinação de cães e, às vezes, à PEP inadequada dada às vítimas de mordidas, as mortes por raiva continuam a ocorrer na África do Sul. Apesar de, uma vez manifestados os sintomas, a raiva ser invariavelmente fatal, é completamente evitável após contacto com animais raivosos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1457
+Texto de entrada: No primeiro dia de ação contra o mosquito Aedes aegypti, agentes da USF (Unidade de Saúde da Família) Jardim Seminário inspecionaram cerca de 500 imóveis nos bairros Jardim Paradiso, Jardim Seminário e Nova Lima. Mais de 50 focos foram encontrados e eliminados. Os trabalhos, que contaram com apoio de acadêmicos de medicina e das lideranças comunitárias da região Segredo, devem continuar amanhã (13), e depois retornaram no dia 18 de abril.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1459
+Texto de entrada: Aderindo a uma estratégia de prevenção ao vírus da gripe (influenza) proposta pela Secretaria Estadual de Saúde (SES), 76 municípios gaúchos aplicaram 21.391 doses de vacina em 655 abrigos no Rio Grande do Sul, o que corresponde a 81% dos abrigos. A ação aconteceu entre os dias 16 e 20 de maio.  O número de doses aplicadas corresponde a 31,2% do total de 68.345 pessoas que estão nos abrigos, segundo dados da Secretaria Estadual de Desenvolvimento Social (atualizado em 22 de maio), mas parte dos municípios já havia adotado a estratégia de vacinação nos abrigos antes da orientação estadual e outros seguirão vacinando.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1466
+Texto de entrada: Um total de 670 pessoas, incluindo 494 crianças com menos de 5 anos, morreram de malária na província de Kasai em 2022. Estes números foram revelados pelo médico coordenador provincial do Programa Nacional de Controlo da Malária (PNLP), Chuck Kamasa, durante a celebração do Dia Mundial da Malária em Tshikapa , no sábado, 29 de abril de 2023:
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1468
+Texto de entrada: O Ministério da Saúde distribui a 12 estados as primeiras doses da vacina atualizada contra a covid-19. Mato Grosso do Sul não foi contemplado nesta distribuição, mas deverá receber os imunizantes nas próximas semanas, segundo a Pasta.Esses lotes distribuídos são parte de um total de 12,5 milhões de doses adquiridas pela pasta e que desembarcaram no Aeroporto de Guarulhos, em São Paulo, no dia 2. A distribuição começou na quinta-feira (9) e teve continuidade nesta sexta (10).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1469
+Texto de entrada: Nunca a gente sentiu tanto na pele os efeitos do tal aquecimento global. Dentro da redação, o ar-condicionado ajuda, mas na hora de correr as ruas atrás de reportagens, jornalista sofre. Se bem que, neste ano, ninguém se salvou do calorão. O corpo ferveu e as cidades também, de Campo Grande ao Pantanal, o fogo foi generalizado, no sentido literal.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1478
+Texto de entrada: Os trabalhadores agrícolas foram expostos ao leite infectado com o vírus da gripe aviária. Mas praticamente não houve testes. Mesmo já estando claro que o surto de gripe aviária que atinge os laticínios dos EUA começou meses antes e se disseminou muito mais do que se imaginava a princípio, as autoridades federais continuam enfatizando que o vírus representa uma ameaça mínima ao ser humano.Entretanto, há um grupo exposto a altos riscos de contaminação: o das aproximadamente cem mil pessoas que trabalham nessas propriedades. Não há campanha de efetuação de exames para saber quantas estão infectadas e ninguém foi vacinado, o que deixa esses funcionários e seus familiares totalmente vulneráveis a um patógeno praticamente não monitorado, além de representar riscos maiores para a saúde pública.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1485
+Texto de entrada: A dor lombar é a principal causa de incapacidade em todo o mundo, atingindo em 2020 cerca de uma em cada 13 pessoas, num total de 619 milhões de pessoas, mais 60% do que em 1990, estimando a OMS que suba para 843 milhões até 2050, com maior crescimento em África e na Ásia, onde as populações estão a aumentar e as pessoas vivem mais tempo.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1503
+Texto de entrada: ma menina de 11 anos morreu depois de contrair gripe aviária, informaram as autoridades de saúde do Camboja, no primeiro óbito no país desde 2014 provocado por esta doença, raramente transmitida a humanos. A jovem, da província de Prey Vent (sudeste), foi internada em 16 de fevereiro com febre, tosse e garganta seca, de acordo com a agência governamental de vigilância sanitária (CDCD).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1505
+Texto de entrada: A operadora brasileira GOL Linhas Aéreas acaba de anunciar quando retomará os voos diretos entre o Brasil e os Estados Unidos. Depois de mais de um ano e meio sem voar internacionalmente, a GOL finalmente está trazendo de volta suas operações transfronteiriças.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1507
+Texto de entrada: Somente na primeira etapa da campanha contra Influenza, a Prefeitura Municipal de Campo Grande estima que mais de 100 mil pessoas, entre idosos e trabalhadores da saúde, devem tomar o imunizante que previne três vírus da gripe, contudo, somente cerca de 14,5 mil doses foram aplicadas até o momento. Iniciada no último dia 04, a campanha de vacinação foi dividida em duas etapas, sendo a primeira, com duração até o dia 02 de maio destinada exclusivamente para os dois maiores públicos alvos, onde somam mais de 158 mil pessoas a serem imunizadas, e a segunda entre os dias 03 de maio e 03 de junho.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1514
+Texto de entrada: Para compartilhar esse conteúdo, por favor utilize o link https://imirante.com/brasil/noticias/2021/10/07/boletim-da-fiocruz-mostra-sucesso-da-vacinacao-contra-a-covid-19.shtml ou as ferramentas oferecidas na página. Textos, fotos, artes e vídeos do Imirante.com estão protegidos pela legislação brasileira sobre direito autoral. Não reproduza o conteúdo do portal em qualquer meio de comunicação, eletrônico ou impresso, sem autorização do Imirante (imirante@mirante.com.br). As normas têm como objetivo proteger o investimento que o Grupo Mirante faz na qualidade de seu jornalismo.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1528
+Texto de entrada: Insetos triatomíneos, popularmente chamados de barbeiros, são os transmissores de Trypanosoma cruzi, agente etiológico da doença de Chagas. Por isso, ao encontrar um inseto suspeito que se pareça com um barbeiro é preciso ter cuidado. Para ajudar a população a reconhecer e lidar corretamente com esses vetores, o Portal da Doença de Chagas, da Vice-Presidência de Pesquisa e Coleções Biológicas (VPPCB/Fiocruz), lançou a seção Achou um barbeiro?. A página reúne três ferramentas para auxiliar a população a identificar os vetores e localizar o Posto de Informação em Triatomíneos (PIT) mais próximo, onde é possível entregar insetos suspeitos para correta identificação.  
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1536
+Texto de entrada: O aplicativo MedSUS, de informações sobre todos os medicamentos disponíveis na assistência farmacêutica do Sistema Único de Saúde (SUS), já pode ser baixado pela população via plataformas de distribuição digital para IOS ou Android. Lançado originalmente em 2014, o app estava sem atualizações há quatro anos e era voltado apenas a estudantes, pesquisadores e profissionais da saúde. Além de estar disponível aos cidadãos, o MedSUS também vai auxiliar a redução da judicialização de medicamentos. Ao integrar diversos públicos, o Ministério da Saúde visa criar um ambiente colaborativo e transparente, promovendo a eficiência no gerenciamento da saúde pública. Uma das principais funcionalidades do aplicativo é fornecer informações detalhadas sobre os medicamentos disponíveis, alinhados, quando necessário, aos Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) e à Classificação Estatística Internacional de Doenças e Problemas Relacionados com a Saúde (CID). Na prática, tanto os cidadãos, quanto os profissionais de saúde podem acessar informações atualizadas sobre quais medicamentos são recomendados para determinadas condições médicas, contribuindo para uma tomada de decisão mais embasada.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1538
+Texto de entrada: O Ministério da Saúde do Brasil lançou este mês o Plano Nacional para Acabar com a Tuberculose como Problema de Saúde Pública - Estratégias 2021-2025 . O documento visa informar as coordenações estaduais e municipais de tuberculose e a sociedade civil sobre as metas, indicadores e execução do plano.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1546
+Texto de entrada: A droga que mais mata nos Estados Unidos foi apreendida com traficantes pela primeira vez no Brasil: o fentanil, um anestésico 50 vezes mais viciante que a heroína e 100 vezes mais forte do que a morfina.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1552
+Texto de entrada: Alguns produtos químicos presentes em cigarros eletrônicos e vapes podem aumentar a vulnerabilidade dos vapers à infecção por Covid, disse um novo estudo que destaca os riscos potenciais associados à vaporização.Componentes como propilenoglicol e glicerina vegetal, comumente encontrados em e-líquidos, podem aumentar a suscetibilidade à COVID-19, afirmou o estudo publicado no American Journal of Physiology.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1555
+Texto de entrada: A SES (Secretaria de Estado de Saúde) divulgou nesta quarta-feira (15) que Mato Grosso do Sul registra 1.238 casos ativos de dengue durante a última semana. Com duas mortes confirmadas, o boletim epidemiológico aponta que Mato Grosso do Sul continua na décima posição no levantamento de estados com maior incidência da doença em todo o País. O documento afirma que 23 municípios estão em alerta crítico da doença provocada pelo aedes aegypti, sendo eles Batayporã, Bodoquena, Bonito, Jaraguari, Caracol, Ladário, Guia Lopes da Laguna, Figueirão, Maracaju, Miranda, Corumbá, Itaporã, Água Clara, Cassilândia, Sidrolândia, Brasilândia, Antônio João, Três Lagoas, Jardim, Bela Vista, Rio Verde de Mato Grosso, Rio Negro e Ivinhema.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1561
+Texto de entrada: O protagonismo da atenção primária tem o potencial de ampliar a resolutividade e impactar na situação de saúde das pessoas e coletividades. Para fortalecer essa porta de entrada, tanto no SUS brasileiro quanto nos serviços de outros países, a Organização Pan-americana de Saúde (Opas/OMS) convidou o Ministério da Saúde para participar de uma série de reuniões na sede do órgão, em Washington, nos Estados Unidos, nesta semana. "Esse momento é crucial para fortalecer parcerias, trocar experiências, incorporar tecnologias e, assim, melhorar a caminhada do paciente no Sistema Único de Saúde (SUS)", destacou o secretário de Atenção Primária do Ministério da Saúde, Nésio Fernandes. "O mandato de Jarbas Barbosa na Opas está começando, o que nos permite desenvolver um planejamento internacional de médio e longo prazo e tomar decisões estruturantes", defendeu. Entre os temas debatidos no encontro, estão o financiamento da atenção primária à saúde; o provimento médico federal (com foco no Mais Médicos); mortalidade materna; saúde sexual e reprodutiva; Brasil Sorridente; equipe Multiprofissional (eMulti); promoção da saúde e determinantes sociais; controle e eliminação de enfermidades transmissíveis; sistemas de informação e registro eletrônico em saúde; e articulação internacional.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1562
+Texto de entrada: A falta do remédio para asma e bronquite, usado em forma de "bombinha", também atinge as farmácias e centros de saúde de Campinas (SP). O medicamento é necessário para tratar a doença, que provoca falta de ar e tosse. Em alguns locais, o desabastecimento se estende por meses. O problema provoca transtornos e prejudica o tratamento da população. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1568
+Texto de entrada: O vírus foi encontrado em uma amostra ambiental coletada no local de Naray Khuwar em Peshawar em 10 de abril e em outra coletada no local do Hospital Civil-Jani Chowk em Hangu em 10 de abril. os vírus detectados estão geneticamente ligados ao poliovírus que foi encontrado no ambiente em Nangarhar, Afeganistão, em janeiro deste ano. O Ministro Federal da Saúde, Abdul Qadir Patel, disse que o Paquistão e o Afeganistão estão travando a batalha contra a poliomielite e continuarão a trabalhar juntos para erradicá-la.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1580
+Texto de entrada: O Departamento de Agricultura dos Estados Unidos (USDA) confirmou a presença de influenza aviária de alta patogenicidade (IAAP) em rebanho leiteiro no Novo México, Estados Unidos. Diante das amostras positivas para H5N1, foram conduzidas coletas em vários animais no Texas e no Kansas. A vigilância evidenciou sinais da doença em aves selvagens, gatos e vacas leiteiras. A Comissão de Saúde Animal do Texas informou que recebeu confirmação laboratorial de IAAP para três gatos de fazenda. Comentário: O Departamento de Serviços de Saúde do Estado do Texas (DSHS), juntamente com parceiros locais, regionais, estaduais e federais, estão investigando os casos suspeitos de H5N1 em humanos e animais continuamente.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1591
+Texto de entrada: Queda nos índices de cobertura vacinal é apontada como uma das principais causas para o ressurgimento da doença.A recente escalada nos casos de coqueluche no Brasil, atingindo 139 confirmações no estado de São Paulo até 17 de junho, acende o alerta entre autoridades de saúde. Essa é a segunda maior taxa de incidência da doença registrada desde o ano 2000, entre crianças de 10 a 14 anos, superada apenas pelo pico em 2014. A queda nos índices de cobertura vacinal é apontada como uma das principais causas para o ressurgimento da doença, o que reforça a importância da vacinação para o controle e eliminação de surtos de doenças infecciosas, como a coqueluche.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1597
+Texto de entrada: A Covid-19 varreu os Estados Unidos, as escolas estavam entre os espaços públicos mais afetados. Para se preparar para um potencial salto da gripe aviária H5N1 para humanos, as escolas precisam se preparar para o cenário agora, antes que um evento de transmissão sustentado ocorra.  A resposta à Covid-19, que apareceu pela primeira vez nos EUA no início de 2020, foi examinada por vários estudos de caso, relatórios pós-ação e audiências de apuração de fatos do Congresso .
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1600
+Texto de entrada: Secretário de Saúde de Brasiléia informou que, após veiculação de notícias, equipes buscaram informações e confirmaram o registro de um caso da doença em Cobija, que faz fronteira com o Brasil através do Acre. Ainda não há casos suspeitos ou confirmados nas cidades acreanas. A coqueluche é uma doença infecciosa, altamente transmissível, que atinge as vias respiratórias e causa crises de tosse e também falta de ar. A doença é mais grave em recém-nascidos e crianças pequenas.“Enfatiza-se que a vacina está disponível de forma gratuita em todas as unidades do município”
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1610
+Texto de entrada: A Secretaria Estadual da Saúde (SES) confirmou, nessa quinta-feira (9), a 54ª morte por dengue no Rio Grande do Sul em 2022. A vítima mais recente morava em Lajeado, no Vale do Taquari – cidade que soma quatro óbitos decorrentes da doença no período de janeiro a junho e é a líder em casos confirmados em território gaúcho, com 3.807. O painel de monitoramento da SES mostra que, ao todo, 38,4 mil moradores do Rio Grande do Sul contraíram a dengue neste ano. O número é 262% maior do que o do mesmo período de 2021. Ao menos 58 pacientes estão internados em razão da doença – sendo que, destes, sete permanecem em tratamento intensivo.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1616
+Texto de entrada: Número de mortes de pedestres envolvidos em acidentes de trânsito em Campo Grande praticamente dobrou neste ano, em comparação com 2021. Conforme dados do BPTran (Batalhão de Polícia de Trânsito), foram 13 vítimas até início de outubro de 2022, contra sete que ocorreram em todo ano passado.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1619
+Texto de entrada: De janeiro a outubro de 2023, em todo o Estado de São Paulo, foram notificados 31 surtos de escarlatina, sem nenhum óbito - sendo um em fevereiro, um em junho, um em julho, nove em agosto, seis em setembro, dez em outubro e três em novembro -, conforme dados da Secretaria da Saúde do Estado de São Paulo divulgados nesta semana.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1626
+Texto de entrada: Dez anos após o maior surto no Brasil, quando foram contabilizados 8.614 casos e 127 mortes, a coqueluche volta aos holofotes, desta vez por estar se alastrando na Ásia e na Europa. Mesmo com a alta ainda longe das fronteiras, médicos, hospitais e o Ministério da Saúde estão em alerta para evitar que a doença, que causa crises de tosse seca e é perigosa para bebês, volte a causar infecções.  Neste mês, o ministério ampliou a imunização com a vacina dTpa — que protege contra difteria, tétano e coqueluche — para os profissionais de saúde que trabalham em atendimentos em ginecologia, obstetrícia e pediatria. Doulas e funcionários de berçários e creches que atendem crianças de até 4 anos também podem receber a dose.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1629
+Texto de entrada: O governo de Saõ Paulo pretende pedir ao governo federal a liberação do uso de um fungo específico em parques e áreas públicas do estado para a eliminação do carrapato-estrela, responsável pela transmissão da febre maculosa.Segundo a Secretaria de Agricultura, o Instituto Biológico está desenvolvendo um estudo sobre a eficácia do produto biológico para combater este tipo de carrapato. O aracnídeo é encontrado em campos e gramados e pode parasitar animais domésticos, como cavalos, ou até mesmo espécies silvestres, como as capivaras.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1630
+Texto de entrada: Nos últimos dias, a morte de 5 pessoas por febre maculosa em Campinas, interior de São Paulo, ganhou repercussão e deixou o estado em alerta, gerando muitas dúvidas sobre a doença, transmitida principalmente pelo carrapato-estrela, que pode ser encontrado em capivaras, animais de grande porte, gambás, coelhos, entre outros. No entanto, o que pouca gente sabe é que a doença pode atingir os animais de estimação e, ainda, não só pelo carrapato-estrela, mas também pelo carrapato marrom, espécie comum encontrada nos pets. O médico-veterinário Márcio Barboza, gerente técnico pet da MSD Saúde Animal, explica sobre a doença e sinaliza que os tutores reforcem a prevenção nos cães.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1645
+Texto de entrada: Após nota técnica que libera a 3º dose para adolescentes de 12 a 17 anos divulgada na noite de ontem (28), a SES (Secretaria de Estado de Saúde de Mato Grosso do Sul) informou que as aplicações da dose de reforço nos adolescentes devem começar de forma imediata para quem tomou a segunda dose com os imunizantes da Pfizer ou Coronavac.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1648
+Texto de entrada: A Agência Nacional de Vigilância Sanitária (Anvisa) proibiu a comercialização, a distribuição e o uso de um lote de atum ralado fabricado pela marca Cellier, após relatos de intoxicação alimentar. A Anvisa também determinou o recolhimento do produto nos mercados.a Anvisa informou ter recebido relato do Centro de Vigilância Sanitária de São Paulo (CVS-SP) sobre a ocorrência de surto com sintomas compatíveis com intoxicação alimentar por histamina, nos Centros de Educação Infantil (CEIs) de Campinas. Isso teria ocorrido no final de julho. A contaminação do produto com histamina acima dos limites tolerados pela legislação sanitária foi confirmada por exame laboratorial, segundo a Anvisa.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1663
+Texto de entrada: Em pesquisa de doutorado na USP, pesquisadora analisou medidas adotadas em escolas do país para educar sobre os riscos associados à emergência climática.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1665
+Texto de entrada: Ignorando a orientação do Ministério da Saúde de não vacinar adolescentes sem comorbidades contra a COVID-19, 21 capitais e o Distrito Federal decidiram dar continuidade à imunização do grupo. O uso da vacina da Pfizer para pessoas com 12 anos de idade ou mais foi autorizado em junho deste ano pela Agência Nacional de Vigilância Sanitária (Anvisa).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1669
+Texto de entrada: Os casos de violência doméstica contra homens têm números irrisórios se comparados aos crimes cometidos contra a mulher, e não chegam a 10% dos registros. Porém, o crime no contexto familiar também faz homens vítimas. Em três anos, pouco mais de 5 mil homens, entre idosos, adultos, jovens, adolescentes e crianças, foram vítimas de violência doméstica em Mato Grosso do Sul. O número pode ser maior, já que muitas vezes a vergonha faz com que o crime seja omitido. Contra o homem, o crime tem muitas características semelhantes ao praticado contra a mulher, causas, motivações, porém os registros não. Em sua maioria, os registros são feitos contra outros homens, sendo eles pais, irmãos, outras pessoas do ambiente familiar, isso porque o crime quando é praticado pela figura feminina é omitido.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1684
+Texto de entrada: “Metade da população de Campo Grande já está protegida pelo Wolbito”, comemora Luciano Moreira, que é líder do Método Wolbachia no Brasil e esteve hoje (15) em Campo Grande, para acompanhar o início da liberação dos mosquitos nos bairros que fazem parte da Fase 4 da implementação do projeto na Capital. O objetivo é reduzir o número de casos de arboviroses transmitidas pelo Aedes aegypti, como Dengue, Zika e Chykungunia. O método é uma parceria entre a Prefeitura Municipal de Campo Grande, Fundação Osvaldo Cruz (Fiocruz), World Mosquito Program Brasil (WMP Brasil) e o governo estadual, que realiza soltura de mosquitos com a bactéria Wolbachia – que está presente em 60% dos insetos na natureza – evitando, assim, o desenvolvimento de vírus nocivos ao ser humano e que são transmitidos pelo Aedes.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1687
+Texto de entrada: Um vírus com uma taxa de mortalidade de até 40% que se acredita estar se espalhando na Europa é quase certo de chegar ao Reino Unido, alertou um especialista. A febre hemorrágica da Crimeia-Congo (CCHF) é uma doença causada por um vírus transmitido por carrapatos, classificada como uma das nove “doenças prioritárias” consideradas pela Organização Mundial da Saúde (OMS) como “o maior risco à saúde pública devido ao seu potencial epidêmico”.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1690
+Texto de entrada: Segundo a OMS (Organização Mundial de Saúde), Brasil, Sudão, Quênia e Índia são os países com maior concentração de leishmaniose visceral no mundo, somando mais da metade dos casos. A doença, que é transmitida por meio da picada do mosquito palha (flebotomíneo), atinge principalmente cães. Os animais infectados não transmitem para outros pets ou para humanos, mas a falta de tratamento para a doença pode levá-los à morte. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1692
+Texto de entrada: Informações divulgadas nesta segunda-feira, 25, pelo governo de São Paulo revelam que 100% dos adultos do Estado já foram vacinados pelo menos com a primeira dose contra a covid-19. De acordo com a gestão paulista, são mais de 35 milhões de pessoas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1698
+Texto de entrada: Brasileiro de 26 anos é o primeiro caso de varíola dos macacos registrado na Alemanha. O rapaz viajou também para Portugal e Espanha antes de chegar a Alemanha. Ele estava há uma semana em Munique, cidade ao sul do país. A informação foi divulgada pelo Instituto de Microbiologia de Bundeswehr, ligado às forças armadas alemãs. Nesta sexta-feira, a Organização Mundial da Saúde confirmou 80 casos da doença. Outros 50 estão ainda em investigação em 11 países, onde a doença é considerada atípica, pois estão surgindo em locais que não há endemia, como Reino Unido, Itália, Espanha e Portugal.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1700
+Texto de entrada: Um incêndio gigantesco se desenvolveu na comuna de Macul, na região Metropolitana, onde três fábricas foram consumidas pelas chamas. Uma pessoa morreu. O corpo foi encontrado dentro de um dos armazéns afetados pelo incêndio. Além disso, foi relatado que havia 3 pessoas feridas. O delegado presidencial da região Metropolitana, Emardo Hantelmann, confirmou que o pessoal de emergência encontrou um corpo dentro de uma das empresas consumidas pelas chamas, sem dar mais detalhes sobre a identidade da vítima.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1711
+Texto de entrada: Campo Grande continua a aplicação da 3ª dose da vacina contra o coronavírus nos idosos a partir de 70 anos nesta quinta-feira (9). Para receber a dose de reforço, os idosos devem ter completado o esquema vacinal, ou seja, terem tomado as duas doses da vacina, até o dia 4 de abril. Além disso, a aplicação da 3ª dose foi ampliada para os imunossuprimidos de 18 anos ou mais.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1726
+Texto de entrada: A demanda de testes em Campo Grande de pacientes com sintomas ou suspeitas de gripe ou covid-19 tem sido grande nos últimos dias. Na terça-feira, foram 543 exames feitos no centro de testagem no Centro, dos quais 174 deram positivo, cerca de 32%. Na manhã de hoje, o movimento pode ser até maior. Por volta das 7h, centenas de pessoas estavam na unidade em prédio da UCDB (Universidade Católica Dom Bosco), na Rua Barão do Rio Branco, que realiza teste de antígeno, de boa taxa de acerto e que ficam prontos em cerca de 20 minutos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1732
+Texto de entrada: Por unanimidade. 100% das amostras de Mato Grosso do Sul enviadas para análise apontam a incidência da Ômicron. Conforme a secretaria estadual de Saúde (SES), os números demostram a predominância da nova variante no estado. As análises foram feitas por equipes da Fundação Oswaldo Cruz (FIOCRUZ). As amostras enviadas foram coletada apenas entre os dias 4 e 8 de fevereiro de 2022.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1733
+Texto de entrada: Estatística da Secretária de Estado de Justiça e Segurança Pública (SEJUSP) registra no mês de janeiro 225 casos de violência contra a criança e o adolescente no Estado. Levantamento de ocorrências registradas em Mato Grosso do Sul mostra que deste quantitativo no primeiro mês do ano, 115 casos foram enquadrados em lesão corporal dolosa e lesão corporal dolosa por violência domestica. Os outros 110 registros são violências sexuais (estupro) onde segundo a estatística SEJUSP, 66 vítimas são crianças de 0 a 11 anos, e 44 são adolescentes de 12 a 17 anos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1746
+Texto de entrada: A reclassificação da covid — de pandemia para endemia — pode fazer Mato Grosso do Sul acabar com algumas restrições sanitárias na próxima semana. Com o fim da estratégia estadual, que encerrou os drives, barreiras sanitárias e o avanço da vacinação, o próximo passo é discutir a eliminação das máscaras, não só em locais abertos com a medida já existente, mas, também em alguns locais fechados.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1747
+Texto de entrada: Poucos locais e setores de Mato Grosso do Sul mantêm o uso da máscara obrigatório atualmente, levando em consideração a redução de casos e o cronograma vacinal contra a Covid-19. Entretanto, o assunto ganha repercussão constantemente pela infecção de outras doenças.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1781
+Texto de entrada: Quase três mil lixões ainda estão em funcionamento por todo o Brasil. As regiões Norte e Nordeste são as que possuem a maior quantidade. Vale ressaltar que o Plano Nacional de Resíduos Sólidos estabeleceu o compromisso de extinção dos lixões, no país, até 2024.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1782
+Texto de entrada: O Secretário de Saúde do município de Rondonópolis (219km de Cuiabá), Vinícius Amoroso, confirmou que houve um aumento exponencial dos casos de gripe na cidade nos últimos dias, mas tranquilizou a população afirmando que a situação está sob controle. Nesta segunda-feira (27), a equipe da Secretaria se reuniu para definir as estratégias de enfrentamento à onda de gripe.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1784
+Texto de entrada: A iniciativa visa facilitar o diagnóstico de infecções oportunistas em pessoas com HIV/Aids, reduzindo a morbimortalidade dos pacientes.Visando facilitar o diagnóstico de infecções oportunistas em pessoas com HIV/Aids, reduzindo a morbimortalidade dos pacientes, o Centro de Doenças Infecto-Parasitárias (CDIP), Programa Municipal DST/Aids e Hepatites Virais da Secretaria Municipal de Saúde, foi uma das unidades contempladas no país para integrar o Circuito Rápido da Aids Avançada. O projeto, lançado este ano pelo Ministério da Saúde, já começou a ser desenvolvido pelos profissionais do CDIP.Segundo a coordenadora de Enfermagem do CDIP, Ingrid Timbó Dias Martins Bezerra, trata-se de um projeto que busca reduzir o tempo entre o diagnóstico, início das profilaxias e tratamentos das possíveis infecções oportunistas, a partir da realização de testes rápidos para detecção de tuberculose, meningite criptocócica e histoplasmose.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1793
+Texto de entrada: Uma das aves marinhas da espécie Thalasseus acuflavidus, conhecida Trinta-réis-bando, contaminadas com o vírus a influenza aviária, o H5N1, foi encontrada caída no chão de um parque municipal de Vitória. O local foi fechado e está com visitas suspensas .De acordo com a Secretaria Municipal de Meio Ambiente de Vitória (Semmam), a ave estava no Refúgio da Vida Silvestre da Mata Paludosa (antigo Parque da Fazendinha), no bairro Jardim Camburi. Uma equipe do Instituto de Defesa Agropecuária e Florestal do Espírito Santo (Idaf) realiza a análise e vistoria dos animais do local..
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1796
+Texto de entrada: O Ministério da Saúde (MS) reconheceu, nesse domingo (1º), o surto de meningite em Alagoas. O órgão alerta acerca da situação epidemiológica da doença meningocócica e traz recomendações quanto a medidas preventivas. Até 15 de setembro deste ano, foram confirmados 26 casos, sendo a faixa etária mais acometida a de crianças menores de 1 ano de idade. Por meio de uma nota técnica, o órgão pontua que os surtos estão entre as situações mais desafiadoras para a saúde pública, com grande repercussão social, já que a doença possui elevada letalidade, bem como dificuldade de estabelecer as cadeias de transmissão.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1802
+Texto de entrada: No Brasil, o abuso e exploração sexual contra crianças e adolescentes é uma realidade alarmante, que na maioria das vezes ocorre dentro de casa. A violência doméstica afeta ainda mais essas vítimas, tornando a denúncia e o processo judicial mais desafiadores devido às relações complexas no ambiente familiar. Diante disso, o Ministério Público do Tocantins destaca a necessidade de uma abordagem integrada e multidisciplinar para combater esse tipo de crime, envolvendo a responsabilização do agressor, o cuidado com a vítima, a descentralização de serviços e a conscientização da sociedade.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1806
+Texto de entrada: Nos últimos 15 dias, Sergipe registrou uma nova subvariante da Ômicron e um aumento de 900% na taxa de positividade em amostras da Covid-19, de acordo com o Laboratório Central de Saúde Pública do estado (Lacen). Segundo a avaliação do superintendente do órgão, Cliomar Alves, apesar do número de casos continuar baixo, o crescimento da taxa é representativo. "Das amostras analisadas nos últimos três meses, uma média de cinco eram positivas. Nas últimas duas semanas, o aumento foi de cerca 900% na taxa de positividade. O que eram cinco positivos, agora são cerca de 50. O aumento é representativo porque está levando as pessoas para as unidades de saúde. 
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1809
+Texto de entrada: As pessoas que foram infectadas com o coronavírus e tiveram acesso a doses de vacinas COVID-19 têm 'imunidade híbrida'.Já existem 4 estudos científicos mostrando que essas vacinas conferem proteção adicional importante para essas pessoas. As vacinas já demonstraram ser muito eficazes na proteção de pessoas que nunca tiveram COVID-19, mas sua eficácia na prevenção de sintomas graves e desfechos em pessoas que já foram infectadas era, até recentemente, menos clara. Após dois anos de pandemia em que cerca de 500 milhões de pessoas foram infectadas e 59% da humanidade foi vacinada com o esquema primário - segundo informações do OurWorldInData -, estudos destacaram a importância de se vacinar para quem tem imunidade natural após se recuperando da doença.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1817
+Texto de entrada: Nanopartículas carregadas de antibióticos e outros compostos antimicrobianos lançam múltiplos ataques no organismo infectado pela bactéria causadora da maioria dos casos de tuberculose. A tecnologia de baixo custo desenvolvida por pesquisadores da Universidade Estadual Paulista (Unesp) foi descrita na revista científica Carbohydrate Polymers. Resultados de testes in vitro sugerem que esta pode ser uma estratégia de tratamento capaz de driblar a resistência bacteriana. País com o maior número de casos de tuberculose notificados nas Américas, o Brasil registrou cerca de 78 mil infectados em 2022, de acordo com o Ministério da Saúde, quase 5% a mais que no ano anterior. Além do aumento da incidência, a doença transmitida pela inalação do bacilo Mycobacterium tuberculosis, que atinge os alvéolos pulmonares e provoca inflamação nos tecidos, preocupa pelo surgimento de cepas multirresistentes aos medicamentos disponíveis. Entre as novas estratégias apontadas como promissoras por cientistas de todo o mundo está o uso de nanotecnologia.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1818
+Texto de entrada: Os brasileiros de 15 a 29 anos estão mais sujeitos à violência física, psicológica e sexual. Mais de um quarto dos jovens (27%) afirmou ter sido vítima algum tipo de agressão no intervalo de 12 meses que antecederam a Pesquisa Nacional de Saúde (PNS/IBGE) de 2019.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1819
+Texto de entrada: Cerca de uma a cada quatro pessoas aptas a tomar a quarta dose de vacina contra a covid-19, estão com a imunização em dia. De acordo com dados da SES (Secretaria Estadual de Saúde), consultados nesta segunda-feira (16) são 181.302 segundos reforços aplicados em território estadual, até o momento, 24,99% do esperado. Por outro lado, a estimativa populacional utilizada pela própria pasta é de que haja, no Estado, 725.379 habitantes dos grupos que podem se vacinar nesta etapa, divididos em quem é gestante ou puérpera (2,1 mil), profissionais de saúde (85,8 mil), pessoas acima de 60 anos (282,8 mil) e pessoas de 50 a 59 anos (354,5 mil).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1835
+Texto de entrada: O aumento da circulação de vírus respiratórios no país levou o Ministério da Saúde a antecipar a campanha de vacinação contra a gripe. A imunização geralmente tem início em maio, já que o outono-inverno é a época de maior infecção. Entretanto, a pasta decidiu adiantar a vacinação para o dia 25 de março. Dados do boletim InfoGripe da Fiocruz e de um levantamente realizado pelo GLOBO, apontam para aumento de casos de internações por infecções causadas por vírus respiratórios, incluindo o Sars-CoV-2, o influenza e o vírus sincicial respiratório (VSR).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1837
+Texto de entrada: Bebê, do sexo masculino, não identificado, faleceu de Covid-19 em Pedro Gomes, município localizado a 306 quilômetros de Campo Grande.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1838
+Texto de entrada: AAnvisa aprovou nesta quinta-feira (17/2) o primeiro autoteste para Covid-19 do Brasil. O produto registrado pela Agência é o Novel Coronavírus (Covid-19) Autoteste Antígeno, da empresa CPMH Comércio e Indústria de Produtos Médico-Hospitalares e Odontológicos Ltda. O produto Novel Coronavírus (Covid-19) Autoteste Antígeno foi aprovado para uso com amostra de swab nasal não profunda, com resultado após 15 minutos. Para conceder o registro, a Anvisa analisa uma série de requisitos técnicos, entre os quais estão a usabilidade e o gerenciamento de risco, que servem para adequar o produto ao uso por pessoas leigas, garantindo maior segurança. Confira as orientações de uso aprovadas para o produto.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1839
+Texto de entrada: Segundo o Ministério da Agricultura e Pecuária, chegou a 90 o número de casos de Gripe Aviária do subtipo H5N1 no Brasil, situação que põe produtores em alerta e intensifica a busca por qualidade em processos como o tratamento da água ingerida pelos animais ou utilizada após o abate.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1843
+Texto de entrada: O Rio de Janeiro confirmou a primeira morte por dengue no estado de 2023. A vítima tinha 84 anos e deu entrada no Hospital dos Plantadores, no Campos dos Goytacazes, dia 18 de janeiro. O óbito ocorreu no dia 21, sendo reportado esta semana após investigação realizada pelas equipes técnicas das secretarias de estado de Saúde do RJ. De acordo com informações da Agência Brasil, após análise realizada pelas secretárias responsáveis, foram definidas medidas pontuais de contenção, já que foi constatado um aumento de casos de dengue na cidade nas primeiras semanas de janeiro em relação ao mesmo período de 2022.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1853
+Texto de entrada: Com o registro de temperaturas baixas em distintos pontos do Paraná, a Sesa (Secretaria de Estado da Saúde) alerta sobre os principais cuidados a serem tomados durante o inverno, ciclo que se inicia nesta quarta-feira (21). Com o frio, a disseminação de vírus causadores de doenças como resfriado, gripe, otite e até mesmo covid-19 torna-se mais frequente, o reforça o alerta sobretudo para grupos que possuam baixa imunidade, como idosos, crianças e gestantes.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1858
+Texto de entrada: Como estratégia para evitar a disseminação da variante Ômicron, Campo Grande inicia, nesta terça-feira (7), a barreira sanitária no Aeroporto Internacional.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1860
+Texto de entrada: Recebemos os seguintes relatos abaixo: Bom dia famílias. Passando hoje para mantê-los informados. Temos novos casos de COVID, sintomas leves, sendo um no Berçário I A e outros dois no Berçário II B. Não é caso para pânico, mas é uma realidade nova que temos que administrar. Vamos ficar atentos. Tenham todos uma ótima sexta-feira.Boa tarde, famílias. Informamos que há, atualmente, 10Pessoas confirmadas com COVID no CEI ZEDU, entre crianças e professoras. Todas com sintomas leves. As salas e ambientes seguem sendo higienizados. A orientação da SED é: pessoas positivadas devem manter-se emcasa, com atestado médico. Quem tiver sintomas deve fazer o teste. Quem não tiver sintomas deve seguir sua rotina normalmente. Não haverá interrupção de aulas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1866
+Texto de entrada: Duas pessoas morreram e ao menos 99 ficaram doentes em um surto de salmonella ao redor dos Estados Unidos, conforme o "alerta de segurança alimentar" divulgado nesta sexta-feira pelos Centros de Controle e Prevenção de Doenças dos EUA (CDC). O surto, explica a agência do governo americano, está ligado aos melões do tipo Caribe, também chamados de melões cantaloupe tipo Harper.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1883
+Texto de entrada: Em meio à preocupação da população e dos produtores, surgem suspeitas de casos de gripe aviária em Mato Grosso do Sul. Embora ainda não haja confirmações, a mortalidade de aves levanta alertas e demanda ação imediata.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
