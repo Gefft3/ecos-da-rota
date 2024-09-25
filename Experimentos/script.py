@@ -113,3 +113,6 @@ def main():
     #Criando o modelo de recuperação
     retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': k_max})
     run_test(df_test, retriever, tipo, max_prompt_length)
+
+if __name__ == "__main__":
+    main()
