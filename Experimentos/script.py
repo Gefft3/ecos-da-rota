@@ -89,8 +89,11 @@ def run_test(df, retriever, tipo, max_prompt_length):
                 pass
                 
         except Exception as e:
-            print(f"Erro {e}, texto: {text}")
-            print(f"Resposta: {response}")
+            with open(f"Erros {tipo}.txt", "a") as f:
+                f.write(f"Question {i}\n")
+                f.write(f"Texto de entrada: {text}\n\n")
+                f.write(f"Erro (exception): {e}\n\n")
+                f.write("------------------------------------------------\n\n")
             pass
 
         i += 1
