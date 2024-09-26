@@ -1,0 +1,34 @@
+Question 1889
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: Após 75 dias de estiagem, a chuva volta ao dar o ar da graça nesta sexta-feira (27) em Campo Grande e em outras cidades de Mato Grosso do Sul. De acordo com o meteorologista Natálio Abráo Filho, não chovia em Campo Grande desde o último dia 11 de junho. Durante o período da tarde, choveu rápido em alguns bairros da Capital. De acordo com o meteorologista Natálio Abráo Filho, não chovia em Campo Grande desde o último dia 11... Antônio João; Aquidauana; Aral Moreira; Bataguassu; Batayporã; Bela Vista; Bodoquena; Bonito; Caarapó; Campo... Grande; Caracol; Coronel Sapucaia; Corumbá; Deodápolis; Dois Irmãos do Buriti; Douradina; Dourados;
+
+Contexto: 
+
+Mato Grosso do Sul viveu mais um dia de forte calor nesta sexta-feira (15). Três Lagoas, distante a 327 km, teve a maior temperatura registrada com 40,3ºC. Ainda na região do Bolsão (leste do Estado), Paranaíba teve 39,7ºC. Mais ao centro, Ribas do Rio Pardo teve 38,1ºC e Campo Grande chegou a 36,1ºC. - CREDITO: CAMPO GRANDE NEWS
+
+Interior de Mato Grosso do Sul já registra fortes chuvas nesta quinta-feira (02). De acordo com o meteorologista Natálio Abraão Filho, Corguinho, cidade a 99 quilômetros de Campo Grande, teve 97mm de chuva com enchentes das 08h às 15h
+--------------------------------
+

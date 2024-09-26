@@ -49,7 +49,7 @@ Não faça:
 """
     formatted_prompt = f"{prompt_specs}\nQuestão: {question}\n\nContexto: {context}"
 
-    with open("prompts.txt", "w") as f:
+    with open("prompts.txt", "a") as f:
         f.write(f'Question {i}\n')
         f.write(f'{formatted_prompt}\n')
         f.write("--------------------------------\n\n")
@@ -58,7 +58,7 @@ Não faça:
     response = response['message']['content']
     return response
 
-
+    
 def rag_chain(question, retriever, max_prompt_length, i):    
     retrieved_docs = retriever.invoke(question)
 
