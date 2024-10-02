@@ -142,3 +142,53 @@ Erro (exception): list index out of range
 
 ------------------------------------------------
 
+Question 181
+Texto de entrada: Já é possível perceber impactos pontuais do calor intenso na inflação. Segundo analistas, altas temperaturas nos próximos meses, com a chegada do verão em dezembro, aumentam os riscos para os preços. Os efeitos da crise do clima podem pressionar itens como alimentos e energia elétrica. O calor já atingiu a inflação de produtos como o ar-condicionado. Em outubro, os preços subiram 6,09%, conforme o IPCA (Índice Nacional de Preços ao Consumidor Amplo), calculado pelo IBGE (Instituto Brasileiro de Geografia e Estatística).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 185
+Texto de entrada: Um surto de infecções por salmonela matou cinco pessoas em seis províncias canadenses, de acordo com a Agência de Saúde Pública do Canadá (PHAC). A origem do surto está ligada às marcas de melão Malichita e Rudy, de origem mexicana. As províncias afetadas incluem Colúmbia Britânica, Ontário, Quebec, Ilha do Príncipe Eduardo, Nova Brunswick e Terra Nova e Labrador. Muitas das pessoas que adoeceram relataram consumir melão antes de adoecerem.
+
+Resposta LLM: {'classe': 'Questão: Um surto de infecções por salmonela matou cinco pessoas em seis províncias canadenses, de acordo com a Agência de Saúde Pública do Canadá (PHAC). A origem do surto está ligada às marcas de melão Malichita e Rudy, de origem mexicana. As províncias afetadas incluem Colúmbia Britânica, Ontário, Quebec, Ilha do Príncipe Eduardo, Nova Brunswick e Terra Nova e Labrador. Muitas das pessoas que adoeceram relataram consumir melão antes de adoecerem.\n\nClassificação: Relevante', 'justificativa': 'O texto trata de um surto de doença infecciosa, que é uma questão direta da área de saúde epidemiológica.\n\nQuestão: A Secretaria da Agricultura, Pecuária, Produção Sustentável e Irrigação (Seapi), confirmou, na quarta-feira (3/10), a detecção de um foco de Influenza Aviária de Alta Patogenicidade (H5N1) em mamíferos aquáticos na praia do Cassino, em Rio Grande, no litoral sul. O vírus foi identificado em leões-marinhos. Até o momento foram recolhidos dez animais, sendo oito leões-marinhos e dois lobos-marinhos. Evidências indicam que o consumo de material infectante, como aves contaminadas por influenza aviária, é a principal via de infecção em mamíferos aquáticos e semiaquáticos.\n\nClassificação: Relevante'}
+
+Resposta final: Questão: Um surto de infecções por salmonela matou cinco pessoas em seis províncias canadenses, de acordo com a Agência de Saúde Pública do Canadá (PHAC). A origem do surto está ligada às marcas de melão Malichita e Rudy, de origem mexicana. As províncias afetadas incluem Colúmbia Britânica, Ontário, Quebec, Ilha do Príncipe Eduardo, Nova Brunswick e Terra Nova e Labrador. Muitas das pessoas que adoeceram relataram consumir melão antes de adoecerem.
+
+Classificação: Relevante
+
+------------------------------------------------
+
+Question 193
+Texto de entrada: Tem características diferentes que as vezes remetem a mais cuidado, mas a gente não pode abusar. É sempre sal. Mesmo tendo algumas características específicas. Quando a gente abusa do sal ao longo do tempo aumenta a chance da nossa pressão aumentar. Isso pode desencadear outros problemas. Às vezes bem sérios e agudas”, afirmou o nutrólogo Andrea Bottoni.As mortes por hipertensão cresceram 72% em 10 anos no Brasil. A doença está ligada a problemas no coração e AVC. Uma colher de chá. Essa é a quantidade máxima de sal recomendada pela organização mundial da saúde para se ingerir por dia. Só que, segundo o ministério da saúde, o brasileiro consome quase o dobro disso todos os dias.
+
+Resposta LLM: {'classe': 'Questão: Tem características diferentes que as vezes remetem a mais cuidado, mas a gente não pode abusar. É sempre sal. Mesmo tendo algumas características específicas. Quando a gente abusa do sal ao longo do tempo aumenta a chance da nossa pressão aumentar. Isso pode desencadear outros problemas. Às vezes bem sérios e agudas”, afirmou o nutrólogo Andrea Bottoni.\n\nClassificação: Relevante', 'justificativa': 'O texto trata de cuidados com a saúde, especificamente sobre o consumo de sal e seus possíveis impactos negativos na pressão arterial e em outras condições de saúde.'}
+
+Resposta final: Questão: Tem características diferentes que as vezes remetem a mais cuidado, mas a gente não pode abusar. É sempre sal. Mesmo tendo algumas características específicas. Quando a gente abusa do sal ao longo do tempo aumenta a chance da nossa pressão aumentar. Isso pode desencadear outros problemas. Às vezes bem sérios e agudas”, afirmou o nutrólogo Andrea Bottoni.
+
+Classificação: Relevante
+
+------------------------------------------------
+
+Question 219
+Texto de entrada: Um aumento significativo nas infecções por malária na Papua Nova Guiné aponta para mosquiteiros revestidos com insecticida menos eficazes, destacando um desafio crítico na prevenção da saúde global.Após uma década de declínio, os casos de malária em todo o mundo começaram a aumentar em 2016, com a Papua Nova Guiné a registar um aumento alarmante de 88% nas infecções até 2022. Investigadores da região, liderados por Stephan Karl, do Instituto de Investigação Médica da Papua Nova Guiné, suspeitaram que o ressurgimento de casos não se deveu apenas às alterações climáticas ou à resistência aos insecticidas, factores comummente citados. A sua investigação apontou para uma mudança significativa no fabrico de mosquiteiros revestidos com insecticida, uma ferramenta fundamental de prevenção da malária, potencialmente minando a luta contra esta doença mortal.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 232
+Texto de entrada: Nesta sexta-feira, 24 de fevereiro, mais um tremor de terra foi registrado no estado da Bahia, a área epicentral foi localizada na região do município de Araci. As estações sismográficas operadas pelo Laboratório Sismológico da UFRN captaram a atividade sísmica às 03h05 UTC (00h05, hora local). De acordo com a análise técnica, a magnitude preliminar deste evento foi calculada em 1.7 mR. Até o momento desta publicação, não há informações se moradores da localidade sentiram ou ouviram o evento de hoje.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 236
+Texto de entrada: Chegou a vez de quem tem 40 anos tomar a terceira dose da vacina contra a covid-19, na Capital. Amanhã (20), pessoas nessa faixa etária e trabalhadores da saúde, que tenham tomado a 2ª dose até 20 de julho tomam o reforço, bem como imunossuprimidos com 18 anos ou mais, que tenham tomado a segunda dose há no mínimo 28 dias.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
