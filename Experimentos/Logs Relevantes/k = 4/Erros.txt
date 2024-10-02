@@ -1,0 +1,137 @@
+Question 13
+Texto de entrada: Pfizer disse que a vacinação materna poderia evitar até 16 mil hospitalizações devido ao VSR a cada ano, se a vacina fosse aplicada universalmente.A Food and Drug Administration dos EUA aprovou, na segunda-feira (21), a primeira vacina que protege os recém-nascidos do vírus sincicial respiratório, conhecido como VSR. A vacina, produzida pela Pfizer, é administrada às mães no final da gravidez e oferece proteção aos bebês durante os primeiros seis meses de vida. Em um teste com mais de 7 mil grávidas e seus bebês, a vacina, chamada Abrysvo, cortou o risco de que os bebês precisassem consultar um médico ou serem internados no hospital. O VSR é uma doença comum e a principal causa de hospitalização em bebês e idosos a cada ano. Normalmente atinge mais duramente durante os meses de inverno, e a última temporada foi mais longa do que o normal, sobrecarregando os hospitais infantis.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 16
+Texto de entrada: O Governo do Estado tem reforçado o monitoramento contra a influenza aviária de alta patogenicidade (vírus H5N1) em aves migratórias e residentes, em ninhais da região do Pantanal. Equipes de vigilância do Instituto de Defesa Agropecuária do Estado de Mato Grosso (Indea), da Secretaria de Estado de Meio Ambiente (Sema), do Ministério da Agricultura e Pecuária (Mapa) e da Organização Não Governamental (ONG) ambientalista Ecotrópica percorreram na última semana pontos de paradas e reprodução de aves silvestres do pantanal. O trabalho irá contemplar cinco cidades: Barão de Melgaço, Cáceres, Nossa Senhora do Livramento, Poconé e Santo Antônio do Leverger.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 31
+Texto de entrada: A prefeitura de Campo Grande abriu nesta quinta-feira (16) o cadastro de identificação prévia para a vacinação contra Covid-19 de crianças de 5 a 11 anos. O calendário para atendimento deste público ainda deverá ser definido. A Anvisa (Agência Nacional de Vigilância Sanitária) aprovou hoje o uso da vacina produzida pelo consórcio Pfizer-BioNTech, a Comirnaty, contra a Covid-19 em crianças com idade de 5 a 11 anos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 33
+Texto de entrada: A faixa etária para a vacinação contra o Papilomavirus humano (HPV4) na população masculina imunossuprimida foi ampliada. A partir de agora, homens de até 45 anos transplantados, pacientes oncológicos ou vivendo com HIV/aids podem se vacinar. O esquema tradicional de três doses será usado, independentemente da idade.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 47
+Texto de entrada: Uma vacina com tecnologia semelhante à usada na imunização contra Covid-19 está sendo testada em centros de pesquisa brasileiros para prevenir a infecção pelo HIV, o vírus causador da Aids. A pesquisa está na fase três, quando são realizados testes em seres humanos. Os resultados saem em dois anos e meio.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 49
+Texto de entrada: A COVID-19 trouxe uma mudança sem precedentes na abordagem ao rastreio e tratamento do cancro da mama na Austrália. Uma análise clínica retrospectiva de dados de pacientes do Hospital Adventista de Sydney (SAH), em Nova Gales do Sul,  relacionou um aumento nos casos de câncer de mama avançado desde a pandemia às suspensões de exames de mama que ocorreram devido às restrições da COVID-19. Pesquisadores da Universidade Nacional  Australiana analisaram novos casos de câncer de mama feminino diagnosticados no SAH entre julho de 2019 e junho de 2022 e os categorizaram em grupos pré-pandêmicos, pandêmicos e pós-pandêmicos. Eles encontraram um aumento de pacientes com câncer de mama avançado (estágio 3 ou 4) no grupo pandêmico e pós-pandêmico (8,5% e 7%), em comparação ao grupo pré-pandêmico (4,6%).
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 51
+Texto de entrada: Seis unidades básicas de saúde e dois pontos itinerantes estarão aplicando o reforço vacinal durante o final de semana, informa a Prefeitura de Campo Grande em nota enviada à imprensa nesta sexta-feira (1º).
+
+Resposta LLM: {'classe': 'Avisão: O texto foi escrito em português.\n\n**Ministro da Saúde**\n\nMarcelo Queiroga felicitou o Brasil pelos bons resultados e pela perspectiva de que, em breve, o país ajudará o mundo com mais vacinas. O complexo econômico-industrial de saúde do Brasil tem capacidade produtiva, competência técnica, ambiente regulatório seguro e ampla experiência para servir como hub regional na produção de insumos para a América Latina e Caribe.\n\n**Vacinação no Brasil**\n\nA primeira agenda oficial representava uma autoridade máxima em saúde do Brasil. Queiroga apresentou os números da vacinação no país, incluindo:\n\n*   Mais de 37 mil salas de vacinação\n*   Mais de 200 milhões de vacinas aplicadas\n*   Proteger, com ao menos uma dose, mais de 83% da população maior de 18 anos.\n\nO sucesso da campanha foi reconhecido pela OMS, que parabenizou o Ministério da Saúde pelos resultados já alcançados.\n\n**Vacinação e Controle da Covid-19**\n\nQueiroga também apresentou aos representantes das outras nações uma capacidade nacional em produzir vacinas. As duas instituições públicas que fabricam imunizantes, a Fundação Oswaldo Cruz (Fiocruz) e o Instituto Butantan já entregaram, juntas, mais de 193 milhões de doses. Além disso, a empresa Eurofarma anunciou parceria com a farmacêutica Pfizer para a produção de imunizantes do laboratório norte-americano em solo brasileiro. Com isso, o Brasil se tornará capaz de produzir vacinas em três plataformas tecnológicas diferentes.\n\n**Sistema de Monitoramento e Ações**\n\nO Diário Oficial do Estado publicou hoje decreto assinado pelo governador Eduardo Riedel e pelo secretário Jaime Verruck, da Semadesc (Secretaria de Meio Ambiente, Desenvolvimento, Ciência, Tecnologia e Inovação) declarando Estado de Emergência Zoossanitária em Mato Grosso do Sul. O mesmo decreto institui o Sistema de Monitoramento, Avisos e Ações, para fins de prevenção à ocorrência da influenza aviária H5N1 em aves silvestres. Não há registro de contaminação nem de aves silvestres com a influenza aviária no Estado.\n\n**Consequências**\n\nO ministro da Agricultura, Carlos Fávaro, pediu que fosse transformado em Estado de Emergência porque está muito preocupado com o enorme prejuízo que pode representar ao país se essa doença chegar a uma granja de aves. O MS deve receber R', 'justificativa': ' 2 ou R'}
+
+Resposta final: Avisão: O texto foi escrito em português.
+
+**Ministro da Saúde**
+
+Marcelo Queiroga felicitou o Brasil pelos bons resultados e pela perspectiva de que, em breve, o país ajudará o mundo com mais vacinas. O complexo econômico-industrial de saúde do Brasil tem capacidade produtiva, competência técnica, ambiente regulatório seguro e ampla experiência para servir como hub regional na produção de insumos para a América Latina e Caribe.
+
+**Vacinação no Brasil**
+
+A primeira agenda oficial representava uma autoridade máxima em saúde do Brasil. Queiroga apresentou os números da vacinação no país, incluindo:
+
+*   Mais de 37 mil salas de vacinação
+*   Mais de 200 milhões de vacinas aplicadas
+*   Proteger, com ao menos uma dose, mais de 83% da população maior de 18 anos.
+
+O sucesso da campanha foi reconhecido pela OMS, que parabenizou o Ministério da Saúde pelos resultados já alcançados.
+
+**Vacinação e Controle da Covid-19**
+
+Queiroga também apresentou aos representantes das outras nações uma capacidade nacional em produzir vacinas. As duas instituições públicas que fabricam imunizantes, a Fundação Oswaldo Cruz (Fiocruz) e o Instituto Butantan já entregaram, juntas, mais de 193 milhões de doses. Além disso, a empresa Eurofarma anunciou parceria com a farmacêutica Pfizer para a produção de imunizantes do laboratório norte-americano em solo brasileiro. Com isso, o Brasil se tornará capaz de produzir vacinas em três plataformas tecnológicas diferentes.
+
+**Sistema de Monitoramento e Ações**
+
+O Diário Oficial do Estado publicou hoje decreto assinado pelo governador Eduardo Riedel e pelo secretário Jaime Verruck, da Semadesc (Secretaria de Meio Ambiente, Desenvolvimento, Ciência, Tecnologia e Inovação) declarando Estado de Emergência Zoossanitária em Mato Grosso do Sul. O mesmo decreto institui o Sistema de Monitoramento, Avisos e Ações, para fins de prevenção à ocorrência da influenza aviária H5N1 em aves silvestres. Não há registro de contaminação nem de aves silvestres com a influenza aviária no Estado.
+
+**Consequências**
+
+O ministro da Agricultura, Carlos Fávaro, pediu que fosse transformado em Estado de Emergência porque está muito preocupado com o enorme prejuízo que pode representar ao país se essa doença chegar a uma granja de aves. O MS deve receber R
+
+------------------------------------------------
+
+Question 58
+Texto de entrada: O El Niño deste ano deve ser, no mínimo, forte e começar no início de junho. O fenômeno, caracterizado pelo aquecimento das águas do Oceano Pacífico, aumenta as temperaturas do planeta e, ao Rio Grande do Sul, costuma trazer calor e chuva. Há chances também do fenômeno evoluir para um nível “muito forte”, de “Super El Niño”.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 83
+Texto de entrada: Desde o fim de semana, um ciclone extratropical presente na costa sul do Brasil, provocou ventos fortes sobre o oceano, deixando o mar bastante agitado. De acordo com a Climatempo, ainda nesta terça-feira (20) a circulação de ventos reforça as instabilidades nestas regiões, assim como no Centro-Oeste do País, sendo alto o potencial para temporais. De forma geral, esta semana será marcada por muita chuva, com alto risco para alagamentos, e frio.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 95
+Texto de entrada: Funcionários da escola estadual entraram em contato com o Jornal Midiamax para reclamar sobre a transparência da unidade com relação a casos de coronavírus. Professores temem serem infectados pelo coronavírus mesmo vacinados, já que o imunizante não protege 100% contra infecções.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 109
+Texto de entrada: Anvisa realizou, nesta sexta-feira (3/12), uma reunião com instituições médicas ligadas à saúde da criança e imunologia. A reunião faz parte da agenda da Agência para avaliação do pedido da Pfizer de utilização da vacina contra Covid-19 em crianças de 5 a 11 anos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 117
+Texto de entrada: Com 151 casos de tuberculose confirmados entre 1º janeiro a 13 de setembro de 2023, Piracicaba (SP) e Limeira (SP) realizam "Campanha de Intensificação de Busca Ativa" de sintomáticos.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 125
+Texto de entrada: A prefeitura de Porto Alegre, por meio da Diretoria de Vigilância em Saúde (DVS), confirmou o primeiro caso de morcego infectado com o vírus da raiva na cidade em 2022. O caso foi notificado nesta quarta-feira (27), em um morcego encontrado no bairro Teresópolis. Em 2021, foram confirmados quatro casos de morcegos positivos para raiva entre os 118 animais recolhidos pela DVS. Os quatro animais com a doença foram coletados nos bairros Bom Fim, Tristeza, Santana e Teresópolis - este último, a 600 metros de distância do local do primeiro caso de 2022.
+
+Resposta LLM: {'classe': 'Questão: A prefeitura de Porto Alegre, por meio da Diretoria de Vigilância em Saúde (DVS), confirmou o primeiro caso de morcego infectado com o vírus da raiva na cidade em 2022.\n\nClasse:', 'justificativa': 'Relevante'}
+
+Resposta final: Questão: A prefeitura de Porto Alegre, por meio da Diretoria de Vigilância em Saúde (DVS), confirmou o primeiro caso de morcego infectado com o vírus da raiva na cidade em 2022.
+
+Classe:
+
+------------------------------------------------
+
+Question 138
+Texto de entrada: A Prefeitura de Campo Grande tem buscado mobilizar e conscientizar toda a sociedade sobre a importância da vacinação, sobretudo contra a poliomielite em razão do risco de reintrodução da doença diante do baixo índice de cobertura vacina . O Município mantém mais de 70 locais abertos durante a semana e tem adotado estratégias como a busca ativa e ações itinerantes para atingir o maior número de crianças ainda não vacinadas.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 145
+Texto de entrada: Na unidade não tem vacinação, na página consta que sim, mas segundo os funcionários a geladeira está estragada há 3 meses, o atendimento pelo telefone não funciona também. Sendo assim, gostaria que tirassem do calendário da prefeitura ou colocassem mais informações na página para que não aconteça com mais famílias. Avisem a população”, reclamou em sua postagem, Wilson Lima Alves, sobre a UBSF (Unidade Básica de Saúde da Família), no Bairro Ana Maria do Couto, em Campo Grande.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
