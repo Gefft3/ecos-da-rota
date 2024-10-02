@@ -1,0 +1,154 @@
+Question 423
+Texto de entrada: Morreu na manhã desta terça-feira (02), em Campo Grande, Lucas Gabriel Campos, de 40 anos, vítima de queimaduras de segundo enquanto acendia uma chapa. Ele ficou internado por quase um mês, mas evoluiu para uma pneumonia e grave infecção, não resistindo. Conforme boletim de ocorrência, no dia 7 de setembro, ele estava em casa com familiares e amigos fazendo bife na chapa. Em dado momento, ele achou que o fogo já tinha sido apagado e se aproximou para colocar mais álcool no reservatório, provocando uma explosão.
+
+Resposta LLM: {'classe': 'Questão: Morreu na manhã desta terça-feira (02), em Campo Grande, Lucas Gabriel Campos, de 40 anos, vítima de queimaduras de segundo enquanto acendia uma chapa. Ele ficou internado por quase um mês, mas evoluiu para uma pneumonia e grave infecção, não resistindo. Conforme boletim de ocorrência, no dia 7 de setembro, ele estava em casa com familiares e amigos fazendo bife na chapa. Em dado momento, ele achou que o fogo já tinha sido apagado e se aproximou para colocar mais álcool no reservatório, provocando uma explosão.\n\nClasse: Relevante\nJustificativa', 'justificativa': ": O texto trata de um caso de queimadura por ar, que pode ter consequências graves e resultar em morte. Isso é relevante para o contexto da área de saúde epidemiológica, pois aborda questões relacionadas à segurança no uso do fogo e às consequências dos acidentes domésticos.\n\nContexto: \nAnésia do Carmo Egues morreu por volta das 6h deste sábado (18), após ser picada por uma aranha e ficar internada durante 10 dias no Hospital Regional de Mato Grosso do Sul, em Campo Grande. Ela tinha 53 anos. O marido registrou boletim de ocorrência sobre o caso na Depac (Delegacia de Pronto Atendimento Comunitário) Cepol. Será investigado como morte a esclarecer.\n\nContexto: Um homem de 36 anos, usuário de drogas, foi baleado na madrugada deste domingo (29), próximo ao Terminal Rodoviária de Campo Grande, após discutir com outro rapaz da. A vítima foi baleada na nádega. Conforme o boletim de ocorrência, uma equipe do Choque foi acionada. A vítima já estava sendo atendida pelo Corpo de Bombeiros, que informou que o paciente estava fora de perigo, mas o projetil estava alojado no corpo.\n\nClassificação: \nQuestão: 'Queimaduras de segundo enquanto acendia uma chapa'. \n\nClasse: Relevante\nJustificativa"}
+
+Resposta final: Questão: Morreu na manhã desta terça-feira (02), em Campo Grande, Lucas Gabriel Campos, de 40 anos, vítima de queimaduras de segundo enquanto acendia uma chapa. Ele ficou internado por quase um mês, mas evoluiu para uma pneumonia e grave infecção, não resistindo. Conforme boletim de ocorrência, no dia 7 de setembro, ele estava em casa com familiares e amigos fazendo bife na chapa. Em dado momento, ele achou que o fogo já tinha sido apagado e se aproximou para colocar mais álcool no reservatório, provocando uma explosão.
+
+Classe: Relevante
+Justificativa
+
+------------------------------------------------
+
+Question 457
+Texto de entrada: A projeção de que um terço da população brasileira terá mais de 60 anos em 2060 já chama a atenção para os problemas sociais e econômicas que atingirão os idosos e o país como um todo. Por isto, a Política Nacional do Idoso, que está prestes a completar 30 anos de sanção, foi debatida nesta sexta-feira (23) em audiência pública na Comissão de Direitos Humanos (CDH).Requisitada pelo senador Eduardo Girão (Novo-CE), a audiência foi coordenada pelo presidente da CDH, senador Paulo Paim (PT-RS).— A população está envelhecendo, ninguém tem dúvidas, e nada mais justo do que garantir direitos e políticas públicas humanitárias — afirmou Paim.O Instituto Brasileiro de Geografia e Estatística (IBGE) aponta que o país tem hoje 33 milhões de pessoas idosas. Em 2020, quase 70% dos idosos viviam com renda mensal de até dois salários mínimos. Boa parte desse grupo está em situação vulnerável e suscetível a violência física e a golpes, além de vivenciar isolamento, abandono, discriminação, más condições de saúde, e desrespeito aos desejos do idoso, como poder escolher onde quer viver.
+
+Resposta LLM: {'classe': 'Questão: A projeção de que um terço da população brasileira terá mais de 60 anos em 2060 já chama a atenção para os problemas sociais e econômicas que atingirão os idosos e o país como um todo.\n\nClasse', 'justificativa': 'A questão trata de estatísticas demográficas relacionadas à saúde, idoso e políticas públicas do governo federal, fazendo com que seja Relevante para a área da saúde epidemiológica.\n\nQuestão: As 1.313 famílias em situação de rua de Mato Grosso do Sul deverão ser atendidas conforme as diretrizes da Política Nacional para a População em Situação de Rua.\n\nClasse'}
+
+Resposta final: Questão: A projeção de que um terço da população brasileira terá mais de 60 anos em 2060 já chama a atenção para os problemas sociais e econômicas que atingirão os idosos e o país como um todo.
+
+Classe
+
+------------------------------------------------
+
+Question 483
+Texto de entrada: Em 12 de setembro de 2022, um cidadão da província de Khovd desenvolveu sintomas de febre e diarreia após caçar e cozinhar marmota com uma armadilha e foi ao centro de saúde da província. A equipe de emergência do HCPC da província de Khovd colheu uma amostra do paciente e realizou exames laboratoriais. A biologia molecular, análises bacteriológicas e exames clínicos e epidemiológicos confirmaram que o paciente apresentava um caso grave de peste bubônica. O Centro para o Estudo de Doenças Zoonóticas está trabalhando em conjunto para responder rapidamente a surtos de doenças infecciosas.
+
+Resposta LLM: {'classe': 'Questão: Em 12 de setembro de 2022, um cidadão da província de Khovd desenvolveu sintomas de febre e diarreia após caçar e cozinhar marmota com uma armadilha e foi ao centro de saúde da província. A equipe de emergência do HCPC da província de Khovd colheu uma amostra do paciente e realizou exames laboratoriais. A biologia molecular, análises bacteriológicas e exames clínicos e epidemiológicos confirmaram que o paciente apresentava um caso grave de peste bubônica. O Centro para o Estudo de Doenças Zoonóticas está trabalhando em conjunto para responder rapidamente a surtos de doenças infecciosas.\n\nRelevante', 'justificativa': 'A questão trata de um caso de peste bubônica, uma doença infecciosa transmitida por roedores, e da resposta dos centros de saúde e estudos de doenças zoonóticas.'}
+
+Resposta final: Questão: Em 12 de setembro de 2022, um cidadão da província de Khovd desenvolveu sintomas de febre e diarreia após caçar e cozinhar marmota com uma armadilha e foi ao centro de saúde da província. A equipe de emergência do HCPC da província de Khovd colheu uma amostra do paciente e realizou exames laboratoriais. A biologia molecular, análises bacteriológicas e exames clínicos e epidemiológicos confirmaram que o paciente apresentava um caso grave de peste bubônica. O Centro para o Estudo de Doenças Zoonóticas está trabalhando em conjunto para responder rapidamente a surtos de doenças infecciosas.
+
+Relevante
+
+------------------------------------------------
+
+Question 561
+Texto de entrada: De acordo com o Instituto Nacional de Doenças Transmissíveis da África do Sul (NICD), o país está relatando um surto de caxumba. A caxumba é uma infecção viral aguda causada pelo rubulavírus, também conhecido como vírus da caxumba.
+
+Resposta LLM: {'classe': 'Questão: De acordo com o Instituto Nacional de Doenças Transmissíveis da África do Sul (NICD), o país está relatando um surto de caxumba. A caxumba é uma infecção viral aguda causada pelo rubulavírus, também conhecido como vírus da caxumba.\n\nRelevante', 'justificativa': 'O texto trata de um problema de saúde pública, específicamente um surto de doença transmitida por água ou contato com animais. Isso é relevante para a área de saúde epidemiológica, pois envolve a detecção e resposta a uma situação de saúde pública emergente.'}
+
+Resposta final: Questão: De acordo com o Instituto Nacional de Doenças Transmissíveis da África do Sul (NICD), o país está relatando um surto de caxumba. A caxumba é uma infecção viral aguda causada pelo rubulavírus, também conhecido como vírus da caxumba.
+
+Relevante
+
+------------------------------------------------
+
+Question 639
+Texto de entrada: Em um comunicado à imprensa da veterinária estadual de Dakota do Sul, Beth Thompson, JD, DVM, é relatado que o antraz foi confirmado em Dakota do Sul pela primeira vez este ano em um rebanho bovino localizado no condado de Ziebach. Vários animais foram encontrados mortos em um rebanho não vacinado contendo aproximadamente 150 pares.O Laboratório de Pesquisa e Diagnóstico de Doenças Animais da SDSU confirmou a doença a partir de amostras enviadas pelo veterinário do rebanho. O Conselho da Indústria Animal colocou em quarentena o rebanho afetado e colocará em quarentena quaisquer rebanhos afetados adicionais.O manejo adequado das carcaças através da queima e do enterramento é extremamente importante.O antraz é uma doença economicamente devastadora para todos os rebanhos, porque pode causar a perda rápida de muitos animais em pouco tempo. Os animais afetados são frequentemente encontrados mortos. Os esporos do antraz sobrevivem indefinidamente no solo e grande parte da Dakota do Sul tem o potencial de ter solo contaminado.
+
+Resposta LLM: {'classe': 'Questão: Em um comunicado à imprensa da veterinária estadual de Dakota do Sul, Beth Thompson, JD, DVM, é relatado que o antraz foi confirmado em Dakota do Sul pela primeira vez este ano em um rebanho bovino localizado no condado de Ziebach. Vários animais foram encontrados mortos em um rebanho não vacinado contendo aproximadamente 150 pares.O Laboratório de Pesquisa e Diagnóstico de Doenças Animais da SDSU confirmou a doença a partir de amostras enviadas pelo veterinário do rebanho. O Conselho da Indústria Animal colocou em quarentena o rebanho afetado e colocará em quarentena quaisquer rebanhos afetados adicionais.O manejo adequado das carcaças através da queima e do enterramento é extremamente importante.O antraz é uma doença economicamente devastadora para todos os rebanhos, porque pode causar a perda rápida de muitos animais em pouco tempo. Os animais afetados são frequentemente encontrados mortos. Os esporos do antraz sobrevivem indefinidamente no solo e grande parte da Dakota do Sul tem o potencial de ter solo contaminado.\n\nClasse: Relevante', 'justificativa': 'A questão trata de uma doença zoonótica (antraz) que afeta animais e pode ser transmitida para humanos, fazendo com que seja importante para a saúde pública.'}
+
+Resposta final: Questão: Em um comunicado à imprensa da veterinária estadual de Dakota do Sul, Beth Thompson, JD, DVM, é relatado que o antraz foi confirmado em Dakota do Sul pela primeira vez este ano em um rebanho bovino localizado no condado de Ziebach. Vários animais foram encontrados mortos em um rebanho não vacinado contendo aproximadamente 150 pares.O Laboratório de Pesquisa e Diagnóstico de Doenças Animais da SDSU confirmou a doença a partir de amostras enviadas pelo veterinário do rebanho. O Conselho da Indústria Animal colocou em quarentena o rebanho afetado e colocará em quarentena quaisquer rebanhos afetados adicionais.O manejo adequado das carcaças através da queima e do enterramento é extremamente importante.O antraz é uma doença economicamente devastadora para todos os rebanhos, porque pode causar a perda rápida de muitos animais em pouco tempo. Os animais afetados são frequentemente encontrados mortos. Os esporos do antraz sobrevivem indefinidamente no solo e grande parte da Dakota do Sul tem o potencial de ter solo contaminado.
+
+Classe: Relevante
+
+------------------------------------------------
+
+Question 835
+Texto de entrada: A Zâmbia está a sofrer com um grande surto de cólera que já matou mais de 400 pessoas e infectou mais de 10.000, levando as autoridades a ordenar que as escolas em todo o país permanecessem fechadas após as férias de fim de ano. Um grande estádio de futebol na capital foi convertido em uma instalação de tratamento. O governo da Zâmbia está a iniciar um programa de vacinação em massa e afirma que está a fornecer água potável – 2,4 milhões de litros por dia – às comunidades afectadas em todo o país da África Austral.A cólera é uma infecção diarreica aguda causada por uma bactéria que normalmente se espalha por meio de alimentos ou água contaminados. A doença está fortemente ligada à pobreza e ao acesso inadequado à água potável.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1226
+Texto de entrada: A prática regular de exercícios físicos envolve muito mais do que estética. Uma rotina saudável ajuda a melhorar a saúde cardíaca e auxilia na prevenção e no controle de doenças. É o que orienta o educador físico da Secretaria de Estado da Saúde (Sesau), Ewerton Carnaúba. Segundo ele, além de garantir bem estar e esteticamente ajudar a manter o corpo em forma, a prática de exercícios físicos evita problemas cardiovasculares. O profissional de educação física enfatiza que os exercícios auxiliam no fortalecimento do músculo cardíaco, melhorando a circulação sanguínea, controlando a pressão arterial e reduzindo os níveis de colesterol.
+
+Resposta LLM: {'classe': 'Questão: A prática regular de exercícios físicos envolve muito mais do que estética. Uma rotina saudável ajuda a melhorar a saúde cardíaca e auxilia na prevenção e no controle de doenças.\n\nClasse: Relevante', 'justificativa': 'O texto trata de um benefício para a saúde cardiovascular, que é um aspecto importante da área de saúde epidemiológica.'}
+
+Resposta final: Questão: A prática regular de exercícios físicos envolve muito mais do que estética. Uma rotina saudável ajuda a melhorar a saúde cardíaca e auxilia na prevenção e no controle de doenças.
+
+Classe: Relevante
+
+------------------------------------------------
+
+Question 1240
+Texto de entrada: O ifosfamida, medicamento necessário no tratamento contra alguns tipos de câncer, está em falta no Hospital Regional de Mato Grosso do Sul desde julho deste ano. Como resultado, pacientes da instituição não conseguem dar andamento a sessões de quimioterapia. A denúncia foi feita ontem (19), no plenário da Assembleia Legislativa de Mato Grosso do Sul, pelo deputado Pedro Kemp. Ele pediu ao secretário estadual de Saúde, Maurício Simões, providências urgentes para que os estoques sejam repostos.Nesta quarta-feira (20), o Hospital Regional confirmou à reportagem, via assessoria, que enfrenta o desabastecimento do fármaco devido ao descumprimento de contrato vigente com a NSA Distribuidora de Medicamentos Eirelli, por parte da empresa.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1269
+Texto de entrada: 11 pacientes foram considerados positivos com um único epítipo da bactéria Enterobacter hormaechei . O que os pacientes têm em comum é que tomaram o medicamento dicloxacilina em cápsulas do mesmo fabricante. Organismos produtores de carbapenemases (CPO) são um grupo de bactérias que podem ser difíceis de tratar porque são resistentes aos antibióticos normalmente usados ​​para tratar infecções graves. De outubro de 2022 a janeiro de 2023, foram registrados 9 casos de CPO com o mesmo epítipo único: dois casos em outubro de 2022, dois casos em dezembro de 2022 e 5 casos em janeiro de 2023. Os casos não tinham relação entre si, não havia suspeita que a infecção ocorreu no hospital ou durante uma viagem. O epítipo encontrado era tão único e característico que os departamentos de microbiologia clínica foram contatados para esclarecer a causa do surto.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+
+Question 1289
+Texto de entrada: A Secretaria Estadual de Saúde do Rio (SES) confirmou, nesta quarta-feira, o sexto caso de varíola dos macacos. Segundo a Secretaria Municipal de Saúde do Rio (SMS), trata-se de um homem de 28 anos, residente no município e sem histórico de viagem internacional. No momento, há quatro casos confirmados na capital e outros quatro casos suspeitos em investigação pela SMS. A transmissão local no estado foi confirmada na sexta-feira (24). São 31 casos suspeitos de varíola do macaco notificados no estado e 17 casos descartados. Há ainda outros quatro pacientes que estão em investigação.
+
+Resposta LLM: {'classe': 'Questão: A Secretaria Estadual de Saúde do Rio (SES) confirmou, nesta quarta-feira, o sexto caso de varíola dos macacos.\n\nRelevante', 'justificativa': 'A confirmação de um novo caso de varíola dos macacos no estado é uma informação importante para a área de saúde epidemiológica.'}
+
+Resposta final: Questão: A Secretaria Estadual de Saúde do Rio (SES) confirmou, nesta quarta-feira, o sexto caso de varíola dos macacos.
+
+Relevante
+
+------------------------------------------------
+
+Question 1306
+Texto de entrada: Adose de reforço da vacina contra a Covid-19 será reduzida de seis para cinco meses. A medida, que será anunciada nesta terça-feira, 16, valerá para idosos, profissionais de saúde e imunossuprimidos — pessoas com baixa imunidade, soropositivas, transplantadas ou que tenham câncer. O órgão avalia, ainda, a recomendação de dose de reforço da para a população de 18 a 59 anos.
+
+Resposta LLM: {'classe': 'Questão: Adose de reforço da vacina contra a Covid-19 será reduzida de seis para cinco meses.\n\nRelevante', 'justificativa': 'A questão trata de uma alteração no calendário vacinal, o que é relevante para a área de saúde epidemiológica, especialmente em relação à prevenção e ao controle de doenças infecto-contagiosas.'}
+
+Resposta final: Questão: Adose de reforço da vacina contra a Covid-19 será reduzida de seis para cinco meses.
+
+Relevante
+
+------------------------------------------------
+
+Question 1389
+Texto de entrada: Registro policiais de estupro em Mato Grosso do Sul ao longo de 2023 tiveram aumento de 7.75%, comparando o mesmo período em 2022. É o que apontam os dados da Sejusp MS (Secretaria de Estado de Justiça e Segurança Pública de Mato Grosso do Sul), disponibilizados na plataforma SIGO Estatística. Desde o início de 2023, considerando a totalidade de registro policiais até 30 de setembro, foram mais de 1.708 registros de crime dessa natureza. No ano passado, a Sejusp registrou 1.600 ocorrências, 108 casos a menos que neste ano.
+
+Resposta LLM: {'classe': 'Questão: Registro policiais de estupro em Mato Grosso do Sul ao longo de 2023 tiveram aumento de 7.75%, comparando o mesmo período em 2022. É o que apontam os dados da Sejusp MS (Secretaria de Estado de Justiça e Segurança Pública de Mato Grosso do Sul), disponibilizados na plataforma SIGO Estatística. Desde o início de 2023, considerando a totalidade de registro policiais até 30 de setembro, foram mais de 1.708 registros de crime dessa natureza. No ano passado, a Sejusp registrou 1.600 ocorrências, 108 casos a menos que neste ano.\n\nClasse: Relevante', 'justificativa': 'Os dados são importantes para entender a dinâmica dos crimes no contexto do estado e podem ter implicações na saúde mental das vítimas e na comunidade em geral, bem como na necessidade de políticas públicas de segurança.'}
+
+Resposta final: Questão: Registro policiais de estupro em Mato Grosso do Sul ao longo de 2023 tiveram aumento de 7.75%, comparando o mesmo período em 2022. É o que apontam os dados da Sejusp MS (Secretaria de Estado de Justiça e Segurança Pública de Mato Grosso do Sul), disponibilizados na plataforma SIGO Estatística. Desde o início de 2023, considerando a totalidade de registro policiais até 30 de setembro, foram mais de 1.708 registros de crime dessa natureza. No ano passado, a Sejusp registrou 1.600 ocorrências, 108 casos a menos que neste ano.
+
+Classe: Relevante
+
+------------------------------------------------
+
+Question 1536
+Texto de entrada: O aplicativo MedSUS, de informações sobre todos os medicamentos disponíveis na assistência farmacêutica do Sistema Único de Saúde (SUS), já pode ser baixado pela população via plataformas de distribuição digital para IOS ou Android. Lançado originalmente em 2014, o app estava sem atualizações há quatro anos e era voltado apenas a estudantes, pesquisadores e profissionais da saúde. Além de estar disponível aos cidadãos, o MedSUS também vai auxiliar a redução da judicialização de medicamentos. Ao integrar diversos públicos, o Ministério da Saúde visa criar um ambiente colaborativo e transparente, promovendo a eficiência no gerenciamento da saúde pública. Uma das principais funcionalidades do aplicativo é fornecer informações detalhadas sobre os medicamentos disponíveis, alinhados, quando necessário, aos Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) e à Classificação Estatística Internacional de Doenças e Problemas Relacionados com a Saúde (CID). Na prática, tanto os cidadãos, quanto os profissionais de saúde podem acessar informações atualizadas sobre quais medicamentos são recomendados para determinadas condições médicas, contribuindo para uma tomada de decisão mais embasada.
+
+Resposta LLM: {'classe': 'Questão: \nSaída esperada:\nRelevante', 'justificativa': 'O texto trata da disponibilização do aplicativo MedSUS, que fornece informações detalhadas sobre medicamentos e auxilia a redução da judicialização de medicamentos, o que é relevante para a área de saúde epidemiológica.'}
+
+Resposta final: Questão: 
+Saída esperada:
+Relevante
+
+------------------------------------------------
+
+Question 1638
+Texto de entrada: Trinta e sete famílias, que vivem em barracão improvisado, na Rua Lagoa Santa, no Lagoa Park, bairro vizinho ao Jardim Batistão, em Campo Grande, estão sofrendo com os prejuízos causados pela chuva de ontem à tarde. Sem ter para onde ir, os moradores estão vivendo em área pública. A motoentregadora Leila Pantaleão, de 35 anos, contou que antes de a chuva chegar os moradores fizeram valas ao redor do barracão para impedir que a água entrasse, mas não teve jeito. Por causa dos ventos fortes, a lona foi rasgada e a enxurrada invadiu o local. “Molhou os colchões que estavam no chão e as roupas. Molhou tudo. Perdemos alguns alimentos também”, lamentou. Vizinha do barracão, Deusli Silva de Oliveira, de 50 anos, disse que ninguém da prefeitura apareceu para dar assistência às famílias, que são pessoas trabalhadoras em busca de um cantinho para morar. “Eles estão vivendo com doações de terceiros", destacou. Os moradores, que vivem de forma irregular em terreno da prefeitura, foram despejados no começo do mês passado. Desesperadas sem ter para onde ir, as famílias improvisaram um grande barracão para ficarem até conseguir uma moradia digna. Eles já foram cadastrados em programas sociais de moradia.
+
+Resposta LLM: {'classe': 'Questão: Trinta e sete famílias, que vivem em barracão improvisado, na Rua Lagoa Santa, no Lagoa Park, bairro vizinho ao Jardim Batistão, em Campo Grande, estão sofrendo com os prejuízos causados pela chuva de ontem à tarde.\n\nRelevante', 'justificativa': 'O texto trata de uma situação crítica para as famílias que vivem em condições precárias e sem assistência adequada do poder público.'}
+
+Resposta final: Questão: Trinta e sete famílias, que vivem em barracão improvisado, na Rua Lagoa Santa, no Lagoa Park, bairro vizinho ao Jardim Batistão, em Campo Grande, estão sofrendo com os prejuízos causados pela chuva de ontem à tarde.
+
+Relevante
+
+------------------------------------------------
+
+Question 1694
+Texto de entrada: As Infecções Sexualmente Transmissíveis (IST) cresceram bastante nos últimos 10 anos em Minas Gerais. Os casos de sífilis adquiridas, ou seja, aquelas que são transmitidas de uma pessoa para outra, passaram de 712 em 2011 para 16.017 em 2021, ou seja um aumento de 2.149%. Os casos de HIV também subiram, passando de 734, em 2011, para 3.289 em 2021, um aumento de 348%. As sífilis em gestantes e a sífilis congênita que passa de mãe para filho também aumentaram bastante. A primeira passou de 594, em 2011, para 5.410 casos em 2021, um aumento de 810%. Já a segunda, passou de 305 casos em 2011 para 2.099 em 2021, um aumento de 588%. Em contrapartida, os casos de Aids e Hepatite B caíram.
+
+Resposta LLM: {'classe': 'Questão: As Infecções Sexualmente Transmissíveis (IST) cresceram bastante nos últimos 10 anos em Minas Gerais.\n\nClassificação: Relevante', 'justificativa': 'O texto trata de um problema de saúde pública relacionado a ISTs, que é uma área de interesse para profissionais da saúde como epidemiologistas, enfermeiros e médicos.'}
+
+Resposta final: Questão: As Infecções Sexualmente Transmissíveis (IST) cresceram bastante nos últimos 10 anos em Minas Gerais.
+
+Classificação: Relevante
+
+------------------------------------------------
+

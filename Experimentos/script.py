@@ -8,6 +8,10 @@ from tqdm import tqdm
 import numpy as np
 import sys
 import tiktoken
+import os
+from typing import List
+from langchain_core.documents import Document
+from langchain_core.runnables import chain
 
 
 def load_data(url_train, url_test):
@@ -20,8 +24,16 @@ def format_text(text):
     text = text.split("$")
     return {"classe": text[0], "justificativa": text[1]}
 
+@chain
+def retriever(query: str) -> List[Document]:
+    docs, scores = zip(*vectorstore.similarity_search_with_score(query,k=K_MAX))
+    for doc, score in zip(docs, scores):
+        doc.metadata["score"] = score
 
-def ollama_llm(question, context, i):
+    return docs
+
+
+def ollama_llm(question, context, i, path_outputs):
 
     prompt_specs = """
 Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
@@ -47,9 +59,12 @@ Não faça:
 - Não adicione informações adicionais ao contexto fornecido.
 - Não mostre a questão ou o contexto na saída.
 """
+
     formatted_prompt = f"{prompt_specs}\nQuestão: {question}\n\nContexto: {context}"
 
-    with open("prompts.txt", "a") as f:
+    path_arquivo_de_prompts = os.path.join(path_outputs, "prompts.txt")
+
+    with open(path_arquivo_de_prompts, "a") as f:
         f.write(f'Question {i}\n')
         f.write(f'{formatted_prompt}\n')
         f.write("--------------------------------\n\n")
@@ -59,7 +74,7 @@ Não faça:
     return response
 
     
-def rag_chain(question, retriever, max_prompt_length, i):    
+def rag_chain(question, max_prompt_length, i, path_outputs):    
     retrieved_docs = retriever.invoke(question)
 
     encoding = tiktoken.get_encoding("cl100k_base")
@@ -67,27 +82,40 @@ def rag_chain(question, retriever, max_prompt_length, i):
     prompt_tokens = num_tokens_question + 318
     
     formatted_context = ""
+    soma_das_distancias = []
     for doc in retrieved_docs:
         if len(encoding.encode(doc.page_content)) + prompt_tokens < max_prompt_length:
             prompt_tokens += len(encoding.encode(doc.page_content))
             formatted_context += "\n\n" + doc.page_content
+            soma_das_distancias.append(doc.metadata["score"])
 
-    return ollama_llm(question, formatted_context, i)
+    media_das_distancias = np.mean(soma_das_distancias)
 
-def run_test(df, retriever, tipo, max_prompt_length):
+    return ollama_llm(question, formatted_context, i, path_outputs), media_das_distancias
+
+def run_test(df, max_prompt_length, path_outputs):
     
+    path_arquivo_de_erros = os.path.join(path_outputs, "Erros.txt")
+    path_arquivo_de_classificacoes = os.path.join(path_outputs, "classificacoes.txt")
+    path_arquivo_de_distancias = os.path.join(path_outputs, "distancias.txt")
+
     i = 0
     for text in tqdm(df['text']):
         try:
-            response = rag_chain(text, retriever, max_prompt_length, i) 
+            response, media_das_distancias = rag_chain(text, max_prompt_length, i, path_outputs) 
             response = format_text(response)
             choice = response['classe']
 
             if choice == "Relevante" or choice == "Irrelevante":
-                with open(f"classificacoes {tipo}.txt", "a") as f:
+                with open(path_arquivo_de_classificacoes, "a") as f:
                     f.write(f"{i} {choice}\n")
+                
+                with open(path_arquivo_de_distancias, "a") as f:
+                    f.write(f"{i} {media_das_distancias}\n")
+
+
             else:
-                with open(f"Erros {tipo}.txt", "a") as f:
+                with open(path_arquivo_de_erros, "a") as f:
                     f.write(f"Question {i}\n")
                     f.write(f"Texto de entrada: {text}\n\n")
                     f.write(f"Resposta LLM: {response}\n\n")
@@ -96,7 +124,7 @@ def run_test(df, retriever, tipo, max_prompt_length):
                 pass
                 
         except Exception as e:
-            with open(f"Erros {tipo}.txt", "a") as f:
+            with open(path_arquivo_de_erros, "a") as f:
                 f.write(f"Question {i}\n")
                 f.write(f"Texto de entrada: {text}\n\n")
                 f.write(f"Erro (exception): {e}\n\n")
@@ -105,24 +133,30 @@ def run_test(df, retriever, tipo, max_prompt_length):
 
         i += 1
 
-def main():
+
+    
+
+if __name__ == "__main__":
     df_train, df_test = load_data(sys.argv[1], sys.argv[2])
     
-    k_max = int(sys.argv[3])
+    K_MAX = int(sys.argv[3])
     tipo = sys.argv[4]
     max_prompt_length = int(sys.argv[5])
 
+    path_outputs = f'Logs {tipo}/k = {K_MAX}'
+
+    if not os.path.exists(path_outputs):
+        os.makedirs(path_outputs)
+
     #Carregando os documentos de treino
-    loader = DataFrameLoader(df_train, page_content_column="text")
-    docs = loader.load()
+    # loader = DataFrameLoader(df_train, page_content_column="text")
+    # docs = loader.load()
 
     #Criando instanciando modelo de embedding e criando a vectorstore
     embeddings = OllamaEmbeddings(model='nomic-embed-text')
     vectorstore = Chroma(collection_name='v_db', persist_directory="./chroma_db", embedding_function=embeddings)
     
     #Criando o modelo de recuperação
-    retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': k_max})
-    run_test(df_test, retriever, tipo, max_prompt_length)
+    # retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': k_max})
 
-if __name__ == "__main__":
-    main()
+    run_test(df_test, max_prompt_length, path_outputs)

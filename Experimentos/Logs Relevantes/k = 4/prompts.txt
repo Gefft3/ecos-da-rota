@@ -1,0 +1,190 @@
+Question 0
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: Para desafogar as Unidades de Pronto Atendimento (UPAs), partir de hoje as 29 Unidades Básicas de Saúde (UBS) de Foz do Iguaçu, irão assistir os pacientes classificados com dengue tipo B – casos que demandam acompanhamento diário com exames e hidratação, mas não necessitam internamento. As UPAs darão atenção especial aos casos ainda mais severos da doença (tipo C). Desde o início da epidemia de dengue, no final de fevereiro, houve um aumento expressivo na procura das UPAs, o que resultou em um aumento no tempo de espera dos pacientes.
+
+Contexto: 
+
+Está chegando o verão e uma das preocupações para a estação mais quente e úmida é o aumento dos casos de dengue. O Ministério da Saúde acredita que a situação pode piorar no ano que vem.Até novembro foram notificados mais de 1,6 milhão de casos prováveis de dengue em todo o país, uma alta de 23% com realação ao mesmo período do ano passado.
+
+Os últimos boletins epidemiolpógicos publicados pela SES-TO, apontam uma queda bastante considerável no número de casos confirmados de dengue, mas mostram um aumento alarmante casos de Zika e Chikungunya no Tocantins. As doenças são causadas pelo vírus Aedes Aegypti que pode inclusive afetar grávidas durante a gestação e levar pessoas à morte.
+
+Notificações de casos de dengue aumentaram mais de 45% na Bahia de janeiro ao início de setembro deste mês, em relação ao mesmo período do ano passado. Oito casos da nova variante da doença, camada de cosmopolita, já foram confirmados. Isso tem feito com que órgãos públicos intensifiquem os cuidados com o mosquito Aedes aegypti.
+
+Prevenção é a melhor forma de combater o mosquito da dengue. Na última semana, duas pessoas morreram vítimas de dengue em Mato Grosso do Sul. Com isso, o número de vítimas de doença neste ano subiu para 33 no Estado. De acordo com boletim epidemiológico divulgado pela Secretaria Estadual de Saúde (SES), além das mortes confirmadas, há outras 10 em investigação por suspeita da dengue. No ano passado, 24 morreram pela doença. O boletim traz dados do dia 8 a 15 de julho. Nessa semana de referência, foram confirmados 807 casos de dengue, o que dá, em média, 115 casos confirmados por dia. Desde o início do ano, o Estado soma 36.258 casos confirmados de dengue, número já superior ao registrado durante 12 meses do ano passado, quando foram 21.328 em todo o ano. Além disso, há 48.319 casos notificados como prováveis de dengue.
+--------------------------------
+
+Question 1
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: Um homem de 46 anos de idade, portador de diabetes, morreu em Campo Grande no último dia 16 em decorrência da dengue. A informação foi confirmada pela Secretaria do Estado de Saúde (SES) nesta quarta-feira (23), através do boletim epidemiológico. Conforme os dados, o paciente começou a ter os sintomas em 6 de março e morreu dez dias depois, mas a causa do óbito só foi confirmada no dia seguinte.
+
+Contexto: 
+
+A SES (Secretaria Estadual de Saúde) confirmou a segunda morte pela dengue do ano em Mato Grosso do Sul. O óbito consta no Boletim Epidemiológico divulgado nesta quarta-feira (23). De acordo com a publicação, o óbito é de um homem de 46 anos, de Campo Grande, que tinha diabetes. Ele começou a sentir os sintomas no dia 6 de março e morreu no dia 16. A confirmação aconteceu no dia seguinte.
+
+A Prefeitura de Marília (SP), por meio da Secretaria de Saúde, confirmou, na tarde desta sexta-feira (4), a quarta morte por dengue no município em 2023.A vítima, um homem de 55 anos, era diagnosticada com diabetes e morreu no dia 9 de junho. Segundo os relatórios médicos, ele começou a sentir os sintomas de dengue no final de maio deste ano.
+
+A secretaria de Saúde de Divinópolis informou nesta quarta-feira (24), uma nova morte por dengue. A vítima foi um homem de 66 anos. Segundo a nota, ele era portador de doença hematológica e etilismo. Iniciou com os sintomas no dia 06/06/2023. Evoluiu para óbito no dia na última quarta-feira (17) . os exame de sorologia foi realizado na semana anterior, em uma segunda-feira (08) com resultado positivo para dengue. Da descoberta da doença, até a morte foram apenas 16 dias. 
+
+O boletim semanal da dengue publicado nesta terça-feira (30) pela Secretaria de Estado da Saúde registra 450 casos confirmados. São 27 casos a mais que o informe anterior. Os dados são do 15 Informe Epidemiológico, do novo período sazonal da doença, que iniciou no dia 1 de agosto e deve seguir até julho de 2022.
+--------------------------------
+
+Question 2
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: Mato Grosso do Sul apresenta tendência de alta nos casos de dengue, conforme os boletins epidemiológicos do mês de novembro. Entre o dia 1º e a última contagem, o índice de crescimento é de 1,06%. Até agora, foram 40 mortes por conda da doença no Estado. 
+
+Contexto: 
+
+Mato Grosso do Sul voltou a registrar morte em decorrência da dengue, conforme o boletim epidemiológico publicado na quarta-feira (1/11) pela SES (Secretaria de Estado de Saúde), totalizando agora 40 vítimas. Outros cinco casos estão em investigação.
+
+Uma mulher, de 67 anos, moradora da cidade de Paranaíba (MS), e a 27ª morte por dengue em Mato Grosso do Sul. O óbito ocorreu no dia 20 de abril, conforme boletim epidemiológica da Secretaria de Estado de Saúde (SES).Com 6 mortes, Três Lagoas lidera o ranking das cidades do estado com maior número de mortes por dengue, seguida de Dourados (4 mortes) e Campo Grande (3 mortes).Em menos de seis meses, Mato Grosso do Sul já superou o número de casos da dengue confirmados em todo o ano passado.
+
+Subiu para 17 o número de mortes por dengue em Mato Grosso do Sul. Um homem de 94 anos morreu em Três Lagoas, a 338 quilômetros de Campo Grande, na última semana, conforme a SES (Secretaria de Estado de Saúde). Essa é a sexta morte pela doença na cidade.
+
+Mais uma morte por dengue foi confirmada em Patos de Minas esse ano, conforme o boletim do estado divulgado nessa segunda-feira (10), pela Secretaria de Estado de Saúde de Minas Gerais. O número de casos no município passa de 1.600.
+--------------------------------
+
+Question 3
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: O maior hospital de Mato Grosso do Sul tem 22 pacientes no pronto-socorro, esperando por uma vaga na enfermaria. O cenário desta quarta-feira (14) na Santa Casa, ainda inclui 47 pessoas aguardando cirurgia de ortopedia urgente. De acordo com o hospital, o cenário se agravou nas últimas 24 horas, com a chegada de novos pacientes. Na segunda-feira (12) eram 110 pacientes internados na área de ortopedia, sendo que 40 aguardam vagas cirúrgicas. Atualmente são 118 pessoas na ortopedia e 47 que precisam de cirurgia urgente.
+
+Contexto: 
+
+A Santa Casa de Campo Grande enfrenta novamente superlotação no setor de ortopedia. Há 51 pacientes aguardando cirurgia de urgência nesta segunda-feira (19), além de outros em “pré-atendimento”, como a avaliação. Em nota, o hospital informou que está operando acima da capacidade normal da área. A maioria é vítima de acidentes, como quedas, atropelamentos, colisões, facadas, entre outros. Também há no setor pessoas que aguardam por uma avaliação ou intervenção de um subespecialista, ou seja, já houve um primeiro atendimento ortopédico, mas é necessário procedimento complementar com ortopedista mais especializado para o tipo de fratura ou lesão apresentada pelo paciente.
+
+A Santa Casa de Campo Grande vive situação crônica de superlotação. Nesta segunda-feira (12), de Carnaval, o maior hospital de Mato Grosso do Sul emitiu uma nota em que aponta cenário de superlotação em suas instalações. Em 2023, a unidade de saúde chegou a esta situação ao menos três vezes. “Infelizmente, não temos a capacidade de atender a todos simultaneamente”, diz comunicado da Santa Casa neste início de semana. Segundo eles, são 110 pacientes internados na área de ortopedia, sendo que 40 aguardam vagas cirúrgicas.
+
+Anésia do Carmo Egues morreu por volta das 6h deste sábado (18), após ser picada por uma aranha e ficar internada durante 10 dias no Hospital Regional de Mato Grosso do Sul, em Campo Grande. Ela tinha 53 anos. O marido registrou boletim de ocorrência sobre o caso na Depac (Delegacia de Pronto Atendimento Comunitário) Cepol. Será investigado como morte a esclarecer.
+
+A Santa Casa de Campo Grande registrou aumento considerável nos atendimentos às vítimas de ferimentos por arma branca, como facas e punhais. Em 2021, foram 355 casos, sendo 28 em janeiro e 42 só em dezembro. Segundo o hospital, a maioria dos pacientes estava embriagada ou se envolveu em brigas. “No início da pandemia, notou-se uma diminuição drástica nos casos, mas, quando começou a ser liberado o contato de novo, o aumento foi grande e o perfil hoje das pessoas é diferente, pois elas estão mais estressadas. Os casos mais atendidos, atualmente, incluem pacientes embriagados ou envolvidos em brigas. E quando acontece esse contato físico, a região torácica é normalmente a primeira a ser atingida”, explicou o cirurgião da Santa Casa de Campo Grande, Dr. Diogo Gomes Augusto.
+--------------------------------
+
+Question 4
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: Após 20 dias de espera e esperança, o sorriso se foi. O garotinho de apenas 2 anos e 5 meses de idade, vítima de violência extrema, não resistiu e morreu na Santa Casa de Campo Grande. Para a investigação policial, não há duvida: mãe e padrasto são autores das agressões. Presos por tentativa de homicídio, agora serão indiciados por homicídio qualificado.A criança deu entrada no hospital com graves ferimentos e já em coma no dia 23 de janeiro. Havia sinais evidentes de agressão e traumatismo craniano. Exames clínicos constataram lesões no pulmão, acúmulo de líquido e hematoma no abdômen, além de escoriações nos membros inferiores. 
+
+Contexto: 
+
+Agosto é o mês em que foi sancionada a Lei Maria da Penha e com o objetivo de sensibilizar a sociedade sobre a violência doméstica e familiar contra a mulher e divulgar a lei, o Governo de Mato Grosso do Sul instituiu a campanha ‘Agosto Lilás’. Em alusão à data, a SES (Secretaria de Estado de Saúde) reuniu seus colaboradores na sexta-feira (11) para reforçar a importância do profissional de saúde durante o processo de identificação e condução de casos de violência contra a mulher. O secretário de Estado de Saúde, Dr. Maurício Simões, destacou a relevância do tema e se demonstrou contrário a qualquer tipo de violência. “Se tem algo que eu nunca aceitei é com relação a covardia. Diante da motivação do dia de hoje, acho que o que nós homens podemos fazer é ficar calado. Ao mesmo tempo que acho que os homens devem se calar, as mulheres devem fazer exatamente o contrário, não se calem”. A superintendente de Atenção Primária à Saúde da SES, Karine Cavalcante da Costa, lembrou do papel do profissional de saúde diante dessas situações e a importância do atendimento humanizado às vítimas de violência sexual na rede de saúde. A atuação do SUS (Sistema Único de Saúde), por meio das equipes de atenção primária, tem grande valor na identificação de violências. “A nossa missão como profissional de saúde é o bem-estar, a qualidade de vida das pessoas. Vamos trabalhar, lutar, poder defender, advogar pela luta contra a violência contra as mulheres, não podemos nunca nos acostumar com isso”. Conforme a socióloga e responsável pela área de pessoas em situação de violência da SES, Jadir Dantas, a secretaria realiza um trabalho com os gestores e profissionais que atuam nas unidades de saúde referência para atendimento às mulheres vítimas de violência sexual e demais fluxos para acolhimento e abordagem dessas demandas.
+
+“Só que meu pai não deixou ela viva”. A frase é uma das ditas pelo menino de 5 anos, irmão da garotinha de 2 anos - morta após ter sido espancada pelo padrasto, segundo investigação policial - em depoimento especial prestado, em fevereiro deste ano, na DEPCA (Delegacia Especializada de Proteção à Criança e ao Adolescente). O Campo Grande News teve acesso ao relatório da oitiva, uma das que embasa denúncia oferecida contra Christian Campoçano Leitheim, 25 anos, o padrasto da menina, e Stephanie de Jesus da Silva, a mãe, pelo assassinato. O garoto é filho de Christian e morava com o casal e as duas irmãs mais nova – a pequena que morreu aos 2 anos e 7 meses, além de recém-nascida. Na ocasião, o garoto relatou as agressões que testemunhou. “São bravos pra caramba”, afirmou sobre o pai e a madrasta. Uma longa ficha médica da menina em postos de saúde de Campo Grande não havia levantado suspeita até a noite de quinta-feira, 26 de janeiro, quando a criança deu entrada já morte e com sinais de abusos físicos e sexual na UPA (Unidade de Pronto Atendimento Comunitário) do Bairro Coronel Antonino. Em seus 31 meses de vida, a criança precisou de atendimento médico 30 vezes. A pequena chegou a ter queimadura no braço e até fratura na tíbia.
+
+Mais comum do que parece são os casos de violência obstétrica e supostos erros médicos durante o parto. Casos de gestantes que morreram ou os bebês, infelizmente, são muitos no Judiciário de Mato Grosso do Sul . Os nomes dos envolvidos serão mantidos em sigilo porque há recém-nascidos ou crianças. Vale destacar que todas as situações são em unidades hospitalares que atenderam as vítimas exclusivamente pelo SUS (Sistema Único de Saúde): Santa Casa, Maternidade Cândido Mariano e Hospital Universitário Maria Aparecida Pedrossian. - CREDITO: CAMPO GRANDE NEWS
+
+Adolescente, de 14 anos, pediu ajuda na escola após ser agredida, estuprada e mantida em cárcere por um homem, de 29 anos, no Bairro Guanandi, em Campo Grande. O suspeito foi preso e negou as acusações. Ele já tem passagem por violência doméstica.
+--------------------------------
+
