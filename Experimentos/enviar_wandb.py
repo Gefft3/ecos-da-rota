@@ -7,10 +7,13 @@ run = wandb.init(
     project='ECOS da Rota'
     )
 
-def calculate_acurracy(classificacoes):
+def calculate_acurracy(classificacoes, tipo):
     acurracy = 0
+
+    correto = 'Relevante' if tipo == 'Relevantes' else 'Irrelevante'
+
     for classificacao in classificacoes:
-        if classificacao == "Relevante":
+        if classificacao == correto:
             acurracy += 1
     return acurracy/len(classificacoes)
 
@@ -36,7 +39,7 @@ for pastas in os.listdir(path_raiz):
                 with open(os.path.join(path_outputs, arquivos), "r") as f:
                     classificacoes = f.readlines()
                     classificacoes = [x.split()[1] for x in classificacoes]
-                    acurracy_mean.append(calculate_acurracy(classificacoes))
+                    acurracy_mean.append(calculate_acurracy(classificacoes, tipo))
 
             
         if len(distance_mean) == 0:

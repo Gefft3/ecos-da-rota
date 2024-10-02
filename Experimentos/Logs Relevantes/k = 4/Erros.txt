@@ -135,3 +135,10 @@ Erro (exception): list index out of range
 
 ------------------------------------------------
 
+Question 169
+Texto de entrada: De acordo com os dados, mais de 1,2 milhão de doses já foram aplicadas na Capital. Dessas, 544.771 foram destinadas para completar o esquema vacinal de 2 doses ou foram aplicadas como dose única — no caso da Janssen. O número representa exatos 60,12% dos habitantes.
+
+Erro (exception): list index out of range
+
+------------------------------------------------
+

@@ -6458,3 +6458,345 @@ Campo Grande ultrapassou a marca de mais de 100 mil pessoas vacinadas contra a C
 O Brasil deixará de ser um país importador de vacinas e será um país que produzirá vacinas”, afirmou o ministro da Saúde, Marcelo Queiroga, em entrevista à rádio Vaticano. Ele destacou que a mudança favorecerá a população de países diversos do mundo e não apenas a brasileira. O ministro destacou que, em setembro, a farmacêutica americana Pfizer firmou um acordo com a brasileira Eurofarma para produção o imunizante da Pfizer contra a Covid-19 no Brasil. “Em 2022, a Pfizer deve estabelecer parceria com a Eurofarma pelo menos 100 milhões de doses”, afirmou. Além disso, o Ministério da Saúde assinou o acordo de transferência de tecnologia do laboratório Astrazeneca para que o Instituto de Tecnologia em Imunobiológicos (Bio-Manguinhos), da Fundação Oswaldo Cruz (Fiocruz), pode produzir o imunizante contra um Covid-19 com Ingrediente Farmacêutico Ativo (IFA) fabricado em território nacional. Com isso, será possível produzir uma vacina Covid-19 100% nacional. Reconhecimento internacional. A entrevista é parte de uma série de agendas que Queiroga cumpre em Roma, na Itália, ao participar da reunião de ministros da saúde do G20, que reúne as 19 maiores economias do mundo mais a União Europeia. Com mais de 83% da população-alvo vacinada e avançando cada dia mais rumo a imunização de toda a população, o sucesso da campanha de vacinação do Brasil foi reconhecida durante o evento. O ministro Marcelo Queiroga participou de reuniões bilaterais com gestores de saúde da Índia e Reino Unido, com o CEO da GAVI Alliance, Sth Berkley. Além disso, ele se reuniu com o diretor-geral da Organização Mundial da Saúde (OMS), Tedros Adhanom, que felicitou o Brasil pelos bons resultados e pela perspectiva de que, em breve, o país ajudará o mundo com mais vacinas. "O complexo econômico-industrial de saúde do Brasil tem capacidade produtiva, competência técnica, ambiente regulatório seguro e ampla experiência para servir como hub regional na produção de insumos para a América Latina e Caribe", pontuou Queiroga após encontro com o diretor-geral da OMS. Balanço. Em sua primeira agenda oficial representa uma autoridade máxima em saúde do Brasil, a Queiroga apresenta os números da vacinação no país e a ampla capacidade apresentada pelo Programa Nacional de Imunizações, que conta com mais de 37 mil salas de vacinação e já foi responsável por aplicar mais de 200 milhões de vacinas e proteger, com ao menos uma dose, mais de 83% da população maior de 18 anos. O sucesso da campanha foi reconhecido pela OMS, que parabenizou o Ministério da Saúde pelos resultados já alcançados. "Verificamos o interesse coletivo em ampliar o acesso universal à saúde, sobretudo ampliar a oferta de vacinas para que possamos avançar em toda a população global, sobretudo nos paíse mais pobres, que a cobertura vacinal ainda é muito baixa. O entendimento uniforme é que só conseguiremos conter o caráter pandêmico da Covid-19 quando avançarmos com a vacinação em todos os países ", reforçou o ministro. Queiroga também apresentou aos representantes das outras nações uma capacidade nacional em produzir vacinas. As duas instituições públicas que fabricam imunizantes, a Fundação Oswaldo Cruz (Fiocruz) e o Instituto Butantan já entregaram, juntas, mais de 193 milhões de doses. Além disso, a empresa Eurofarma anunciou parceria com a farmacêutica Pfizer para a produção de imunizantes do laboratório norte-americano em solo brasileiro. Com isso, o Brasil se tornará capaz de produzir vacinas em três plataformas tecnológicas diferentes.
 --------------------------------
 
+Question 170
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: O verão ainda não começou oficialmente, mas as altas temperaturas registradas em várias regiões do Brasil nas últimas semanas, decorrentes do El Niño e das mudanças climáticas, acendem um sinal de alerta para a importância de reforçar os cuidados para prevenção do câncer de pele, doença que tem como principal fator a exposição solar excessiva e cumulativa ao longo da vida.
+
+Contexto: 
+
+Em muitas regiões do Brasil, o período de chuvas começou. Com isso, há uma variação climática, momentos de calor, momentos de frio, isso traz consigo também uma fato que necessita ter cuidado redobrado e atenção: o aumento das viroses.
+
+A instabilidade predomina nesta quarta-feira, mas Mato Grosso do Sul deve enfrentar a passagem de nova frente fria, com temperatura mínima prevista de 12ºC na semana que vem, a segunda neste outono. De acordo com o Cemtec (Centro de Monitoramento do Tempo e do Clima), as pancadas de chuva podem ocorrer nesta quarta e quinta-feira com intensidade fraca a moderada, acompanhada de raios e rajadas de vento, principalmente em municípios da região centro-sul do Estado.
+
+Para esta terça-feira (14), a previsão do Cemtec (Centro de Monitoramento do Tempo e do Clima) indica mudanças no tempo com o avanço de uma frente fria em grande parte de Mato Grosso do Sul. Além disso, a passagem deste sistema favorece a quebra do bloqueio atmosférico e aumento de nebulosidade e, com menor probabilidade, podem ocorrer pancadas de chuvas principalmente nas regiões sul, sudoeste, oeste e sudeste.
+
+Parte de Mato Grosso do Sul enfrentará uma mudança brusca no tempo. A onda de calor, com temperaturas acima da média, foi prorrogada até o final da semana, mas o Estado pode atingir mínima de 11 °C nos dias seguintes. Para Campo Grande a mínima prevista é de 15 °C no dia 15 deste mês, segundo a previsão deste momento. Conforme a meteorologia, a próxima semana começa já com queda brusca de temperatura. Algumas mínimas previstas para o início da segunda quinzena do mês são de 11 °C em Ponta Porã, 12 °C em Porto Murtinho, 14 °C em Dourados e Corumbá. Municípios das regiões norte e leste devem ter frio menos intenso, com mínimas de até 17 °C.
+--------------------------------
+
+Question 171
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: PARIS (Reuters) – O Gabão relatou um surto de gripe aviária H5N1 altamente patogênica, comumente chamada de gripe aviária, pela primeira vez desde 2022 em um mercado de aves na capital Libreville, disse a Organização Mundial de Saúde Animal (WOAH) na sexta-feira. A cepa H5N1 da gripe aviária matou ou causou o abate de centenas de milhões de aves em todo o mundo nos últimos anos e tem se espalhado cada vez mais para mamíferos, incluindo vacas nos Estados Unidos. O vírus foi detectado em amostras colhidas no mercado avícola de Mont Bouet, em Libreville, como parte da vigilância epidemiológica da gripe aviária, afirma o relatório apresentado pelas autoridades gabonesas à WOAH com sede em Paris. Observou que as amostras identificadas como positivas foram colhidas em aves de explorações não rastreadas, impossibilitando o rastreio da origem do vírus.
+
+Contexto: 
+
+PARIS (Reuters) - Moçambique relatou um surto de gripe aviária H7 altamente patogênica, comumente chamada de gripe aviária, entre aves na parte sul do país, informou a Organização Mundial de Saúde Animal (WOAH) nesta quinta-feira (19). O surto de gripe aviária foi detectado numa exploração com 54.207 galinhas poedeiras com idades entre 23 e 30 semanas, mantidas numa instalação de alta biossegurança, informou o organismo com sede em Paris, citando informações das autoridades sanitárias de Moçambique. A vizinha África do Sul, um dos principais produtores de aves do continente, enfrenta actualmente um grande surto de gripe aviária que matou milhões de galinhas.
+
+PARIS (Reuters) - A Croácia relatou um surto do vírus altamente patogênico da gripe aviária H5N1 em uma granja avícola, informou a Organização Mundial de Saúde Animal (WOAH, na sigla em inglês) nesta terça-feira. O surto infectou cinco aves de um rebanho de 19.600 animais em uma fazenda no condado de Brodsko-Posavska, perto da fronteira com a Bósnia, informou a WOAH, com sede em Paris, em um relatório, citando autoridades croatas.
+
+Vírus é monitorado de perto conforme começa a 'pular' de aves para várias espécies de mamíferos. Embora a mortalidade seja elevada, os planos para frear transmissão e fabricar vacinas já estão prontos. Cientistas alertam que a chegada do vírus influenza H5N1 — causador da gripe aviária — à Antártida pode ter efeitos devastadores nos animais que transitam pela região.O patógeno já foi detectado em aves que morreram em ilhas próximas ao Polo Sul, como as Malvinas e a Geórgia do Sul. Os primeiros eventos do tipo ocorreram em outubro deste ano.
+
+A Polônia, maior produtor de aves da União Europeia, relatou um surto do altamente contagioso vírus da gripe aviária H5N1 entre aves na parte norte do país, segundo a Organização Mundial de Saúde Animal (WOAH) nesta terça-feira.
+--------------------------------
+
+Question 172
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: Uma parcela dos dispositivos de medição de glicemia disponíveis no mercado brasileiro apresenta valores imprecisos que podem atrapalhar o controle do diabetes.A incorreção dos números apontados pelos glicosímetros pode levar as pessoas a cometer erros no tratamento (por exemplo, nas aplicações das doses de insulina) e aumentar o risco de episódios de hipo e hiperglicemia, quando os níveis de açúcar no sangue baixam ou sobem excessivamente. Quadros do tipo podem ser inclusive fatais.
+
+Contexto: 
+
+Anvisa (Agência Nacional de Vigilância Sanitária) publicou um um alerta aos profissionais de saúde e à população sobre lotes falsificados de dois medicamentos, sendo um utilizado para formas ativas de esclerose múltipla e o Ozempic, que trata pacientes adultos com diabetes.
+
+Nos últimos anos, o número de pessoas com sífilis tem aumentado bastante, inclusive, em gestantes e recém-nascidos, embora seja uma doença curável, com um tratamento simples – à base de injeções medicamentosas – por um curto período.
+
+Até o próximo dia 9, o Ministério da Saúde vai concluir a distribuição de mais de 400 mil unidades de insulina análoga de ação rápida, usada no tratamento de diabetes tipo 1. A compra do medicamento ocorreu após cinco meses de negociação com o setor farmacêutico e depois de duas tentativas frustradas. É que dois pregões anteriores – em agosto do ano passado e em janeiro deste ano – não receberam propostas.O Ministério da Saúde antecipou a entrega da insulina por conta do risco de desabastecimento motivado pela escassez mundial do produto. Essa carga de 400 mil unidades se soma à de um 1,3 milhão de doses compradas emergencialmente e que vão garantir o abastecimento do SUS e de mais de 60 mil pessoas que fazem atendimento no Sistema Único de Saúde.Segundo o Ministério da Saúde, as insulinas regulares mais consumidas, indicadas para pacientes com diabetes tipo 2 e demais tipos, estão com “estoque adequado”. As insulinas análogas de ação rápida foram incorporadas ao SUS em 2017 após aprovação da Conitec, Comissão Nacional de Incorporação de Tecnologias no Sistema Único de Saúde.
+
+Pressão alta atinge cerca de 36 milhões de brasileiros e mata 300 mil pessoas por ano no país. Procura por remédios tem aumentado. Um levantamento da plataforma epharma, focada em programas e planos de benefícios em medicamentos, apontou um crescimento de 46,4% no uso de fármacos para hipertensão no primeiro bimestre deste ano ante o mesmo período em 2022.
+--------------------------------
+
+Question 173
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: Tucunaré, pirarucu, tambaqui e tilápia são alguns dos peixes de água doce mais consumidos no Brasil, especialmente por comunidades ribeirinhas da região norte. Porém, espécies de rios ou lagos podem ser prejudiciais à saúde. Uma pesquisa divulgada na revista Environmental Research mostrou que o consumo anual de uma única porção corresponde à ingestão de água potável contaminada com PFAS durante um mês. Esses químicos, chamados substâncias per e polifluoralquílicas (PFAS), são utilizados em diversos produtos, para deixá-los impermeáveis, antiaderentes e resistentes a manchas e, em níveis elevados, são nocivas. "A extensão em que o PFAS contaminou os peixes é impressionante", disse, em nota, Nadia Barbo, estudante de pós-graduação da Universidade de Duke, nos Estados Unidos, e pesquisadora principal do projeto.
+
+Contexto: 
+
+“Água: fonte de vida – a extensão da contaminação por agrotóxicos no Mato Grosso do Sul” é o tema do seminário do dia 22 de março, no auditório Professor Inardi Adami, também conhecido como LAC, da UFMS (Universidade Federal de Mato Grosso do Sul), campus Campo Grande.Doutores no assunto do Ministério da Saúde, Ronaldo de Souza Costa e Silvia Naomi Uehara vão trazer dados do SUS (Sistema Único de Saúde) sobre pesquisas e estudos da contaminação da água na saúde humana, por conta de coquetéis de substâncias. Antes do intervalo da manhã haverá espaço para perguntas.No retorno, o programa Águas do Pantanal, do SOS Pantanal, irá apresentar o resultado da pesquisa sobre contaminação da água no rio Santo Antônio, afluente do rio Miranda. Em seguida, representando a Embrapa, Rômulo Penna Scorza Júnior, irá trazer informações sobre monitoramento dos resíduos de agrotóxicos em Mato Grosso do Sul.
+
+O ano começou com praias lotadas no Brasil, mas nem todas estão próprias para banho. Na cidade do Rio de Janeiro, cinco praias estão impróprias. Em Natal, são 6. Em Recife, 10, e, em Fortaleza, o número chega a 16. Especialistas alertam que a contaminação da água do mar traz riscos à saúde e pode provocar problemas digestivos e doenças de pele.
+
+Dezenas de peixes, da espécie dos pirarucus, amanheceram mortos dentro da Reserva do Abufaria, em Tapauá, interior do Amazonas, na quarta-feira (5).  O pirarucu é um dos maiores peixes de água doce do planeta e possui uma carne de boa qualidade para consumo. Além de promover benefícios para o ecossistema, fomenta comunidades que vivem da pesca. De acordo com os pescadores da reserva, a suspeita é que devido ao baixo nível da água, por conta da vazante severa que o Amazonas vem enfrentando, os peixes morreram.
+
+A população afetada pelas enchentes e os socorristas que atuam nos resgates podem ter mantido contato com coliformes fecais e a bactéria E. coli. Uma análise preliminar da água das cheias foi feita pela Universidade Federal do Rio Grande do Sul (UFRGS) entre 5 e 10 de maio em Porto Alegre, Eldorado do Sul e Guaíba, cidades atingidas pelo desastre que matou 161 pessoas no Rio Grande do Sul.Os cientistas do Núcleo de Estudos em Saneamento Ambiental, do Instituto de Pesquisas Hidráulicas (IPH), coletaram 80 amostras de água enquanto as equipes auxiliavam nos resgates. Para uma praia ser considerada própria para banho, por exemplo, ela não pode ter mais de 2 mil bactérias Escherichia coli por 100 milímetros. Nas águas das enchentes, os pesquisadores encontraram concentrações de micro-organismos prejudiciais à saúde superiores a este valor.
+--------------------------------
+
+Question 174
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: Os casos de dengue aumentaram 20% em um ano em Mato Grosso. Segundo a Secretaria de Estado de Saúde (SES-MT), as mortes subiram de 15 para 18 entre 2021 e 2022. Em 2022 foram registrados um total de 31.512 casos no Estado, um aumento de 11.247 casos comparados com 2021, que registrou 20.265 casos.
+
+Contexto: 
+
+Os casos de dengue aumentaram em mais de 53% em todo o País de janeiro até agora, em comparação ao mesmo período do ano passado. Os números da chikungunya também não dos melhores. Segundo o Ministério da Saúde, 53 mil casos prováveis foram registrados este ano. A taxa representa um aumento de 98% em relação ao número de casos no mesmo período de 2022.
+
+O cenário de casos de dengue em Votorantim (SP) preocupa autoridades em saúde. Em todo o ano de 2023, foram registrados 3.140 casos na cidade. O número é 377% maior do que o registrado em 2022, com 657 casos. Além dos casos, duas mortes pela doença foram registradas no ano passado.
+
+Mato Grosso do Sul registrou 97 novos casos de dengue na última semana, elevando o total em 2023 para 40.273 confirmados. Isso representa quase o dobro do ano passado, com 21.328 testes positivos, e supera 2021, que teve 8.027 pessoas infectadas. Os dados são do boletim epidemiológico da SES-MS (Secretaria Estadual de Saúde). O número de óbitos permanece estável em 40. A última vítima fatal da dengue morreu em 19 de setembro, uma mulher de 94 anos, moradora de Coxim, a 253 km de Campo Grande. Duas mortes estão em investigação.
+
+Ao longo dos anos, os casos de dengue em Teresina têm se comportando de maneira regular. Todavia, com o aumento das chuvas, o número de notificações vem crescendo, devido ao acúmulo de água parada. De acordo com dados da Secretaria de Estado da Saúde (Sesapi), foram confirmados 2.654 casos em 2021, um aumento de quase 50% em relação a 2020.
+--------------------------------
+
+Question 175
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: O Brasil atingiu a marca de 113 mortos pela dengue nas sete primeiras semanas de 2024 em meio a escalada histórica da doença. Há ainda 438 óbitos em investigação, de acordo com informações divulgadas nesta segunda-feira (19) pelo Ministério da Saúde. Até o último dia 17, o país havia registrado 653.656 casos prováveis, alta de 294% em comparação com o mesmo período do 2023, ano em que o país bateu recorde de mortes pela doença.
+
+Contexto: 
+
+O Brasil registrou, nas três primeiras semanas de 2024, 12 mortes por dengue e 120.874 casos prováveis da doença. No mesmo período do ano passado, foram contabilizados 26 óbitos e 44.753 casos prováveis. Os dados foram divulgados nesta quarta-feira (25) pelo Ministério da Saúde. Há ainda 85 óbitos em investigação. “Vivemos um momento de grande preocupação em relação à dengue”, avaliou a ministra Nísia Trindade. 
+
+Em períodos de chuva, cresce o número de casos de dengue. A doença registrou recorde de mortes no ano passado e, agora, volta a preocupar os brasileiros. São Paulo é o estado com mais casos da doença: 21 mil registrados nos dois primeiros meses deste ano. Além disso, nesse início de 2023, 13 pessoas morreram no estado em decorrência da dengue. A situação mais crítica está concentrada em cidades como São José do Rio Preto, Taquaritinga e Presidente Prudente, no oeste do estado.
+
+O Brasil ultrapassou a marca de 2.197 mortes causadas pela dengue em 2024, segundo dados do Painel de Monitoramento de Arboviroses do Ministério da Saúde. No total, outras 2.276 mortes estão em investigação. O número de mortes causadas pela dengue neste ano é recorde na série histórica feita pelo Ministério da Saúde desde 2000. Até então, a maior quantidade registrada tinha sido em 2023, com 1.179 óbitos confirmados. Em meio à alta histórica da doença, o país também bateu recorde de casos, com 4,3 milhões de casos confirmados neste ano. A marca anterior era 1.688.688 casos confirmados em 2015.
+
+Chapecó confirmou mais uma morte por dengue no ano. Com isso, o município já contabiliza dez óbitos pela doença. A informação foi confirmada pela prefeitura, que não passou detalhes sobre a vítima. Na última sexta-feira (3), a Diretoria de Vigilância Epidemiológica (Dive) confirmou 54 mortes pela doença no ano. Desde então, além do óbito de Chapecó, uma moradora de Joiville, de 66 anos, teve a dengue confirmada como causa da morte. O número total de mortes pela doença é o maior da história. Em seis meses, 2022 registrou sete vezes mais óbitos pela doença em relação a 2021.
+--------------------------------
+
+Question 176
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: Metrópole vive maior epidemia de dengue na história. Número de testes de pacientes com sintomas da doença no 1º quadrimestre supera, inclusive, todos os hemogramas feitos na rede básica no mesmo periodo do ano anterior. Campinas (SP) vive a maior epidemia de dengue de sua história, e o número de exames de sangue feitos nas unidades básicas de saúde ajuda a exemplificar o quão expressivo é o impacto da doença. Foram 78.274 testes em pacientes com sintomas nos primeiros quatro meses do ano, alta de 1.388% na comparação com o mesmo período de 2023.
+
+Contexto: 
+
+O número de casos de dengue em gestantes aumentou 345,2% nas seis primeiras semanas deste ano, na comparação com o mesmo período de 2023, segundo dados epidemiológicos do Ministério da Saúde divulgados nesta sexta-feira (1º).
+
+A cidade de Campinas ultrapassou a marca de 10 mil casos de dengue em 2023, e já está na 6ª maior epidemia da doença na série histórica registrada pela Prefeitura desde 1998. Duas pessoas morreram. As regiões Noroeste e Sudoeste são as que concentram o maior número de infectados.
+
+O Piauí segue com aumento de casos de dengue, com 660% em relação ao mesmo período no ano de 2021, e 14 mortes pela doença, segundo boletim epidemiológico divulgado pela Secretaria de Estado da Saúde nesta quinta-feira (27). De acordo com os dados, a dengue apresentou um aumento de 660,4% em relação ao mesmo período do ano passado. Já são 22.011 casos notificados em 207 municípios, enquanto no mesmo período do ano anterior foram 3.552 notificações em 109 municípios.
+
+Com o aumento de casos de dengue nos primeiros dias de 2024, aumentou também a procura pelos testes para diagnosticar a doença. Mas o resultado pode sair em 15 minutos ou demorar até 8 dias, dependendo do exame. De acordo com o último boletim epidemiológico da Secretaria de Saúde do Distrito Federal, divulgado nesta terça-feira (23), 16.079 casos de dengue já foram notificados nos primeiros dias de 2024, com três mortes. O aumento do número de casos, se comparado com o mesmo período do ano anterior, é de 646,5%
+--------------------------------
+
+Question 177
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: O governador afirmou agora há pouco, em evento do Lide/DF, que os hospitais tanto da rede pública, quanto da rede privada do DF entraram “em colapso”. “Nós estamos vivendo uma crise muito grande. Tanto que ontem nós publicamos um decreto ampliando o atendimento das unidades básicas de saúde e das tendas de hidratação. O momento é grave, não chegamos ao pico ainda, segundo a nossa secretária de Saúde. Então, nós temos queacompanhar com muito cuidado”.
+
+Contexto: 
+
+O Ministério da Saúde Pública e Previdência Social do Paraguai informou nesta sexta-feira a morte de uma pessoa por chikungunya, além de 1.244 casos confirmados da doença nas últimas três semanas no país.O diretor-geral de Vigilância em Saúde, Guillermo Sequera, disse em entrevista coletiva que em 31 de dezembro uma mulher de 73 anos com histórico de saúde morreu de chikungunya.
+
+Conforme a secretaria, um dos pacientes é um homem de 46 anos de idade, que morava em Nova Iguaçu, na Baixada Fluminense. A morte foi notificada no dia 31 de outubro. “O paciente era imunossuprimido e apresentou lesões cutâneas em forma grave”, informou.
+
+O tratamento para quem nasceu com pé torto está demorando bastante na rede pública de Campo Grande. Segundo apurou o MPMS (Ministério Público de Mato Grosso do Sul), há 40 pessoas aguardando por algum procedimento relacionado à condição, sendo de cinco anos a espera mais longa.Os dados foram repassados pela própria Sesau (Secretaria Municipal de Saúde), que regula o atendimento aos pacientes do SUS (Sistema Único de Saúde). 
+
+A Secretaria de Saúde disponibiliza, a partir do dia 1º de setembro, a dispensação de Profilaxia Pré-Exposição (PrEP) prescrita pela rede privada. Recentemente, o Distrito Federal foi eleito pelo Ministério da Saúde como uma das unidades federativas piloto do Projeto “PrEP na Saúde Suplementar”.
+--------------------------------
+
+Question 178
+
+Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+O formato de saída deve ser o seguinte: classe$justificativa
+Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: O Dia Mundial da Alimentação é celebrado no dia 16 de outubro e faz uma reflexão sobre a necessidade de uma alimentação saudável, de qualidade e acessível. A população brasileira tem deixado de consumir mais alimentos in natura, para consumir alimentos processados e ultraprocessados e isto tem levado para o aumento da obesidade. No Estado, 69% da população está com excesso de peso e 36% com obesidade.
+
+Contexto: 
+
+A forma como os pais se alimentam influencia o peso dos filhos, e isso é bem conhecido. Mas, agora, um estudo baseado em três pesquisas mostra que o tipo de dieta da mãe durante a gestação também pode acarretar sobrepeso e obesidade na criança.
+
+Quase metade da população brasileira será obesa nos próximos vinte anos se forem mantidos os padrões atuais. O alerta é de um estudo nacional divulgado na última quarta-feira (26), no Congresso Internacional sobre Obesidade (ICO 2024), em São Paulo.A projeção aponta que, até 2044, 48% dos adultos brasileiros podem atingir a obesidade e outros 27% o sobrepeso. Esse cenário representa um universo de 130 milhões de pessoas com um dos dois índices ou 83 milhões com obesidade e 47 milhões com sobrepeso.
+
+Os alimentos ultraprocessados acabam ganhando a preferência alimentar daqueles que possuem uma rotina agitada. Entretanto, esse consumo demanda bastante cautela. Na última década, o Brasil registrou um aumento de 5,5% na ingestão de produtos industrializados. Segundo o estudo divulgado pela Revista de Saúde Pública da USP, feito pelo Núcleo de Pesquisas Epidemiológicas em Nutrição e Saúde (Nupens/USP).
+
+Quase metade dos brasileiros adultos (48%) terá obesidade e mais 27% terão sobrepeso até 2044, conforme alerta um novo estudo apresentado no Congresso Internacional sobre Obesidade (ICO) 2024. O evento, organizado pela Federação Mundial de Obesidade, é um dos principais congressos sobre o tema no mundo e acontece em São Paulo de 26 a 29 de junho. De acordo com as estimativas do estudo, três quartos dos adultos brasileiros terão obesidade ou sobrepeso dentro de 20 anos. Os autores também estimam que, se as tendências atuais se mantiverem, 130 milhões de brasileiros viverão acima do peso.
+--------------------------------
+
