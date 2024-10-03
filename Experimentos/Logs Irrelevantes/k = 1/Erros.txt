@@ -1,0 +1,22 @@
+Question 28
+Texto de entrada: Empresa adota práticas sustentáveis para melhorar a saúde dos funcionários.
+
+Resposta LLM: {'classe': 'Questão: Empresa adota práticas sustentáveis para melhorar a saúde dos funcionários.\n\nClasse', 'justificativa': 'Justificativa\nRelevante'}
+
+Resposta final: Questão: Empresa adota práticas sustentáveis para melhorar a saúde dos funcionários.
+
+Classe
+
+------------------------------------------------
+
+Question 52
+Texto de entrada: Universidade lança estudo sobre o impacto da alimentação no desempenho acadêmico.
+
+Resposta LLM: {'classe': 'Questão: Universidade lança estudo sobre o impacto da alimentação no desempenho acadêmico.\n\nRelevante', 'justificativa': 'O contexto relaciona-se com a investigação sobre a causa de morte de patos em um campus universitário, sugerindo uma preocupação com a saúde e segurança dos animais e do ambiente.'}
+
+Resposta final: Questão: Universidade lança estudo sobre o impacto da alimentação no desempenho acadêmico.
+
+Relevante
+
+------------------------------------------------
+
