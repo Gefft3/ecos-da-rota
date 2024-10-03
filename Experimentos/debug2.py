@@ -9,7 +9,7 @@ class User(BaseModel):
 
 
 # model = models.transformers("microsoft/Phi-3-mini-4k-instruct")
-# model = models.transformers("meta-llama/Llama-3.1-8B-Instruct")
+# # model = models.transformers("meta-llama/Llama-3.1-8B-Instruct")
 
 # generator = generate.json(model, User)
 # result = generator(
@@ -20,9 +20,11 @@ class User(BaseModel):
 
 llm = Ollama(model = 'llama3.1')
 
-generator = generate.json(llm, User)
-result = generator(
-    "Create a user profile with the fields name, last_name and id"
-)
+# generator = generate.json(llm, User)
+# result = generator(
+#     "Create a user profile with the fields name, last_name and id"
+# )
+
+result = llm.invoke("Create a user profile with the fields name, last_name and id")
 
 print(result)

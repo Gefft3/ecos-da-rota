@@ -20,14 +20,15 @@ def calculate_acurracy(classificacoes, tipo):
 tipo = sys.argv[1]
 
 path_raiz = f'../Experimentos/Logs {tipo}'
-
-for pastas in os.listdir(path_raiz):
-    if 'k =' in pastas:
+pastas = os.listdir(path_raiz)
+pastas = sorted(pastas)
+for pasta in pastas:
+    if 'k =' in pasta:
         
         distance_mean = []
         acurracy_mean = []
         
-        path_outputs = os.path.join(path_raiz, pastas)
+        path_outputs = os.path.join(path_raiz, pasta)
         for arquivos in os.listdir(path_outputs):
             if 'distancias' in arquivos:
                 with open(os.path.join(path_outputs, arquivos), "r") as f:
@@ -44,7 +45,7 @@ for pastas in os.listdir(path_raiz):
             
         if len(distance_mean) == 0:
             distance_mean = [0]
-        print(f'K: {pastas}')
+        print(f'K: {pasta}')
         print(f'Distancia média: {distance_mean}')
         print(f'Acurácia média: {acurracy_mean}')
 
