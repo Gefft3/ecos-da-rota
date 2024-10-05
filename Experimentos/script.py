@@ -12,6 +12,15 @@ import os
 from typing import List
 from langchain_core.documents import Document
 from langchain_core.runnables import chain
+from langchain_ollama import ChatOllama
+from langchain_core.prompts import PromptTemplate
+from pydantic import BaseModel, Field
+
+class Response(BaseModel):
+    news_class: str = Field(description="Classe da resposta", required=True)
+    explain: str = Field(description="Justificativa da resposta", required=True)
+
+
 
 
 def load_data(url_train, url_test):
@@ -35,42 +44,16 @@ def retriever(query: str) -> List[Document]:
 
 def ollama_llm(question, context, i, path_outputs):
 
-    prompt_specs = """
-Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
-
-O formato de saída deve ser o seguinte: classe$justificativa
-Sendo que a classe deve ser separada da justificativa por '$' TODAS AS VEZES.
-
-Exemplos:
-Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
-Saída esperada: Relevante$O texto trata de um problema respiratório diretamente relacionado à área da saúde.
-
-Questão: 'Quais são os melhores livros de autoajuda?'
-Saída esperada: Irrelevante$A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
-
-Faça:
-- Classifique a questão como Relevante ou Irrelevante.
-- A saída deve ser apenas a classe e a justificativa, separadas por '$', nada mais. 
-- Classifique a questão também levando em consideração o contexto fornecido.
-
-Não faça:
-- Não adicione informações adicionais à saída.
-- Não classifique mais de uma questão, apenas a que foi fornecida.
-- Não adicione informações adicionais ao contexto fornecido.
-- Não mostre a questão ou o contexto na saída.
-"""
-
-    formatted_prompt = f"{prompt_specs}\nQuestão: {question}\n\nContexto: {context}"
+    filled_prompt = prompt.format(question=question, context=context)
 
     path_arquivo_de_prompts = os.path.join(path_outputs, "prompts.txt")
 
     with open(path_arquivo_de_prompts, "a") as f:
         f.write(f'Question {i}\n')
-        f.write(f'{formatted_prompt}\n')
+        f.write(f'{filled_prompt}\n')
         f.write("--------------------------------\n\n")
 
-    response = ollama.chat(model='llama3.1', messages=[{'role': 'user', 'content': formatted_prompt}])
-    response = response['message']['content']
+    response = _chain.invoke({'question': question, 'context': context})
     return response
 
     
@@ -103,8 +86,7 @@ def run_test(df, max_prompt_length, path_outputs):
     for text in tqdm(df['text']):
         try:
             response, media_das_distancias = rag_chain(text, max_prompt_length, i, path_outputs) 
-            response = format_text(response)
-            choice = response['classe']
+            choice = response.news_class
 
             if choice == "Relevante" or choice == "Irrelevante":
                 with open(path_arquivo_de_classificacoes, "a") as f:
@@ -147,6 +129,39 @@ if __name__ == "__main__":
 
     if not os.path.exists(path_outputs):
         os.makedirs(path_outputs)
+
+    # Prompt template
+    prompt = PromptTemplate.from_template(
+    """Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
+
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: Relevante $ O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: Irrelevante $ A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Faça:
+- Classifique a questão como Relevante ou Irrelevante.
+- A saída deve ser apenas a classe e a justificativa. 
+- Classifique a questão também levando em consideração o contexto fornecido.
+
+Não faça:
+- Não adicione informações adicionais à saída.
+- Não classifique mais de uma questão, apenas a que foi fornecida.
+- Não adicione informações adicionais ao contexto fornecido.
+- Não mostre a questão ou o contexto na saída.
+
+Questão: {question}
+
+Contexto: {context}
+"""
+)
+    llm = ChatOllama(model="llama3.1", format="json", temperature=0)
+
+    structured_llm = llm.with_structured_output(Response)
+
+    _chain = prompt | structured_llm
 
     #Carregando os documentos de treino
     # loader = DataFrameLoader(df_train, page_content_column="text")

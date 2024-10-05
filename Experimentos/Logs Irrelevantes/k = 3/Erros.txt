@@ -1,0 +1,63 @@
+Question 1
+Texto de entrada: Universidade lança estudo sobre impacto da poluição no sistema respiratório.
+
+Resposta LLM: {'classe': 'Questão: Universidade lança estudo sobre impacto da poluição no sistema respiratório.\n\nClassificação: Relevante', 'justificativa': 'O contexto fornece informações sobre doenças respiratórias, como coqueluche e escarlatina, e a importância do uso de máscara de proteção respiratória. Isso relaciona diretamente com a área da saúde e o contexto da poluição.'}
+
+Resposta final: Questão: Universidade lança estudo sobre impacto da poluição no sistema respiratório.
+
+Classificação: Relevante
+
+------------------------------------------------
+
+Question 12
+Texto de entrada: Escolas adotam novas medidas de segurança para proteger a saúde dos alunos.
+
+Resposta LLM: {'classe': 'Questão: Escolas adotam novas medidas de segurança para proteger a saúde dos alunos.\n\nClassificação: Relevante', 'justificativa': 'As escolas adotando medidas de segurança para proteger a saúde dos alunos é um tema diretamente relacionado à área da saúde, especialmente na prevenção e promoção da saúde em ambientes educacionais.'}
+
+Resposta final: Questão: Escolas adotam novas medidas de segurança para proteger a saúde dos alunos.
+
+Classificação: Relevante
+
+------------------------------------------------
+
+Question 42
+Texto de entrada: Empresa de tecnologia desenvolve aplicativo para monitorar hábitos saudáveis.
+
+Resposta LLM: {'classe': 'Questão: Empresa de tecnologia desenvolve aplicativo para monitorar hábitos saudáveis.\n\nClasse', 'justificativa': 'A questão está relacionada à saúde e ao monitoramento de hábitos, portanto é Relevante'}
+
+Resposta final: Questão: Empresa de tecnologia desenvolve aplicativo para monitorar hábitos saudáveis.
+
+Classe
+
+------------------------------------------------
+
+Question 72
+Texto de entrada: Universidade promove evento sobre os benefícios da meditação para a saúde.
+
+Resposta LLM: {'classe': 'Questão: Universidade promove evento sobre os benefícios da meditação para a saúde.\n\nContexto:\n \nO Ministério da Saúde divulgou nota técnica com informações sobre a ampliação da disponibilidade de dispositivo intrauterino (DIU) no Sistema Único de Saúde (SUS). O documento orienta a colocação e retirada desse método contraceptivo por enfermeiras e enfermeiros, além dos médicos, que já realizam o procedimento. O documento enfatiza a importância desses profissionais na estratégia de ampliação do acesso ao DIU. A saúde reprodutiva das pessoas com útero é uma pauta prioritária do governo federal.Segundo a coordenadora de Atenção à Saúde da Mulher, Mônica Iassanã, “a nova nota técnica viabiliza que estados e municípios possam fortalecer as ações para inserção e retirada do DIU, possibilitando que haja ampliação do acesso à contracepção reversível de longa duração, visto que os enfermeiros estão presentes nas Unidades Básicas de Saúde, maternidades e outros serviços que podem ser oportunos para o planejamento reprodutivo”.O DIU é seguro, eficaz, tem duração de 10 anos e é ofertado gratuitamente na Atenção Primária à Saúde do SUS. As mudanças na oferta do dispositivo intrauterino também visam que o planejamento reprodutivo seja adequado às necessidades das pessoas em seus diferentes momentos de vida e que haja redução das gestações não planejadas, dos abortos inseguros e da morbimortalidade materna e infantilJuliana Wahl, consultora técnica da Coordenação de Atenção à Saúde da Mulher, considera a publicação do documento um avanço. “Evidências científicas mostram que médicos e enfermeiros são profissionais que, quando capacitados, podem realizar de forma segura a inserção e retirada do DIU. Portanto, ampliar a perspectiva do número de profissionais a serem capacitados e também ampliar o acesso ao aconselhamento sobre todos os métodos contribuirá para a efetivação dos direitos reprodutivos das pessoas”, defende.\n\nEm alusão ao Dia Mundial do Rim, celebrado no dia 14 de março, a Abrec (Associação Beneficente dos Renais Crônicos de Mato Grosso do Sul) vai levar sua tradicional campanha de saúde até a Praça Ary Coelho. De acordo com a nota enviada à imprensa, o evento acontecerá na quinta-feira, das 8 às 16h. Além de promover educação, haverá testagem de glicemia, aferição de pressão arterial e testes de creatinina.\n\nO mês de novembro é dedicado à conscientização e prevenção do câncer de próstata e à saúde do homem como um todo. Neste sentido, a SES (Secretaria de Estado de Saúde), por meio da gerência da Saúde do Homem, realiza nesta segunda-feira (6) o Seminário Novembro Azul, na Assomasul (Associação dos Municípios de Mato Grosso do Sul), em Campo Grande. O evento contará com a participação dos coordenadores da saúde do homem dos municípios, maternidade, instituições de ensinos entre outros órgãos da sociedade. O seminário abordará temas relevantes para a saúde masculina como a importância da prática regular de exercícios físicos, alimentação balanceada e o combate ao sedentarismo que, além de auxiliar na prevenção de doenças, promove bem-estar e qualidade de vida, entre outros assuntos.\n\nRelevante', 'justificativa': 'A questão não se relaciona diretamente com o contexto de saúde reprodutiva, mas sim com a promoção da saúde em geral, através do evento da universidade sobre os benefícios da meditação para a saúde.'}
+
+Resposta final: Questão: Universidade promove evento sobre os benefícios da meditação para a saúde.
+
+Contexto:
+ 
+O Ministério da Saúde divulgou nota técnica com informações sobre a ampliação da disponibilidade de dispositivo intrauterino (DIU) no Sistema Único de Saúde (SUS). O documento orienta a colocação e retirada desse método contraceptivo por enfermeiras e enfermeiros, além dos médicos, que já realizam o procedimento. O documento enfatiza a importância desses profissionais na estratégia de ampliação do acesso ao DIU. A saúde reprodutiva das pessoas com útero é uma pauta prioritária do governo federal.Segundo a coordenadora de Atenção à Saúde da Mulher, Mônica Iassanã, “a nova nota técnica viabiliza que estados e municípios possam fortalecer as ações para inserção e retirada do DIU, possibilitando que haja ampliação do acesso à contracepção reversível de longa duração, visto que os enfermeiros estão presentes nas Unidades Básicas de Saúde, maternidades e outros serviços que podem ser oportunos para o planejamento reprodutivo”.O DIU é seguro, eficaz, tem duração de 10 anos e é ofertado gratuitamente na Atenção Primária à Saúde do SUS. As mudanças na oferta do dispositivo intrauterino também visam que o planejamento reprodutivo seja adequado às necessidades das pessoas em seus diferentes momentos de vida e que haja redução das gestações não planejadas, dos abortos inseguros e da morbimortalidade materna e infantilJuliana Wahl, consultora técnica da Coordenação de Atenção à Saúde da Mulher, considera a publicação do documento um avanço. “Evidências científicas mostram que médicos e enfermeiros são profissionais que, quando capacitados, podem realizar de forma segura a inserção e retirada do DIU. Portanto, ampliar a perspectiva do número de profissionais a serem capacitados e também ampliar o acesso ao aconselhamento sobre todos os métodos contribuirá para a efetivação dos direitos reprodutivos das pessoas”, defende.
+
+Em alusão ao Dia Mundial do Rim, celebrado no dia 14 de março, a Abrec (Associação Beneficente dos Renais Crônicos de Mato Grosso do Sul) vai levar sua tradicional campanha de saúde até a Praça Ary Coelho. De acordo com a nota enviada à imprensa, o evento acontecerá na quinta-feira, das 8 às 16h. Além de promover educação, haverá testagem de glicemia, aferição de pressão arterial e testes de creatinina.
+
+O mês de novembro é dedicado à conscientização e prevenção do câncer de próstata e à saúde do homem como um todo. Neste sentido, a SES (Secretaria de Estado de Saúde), por meio da gerência da Saúde do Homem, realiza nesta segunda-feira (6) o Seminário Novembro Azul, na Assomasul (Associação dos Municípios de Mato Grosso do Sul), em Campo Grande. O evento contará com a participação dos coordenadores da saúde do homem dos municípios, maternidade, instituições de ensinos entre outros órgãos da sociedade. O seminário abordará temas relevantes para a saúde masculina como a importância da prática regular de exercícios físicos, alimentação balanceada e o combate ao sedentarismo que, além de auxiliar na prevenção de doenças, promove bem-estar e qualidade de vida, entre outros assuntos.
+
+Relevante
+
+------------------------------------------------
+
+Question 80
+Texto de entrada: Município lança campanha de incentivo à doação de órgãos.
+
+Resposta LLM: {'classe': 'Questão: Município lança campanha de incentivo à doação de órgãos.\n\nRelevante', 'justificativa': 'A questão está diretamente relacionada com a área da saúde, especificamente com a prevenção e promoção de cuidados ao organismo humano.'}
+
+Resposta final: Questão: Município lança campanha de incentivo à doação de órgãos.
+
+Relevante
+
+------------------------------------------------
+
