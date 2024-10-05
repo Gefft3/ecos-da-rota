@@ -2,8 +2,7 @@ import pandas as pd
 from langchain_community.llms import Ollama
 from langchain_chroma import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
-from langchain_community.document_loaders import DataFrameLoader
-import ollama
+# from langchain_community.document_loaders import DataFrameLoaders
 from tqdm import tqdm
 import numpy as np
 import sys
@@ -18,13 +17,23 @@ from pydantic import BaseModel, Field
 
 class Response(BaseModel):
     news_class: str = Field(description="Classe da resposta entre Relevante ou Irrelevante", required=True)
-    explain: str = Field(description="Justificativa da resposta", required=True)
+    explain: str = Field(description="Justificativa da resposta da questão", required=True)
 
 
 def config_model():
     prompt = PromptTemplate.from_template(
     """Classifique a questão fornecida como Relevante ou Irrelevante para o contexto da área de saúde epidemiológica. Pense da perspectiva de um profissional de saúde, incluindo médicos, epidemiologistas, enfermeiros, e outros profissionais da área.
 
+Faça:
+- Classifique a questão como Relevante ou Irrelevante usando a variável `class`.
+- A justificativa deve ser clara e concisa, explicando o motivo da classificação, usando a variável `justify`.
+- Considere também o contexto fornecido ao fazer a classificação.
+  
+Não faça:
+- Não adicione informações extras além da classificação e justificativa.
+- Não forneça mais de uma classificação por questão.
+- Não repita a questão ou o contexto na saída.
+    
 Exemplos:
 Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
 Saída esperada: 
@@ -35,16 +44,6 @@ Questão: 'Quais são os melhores livros de autoajuda?'
 Saída esperada: 
 class: Irrelevante 
 justify: A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
-
-Regras:
-- Classifique a questão como Relevante ou Irrelevante usando a variável `class`.
-- A justificativa deve ser clara e concisa, explicando o motivo da classificação, usando a variável `justify`.
-- Considere também o contexto fornecido ao fazer a classificação.
-  
-Não faça:
-- Não adicione informações extras além da classificação e justificativa.
-- Não forneça mais de uma classificação por questão.
-- Não repita a questão ou o contexto na saída.
   
 A saída deve seguir este formato:
 class: [Relevante ou Irrelevante]
@@ -154,9 +153,6 @@ def run_test(df, max_prompt_length, path_outputs):
             pass
 
         i += 1
-
-
-    
 
 if __name__ == "__main__":
     df_train, df_test = load_data(sys.argv[1], sys.argv[2])
