@@ -17,11 +17,51 @@ from langchain_core.prompts import PromptTemplate
 from pydantic import BaseModel, Field
 
 class Response(BaseModel):
-    news_class: str = Field(description="Classe da resposta", required=True)
+    news_class: str = Field(description="Classe da resposta entre Relevante ou Irrelevante", required=True)
     explain: str = Field(description="Justificativa da resposta", required=True)
 
 
+def config_model():
+    prompt = PromptTemplate.from_template(
+    """Classifique a questão fornecida como Relevante ou Irrelevante para o contexto da área de saúde epidemiológica. Pense da perspectiva de um profissional de saúde, incluindo médicos, epidemiologistas, enfermeiros, e outros profissionais da área.
 
+Exemplos:
+Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
+Saída esperada: 
+class: Relevante 
+justify: O texto trata de um problema respiratório diretamente relacionado à área da saúde.
+
+Questão: 'Quais são os melhores livros de autoajuda?'
+Saída esperada: 
+class: Irrelevante 
+justify: A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
+
+Regras:
+- Classifique a questão como Relevante ou Irrelevante usando a variável `class`.
+- A justificativa deve ser clara e concisa, explicando o motivo da classificação, usando a variável `justify`.
+- Considere também o contexto fornecido ao fazer a classificação.
+  
+Não faça:
+- Não adicione informações extras além da classificação e justificativa.
+- Não forneça mais de uma classificação por questão.
+- Não repita a questão ou o contexto na saída.
+  
+A saída deve seguir este formato:
+class: [Relevante ou Irrelevante]
+justify: [Justificativa clara e objetiva]
+
+Questão: {question}
+
+Contexto: {context}
+"""
+)
+    llm = ChatOllama(model="llama3.1", format="json", temperature=0)
+
+    structured_llm = llm.with_structured_output(Response)
+
+    _chain = prompt | structured_llm
+
+    return prompt, _chain 
 
 def load_data(url_train, url_test):
     # Datasets definidos pelo shell script
@@ -130,38 +170,7 @@ if __name__ == "__main__":
     if not os.path.exists(path_outputs):
         os.makedirs(path_outputs)
 
-    # Prompt template
-    prompt = PromptTemplate.from_template(
-    """Classifique se as questões são Relevantes ou Irrelevantes para o contexto da área de saúde epidemiológica, pense da perspectiva de um profissional de saúde como um médico, mas também como um epidemiologista, enfermeiro, ou outro profissional de saúde.
-
-Exemplos:
-Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
-Saída esperada: Relevante $ O texto trata de um problema respiratório diretamente relacionado à área da saúde.
-
-Questão: 'Quais são os melhores livros de autoajuda?'
-Saída esperada: Irrelevante $ A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
-
-Faça:
-- Classifique a questão como Relevante ou Irrelevante.
-- A saída deve ser apenas a classe e a justificativa. 
-- Classifique a questão também levando em consideração o contexto fornecido.
-
-Não faça:
-- Não adicione informações adicionais à saída.
-- Não classifique mais de uma questão, apenas a que foi fornecida.
-- Não adicione informações adicionais ao contexto fornecido.
-- Não mostre a questão ou o contexto na saída.
-
-Questão: {question}
-
-Contexto: {context}
-"""
-)
-    llm = ChatOllama(model="llama3.1", format="json", temperature=0)
-
-    structured_llm = llm.with_structured_output(Response)
-
-    _chain = prompt | structured_llm
+    prompt, _chain = config_model()
 
     #Carregando os documentos de treino
     # loader = DataFrameLoader(df_train, page_content_column="text")
