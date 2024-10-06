@@ -25,7 +25,7 @@ def config_model():
     """Classifique a questão fornecida como Relevante ou Irrelevante para o contexto da área de saúde epidemiológica. Pense da perspectiva de um profissional de saúde, incluindo médicos, epidemiologistas, enfermeiros, e outros profissionais da área.
 
 Faça:
-- Classifique a questão como Relevante ou Irrelevante usando a variável `class`.
+- Classifique a questão como Relevante ou Irrelevante usando a variável `news_class`.
 - A justificativa deve ser clara e concisa, explicando o motivo da classificação, usando a variável `justify`.
 - Considere também o contexto fornecido ao fazer a classificação.
   
@@ -37,16 +37,16 @@ Não faça:
 Exemplos:
 Questão: 'Tenho dores pulmonares afetadas pelo cigarro.'
 Saída esperada: 
-class: Relevante 
+news_class: Relevante 
 justify: O texto trata de um problema respiratório diretamente relacionado à área da saúde.
 
 Questão: 'Quais são os melhores livros de autoajuda?'
 Saída esperada: 
-class: Irrelevante 
+news_class: Irrelevante 
 justify: A questão não se relaciona diretamente com o contexto de saúde ou cuidados médicos.
   
 A saída deve seguir este formato:
-class: [Relevante ou Irrelevante]
+news_class: [Relevante ou Irrelevante]
 justify: [Justificativa clara e objetiva]
 
 Questão: {question}
