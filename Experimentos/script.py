@@ -54,7 +54,7 @@ Questão: {question}
 Contexto: {context}
 """
 )
-    llm = ChatOllama(model="llama3.1", format="json", temperature=0.2)
+    llm = ChatOllama(model="llama3.1", format="json", temperature=0)
 
     structured_llm = llm.with_structured_output(Response)
 
