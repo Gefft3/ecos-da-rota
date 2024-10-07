@@ -54,7 +54,7 @@ Questão: {question}
 Contexto: {context}
 """
 )
-    llm = ChatOllama(model="llama3.1", format="json", temperature=0)
+    llm = ChatOllama(model="llama3.1", format="json", temperature=0.2)
 
     structured_llm = llm.with_structured_output(Response)
 
@@ -133,8 +133,7 @@ def run_test(df, max_prompt_length, path_outputs):
                 
                 with open(path_arquivo_de_distancias, "a") as f:
                     f.write(f"{i} {media_das_distancias}\n")
-
-
+                    
             else:
                 with open(path_arquivo_de_erros, "a") as f:
                     f.write(f"Question {i}\n")
