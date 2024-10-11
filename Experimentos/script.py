@@ -20,6 +20,11 @@ class Response(BaseModel):
     explain: str = Field(description="Justificativa da resposta da questão", required=True)
 
 
+#TODO 
+# Adicionar função de reiniciar o modelo caso a execução demore muito tempo. 
+# Adicionar função de verificar a resposta já foi respondida ou está com erro, para quando for reiniciar o modelo o dataframe não ser reprocessado
+
+
 def config_model():
     prompt = PromptTemplate.from_template(
     """Classifique a questão fornecida como Relevante ou Irrelevante para o contexto da área de saúde epidemiológica. Pense da perspectiva de um profissional de saúde, incluindo médicos, epidemiologistas, enfermeiros, e outros profissionais da área.
