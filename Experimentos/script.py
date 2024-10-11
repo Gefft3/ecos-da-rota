@@ -14,6 +14,7 @@ from langchain_core.runnables import chain
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import PromptTemplate
 from pydantic import BaseModel, Field
+import re
 
 class Response(BaseModel):
     news_class: str = Field(description="Classe da resposta entre Relevante ou Irrelevante", required=True)
@@ -23,6 +24,24 @@ class Response(BaseModel):
 #TODO 
 # Adicionar função de reiniciar o modelo caso a execução demore muito tempo. 
 # Adicionar função de verificar a resposta já foi respondida ou está com erro, para quando for reiniciar o modelo o dataframe não ser reprocessado
+
+
+def verificar_dataframe(path_outputs):
+    path_arquivo_de_prompts = os.path.join(path_outputs, "prompts.txt")
+
+    last_prompt_processed = 0
+
+    if os.path.exists(path_arquivo_de_prompts):
+        with open(path_arquivo_de_prompts, "r") as f:
+            # Lê o arquivo inteiro e separa as entradas por "------------------"
+            conteudo = f.read().strip().split("--------------------------------\n\n")
+            for bloco in conteudo:
+                # Procura pela última ocorrência de "Question <indice>"
+                match = re.search(r"Question (\d+)", bloco.strip())
+                if match:
+                    last_prompt_processed = int(match.group(1))
+
+    return last_prompt_processed
 
 
 def config_model():
@@ -126,7 +145,7 @@ def run_test(df, max_prompt_length, path_outputs):
     path_arquivo_de_classificacoes = os.path.join(path_outputs, "classificacoes.txt")
     path_arquivo_de_distancias = os.path.join(path_outputs, "distancias.txt")
 
-    i = 0
+    i = LAST_PROMPT_PROCESSED
     for text in tqdm(df['text']):
         try:
             response, media_das_distancias = rag_chain(text, max_prompt_length, i, path_outputs) 
@@ -159,13 +178,21 @@ def run_test(df, max_prompt_length, path_outputs):
         i += 1
 
 if __name__ == "__main__":
-    df_train, df_test = load_data(sys.argv[1], sys.argv[2])
-    
+
     K_MAX = int(sys.argv[3])
     tipo = sys.argv[4]
     max_prompt_length = int(sys.argv[5])
 
     path_outputs = f'Logs {tipo}/k = {K_MAX}'
+
+    df_train, df_test = load_data(sys.argv[1], sys.argv[2])
+
+    LAST_PROMPT_PROCESSED = verificar_dataframe(path_outputs) + 1
+
+    # print(f"Última questão processada: {last_prompt_processed}")
+
+    df_test = df_test.iloc[LAST_PROMPT_PROCESSED:]
+
 
     if not os.path.exists(path_outputs):
         os.makedirs(path_outputs)
