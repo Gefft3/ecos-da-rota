@@ -15,15 +15,32 @@ from langchain_ollama import ChatOllama
 from langchain_core.prompts import PromptTemplate
 from pydantic import BaseModel, Field
 import re
+import signal
+from concurrent.futures import TimeoutError as TimeoutException
+import gc
 
 class Response(BaseModel):
     news_class: str = Field(description="Classe da resposta entre Relevante ou Irrelevante", required=True)
     explain: str = Field(description="Justificativa da resposta da questão", required=True)
 
 
-#TODO 
-# Adicionar função de reiniciar o modelo caso a execução demore muito tempo. 
-# Adicionar função de verificar a resposta já foi respondida ou está com erro, para quando for reiniciar o modelo o dataframe não ser reprocessado
+def timeout_handler(signum, frame):
+    raise TimeoutException("Tempo limite de execução excedido (5 minutos)")
+
+
+def execute_test(df, max_prompt_length, path_outputs):
+    try:
+
+        run_test(df, max_prompt_length, path_outputs)
+
+    except Exception:
+        LAST_PROMPT_PROCESSED = verificar_dataframe(path_outputs) + 1
+
+        df = df.iloc[LAST_PROMPT_PROCESSED:]
+
+        prompt, _chain = config_model()
+        execute_test(df, max_prompt_length, path_outputs)
+
 
 
 def verificar_dataframe(path_outputs):
@@ -84,6 +101,8 @@ Contexto: {context}
 
     _chain = prompt | structured_llm
 
+    gc.collect()
+
     return prompt, _chain 
 
 def load_data(url_train, url_test):
@@ -107,6 +126,8 @@ def retriever(query: str) -> List[Document]:
 
 def ollama_llm(question, context, i, path_outputs):
 
+    response = _chain.invoke({'question': question, 'context': context})
+
     filled_prompt = prompt.format(question=question, context=context)
 
     path_arquivo_de_prompts = os.path.join(path_outputs, "prompts.txt")
@@ -116,7 +137,6 @@ def ollama_llm(question, context, i, path_outputs):
         f.write(f'{filled_prompt}\n')
         f.write("--------------------------------\n\n")
 
-    response = _chain.invoke({'question': question, 'context': context})
     return response
 
     
@@ -146,9 +166,16 @@ def run_test(df, max_prompt_length, path_outputs):
     path_arquivo_de_distancias = os.path.join(path_outputs, "distancias.txt")
 
     i = LAST_PROMPT_PROCESSED
+
+    signal.signal(signal.SIGALRM, timeout_handler)
+
     for text in tqdm(df['text']):
         try:
+
+            signal.alarm(300)
             response, media_das_distancias = rag_chain(text, max_prompt_length, i, path_outputs) 
+            signal.alarm(0)
+
             choice = response.news_class
 
             if choice == "Relevante" or choice == "Irrelevante":
@@ -175,6 +202,10 @@ def run_test(df, max_prompt_length, path_outputs):
                 f.write("------------------------------------------------\n\n")
             pass
 
+        except TimeoutException:
+            raise Exception
+        
+
         i += 1
 
 if __name__ == "__main__":
@@ -187,17 +218,9 @@ if __name__ == "__main__":
 
     df_train, df_test = load_data(sys.argv[1], sys.argv[2])
 
-    LAST_PROMPT_PROCESSED = verificar_dataframe(path_outputs) + 1
-
-    # print(f"Última questão processada: {last_prompt_processed}")
-
-    df_test = df_test.iloc[LAST_PROMPT_PROCESSED:]
-
-
     if not os.path.exists(path_outputs):
         os.makedirs(path_outputs)
 
-    prompt, _chain = config_model()
 
     #Carregando os documentos de treino
     # loader = DataFrameLoader(df_train, page_content_column="text")
@@ -210,4 +233,7 @@ if __name__ == "__main__":
     #Criando o modelo de recuperação
     # retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': k_max})
 
-    run_test(df_test, max_prompt_length, path_outputs)
+    LAST_PROMPT_PROCESSED = verificar_dataframe(path_outputs) + 1
+    df_test = df_test.iloc[LAST_PROMPT_PROCESSED:]
+    prompt, _chain = config_model()
+    execute_test(df_test, max_prompt_length, path_outputs)
