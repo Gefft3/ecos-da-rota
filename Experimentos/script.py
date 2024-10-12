@@ -50,10 +50,8 @@ def verificar_dataframe(path_outputs):
 
     if os.path.exists(path_arquivo_de_prompts):
         with open(path_arquivo_de_prompts, "r") as f:
-            # Lê o arquivo inteiro e separa as entradas por "------------------"
             conteudo = f.read().strip().split("--------------------------------\n\n")
             for bloco in conteudo:
-                # Procura pela última ocorrência de "Question <indice>"
                 match = re.search(r"Question (\d+)", bloco.strip())
                 if match:
                     last_prompt_processed = int(match.group(1))
@@ -106,7 +104,6 @@ Contexto: {context}
     return prompt, _chain 
 
 def load_data(url_train, url_test):
-    # Datasets definidos pelo shell script
     train = pd.read_csv(url_train)
     test = pd.read_csv(url_test)
     return train, test
