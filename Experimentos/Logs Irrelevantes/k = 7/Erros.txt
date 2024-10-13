@@ -1,0 +1,42 @@
+Question 6
+Texto de entrada: Prefeito discute estratégias para melhorar a infraestrutura urbana visando o bem-estar.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 12
+Texto de entrada: Escolas adotam novas medidas de segurança para proteger a saúde dos alunos.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 27
+Texto de entrada: Prefeitura incentiva a prática de ioga em espaços públicos.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 50
+Texto de entrada: Prefeito participa de evento sobre mobilidade urbana e qualidade de vida.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 66
+Texto de entrada: Prefeitura realiza campanha de prevenção ao consumo de álcool e drogas.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 91
+Texto de entrada: Cidade realiza evento sobre os impactos do uso excessivo de tecnologia na saúde mental.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
