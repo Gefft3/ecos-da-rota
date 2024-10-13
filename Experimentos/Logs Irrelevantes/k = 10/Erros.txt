@@ -1,0 +1,97 @@
+Question 5
+Texto de entrada: Campanha ambiental destaca a importância de áreas verdes para a qualidade de vida.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 12
+Texto de entrada: Escolas adotam novas medidas de segurança para proteger a saúde dos alunos.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 27
+Texto de entrada: Prefeitura incentiva a prática de ioga em espaços públicos.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 29
+Texto de entrada: Prefeito participa de evento sobre saneamento básico em áreas urbanas.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 32
+Texto de entrada: Estudo revela os benefícios do trabalho remoto para a saúde mental.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 35
+Texto de entrada: Escola organiza atividades extracurriculares voltadas para o bem-estar dos alunos.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 42
+Texto de entrada: Empresa de tecnologia desenvolve aplicativo para monitorar hábitos saudáveis.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 50
+Texto de entrada: Prefeito participa de evento sobre mobilidade urbana e qualidade de vida.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 55
+Texto de entrada: Governo discute o impacto da urbanização na qualidade de vida das cidades.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 64
+Texto de entrada: Prefeito participa de seminário sobre os impactos do aquecimento global na saúde.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 66
+Texto de entrada: Prefeitura realiza campanha de prevenção ao consumo de álcool e drogas.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 91
+Texto de entrada: Cidade realiza evento sobre os impactos do uso excessivo de tecnologia na saúde mental.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 93
+Texto de entrada: Ministério do Esporte promove campanha de incentivo à prática de esportes entre jovens.
+
+Erro (exception): 2 validation errors for Response
+news_class
+  Field required [type=missing, input_value={'text': "A campanha 'Ago... a lei Maria da Penha."}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+explain
+  Field required [type=missing, input_value={'text': "A campanha 'Ago... a lei Maria da Penha."}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+------------------------------------------------
+
