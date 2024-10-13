@@ -164,14 +164,14 @@ def run_test(df, max_prompt_length, path_outputs):
 
     i = LAST_PROMPT_PROCESSED
 
-    signal.signal(signal.SIGALRM, timeout_handler)
+    # signal.signal(signal.SIGALRM, timeout_handler)
 
     for text in tqdm(df['text']):
         try:
 
-            signal.alarm(300)
+            # signal.alarm(300)
             response, media_das_distancias = rag_chain(text, max_prompt_length, i, path_outputs) 
-            signal.alarm(0)
+            # signal.alarm(0)
 
             choice = response.news_class
 
@@ -199,8 +199,8 @@ def run_test(df, max_prompt_length, path_outputs):
                 f.write("------------------------------------------------\n\n")
             pass
 
-        except TimeoutException:
-            raise Exception
+        # except TimeoutException:
+        #     raise Exception
         
 
         i += 1
@@ -233,4 +233,5 @@ if __name__ == "__main__":
     LAST_PROMPT_PROCESSED = verificar_dataframe(path_outputs) + 1
     df_test = df_test.iloc[LAST_PROMPT_PROCESSED:]
     prompt, _chain = config_model()
-    execute_test(df_test, max_prompt_length, path_outputs)
+    run_test(df_test, max_prompt_length, path_outputs)
+    # execute_test(df_test, max_prompt_length, path_outputs)
