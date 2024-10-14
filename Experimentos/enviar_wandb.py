@@ -3,6 +3,12 @@ import sys
 import os
 import numpy as np
 
+"""
+Para rodar, execute o comando: python3 enviar_wandb.py <tipo>
+<tipo> é o tipo de classificação que deseja analisar, podendo ser 'Relevantes' ou 'Irrelevantes'
+"""
+
+
 run = wandb.init(
     project='ECOS da Rota'
     )
@@ -21,7 +27,19 @@ tipo = sys.argv[1]
 
 path_raiz = f'../Experimentos/Logs {tipo}'
 pastas = os.listdir(path_raiz)
-pastas = sorted(pastas)
+
+lista_pastas = []
+for pasta in pastas:
+    try: 
+        lista_pastas.append(int(pasta.split('=')[1])) 
+    except:
+        pass
+
+lista_pastas = sorted(lista_pastas)
+
+for index, pasta in enumerate(lista_pastas):
+    pastas[index] = f'k = {pasta}'
+
 for pasta in pastas:
     if 'k =' in pasta:
         
