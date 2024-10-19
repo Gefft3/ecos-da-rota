@@ -46,7 +46,7 @@ def execute_test(df, max_prompt_length, path_outputs):
 def verificar_dataframe(path_outputs):
     path_arquivo_de_prompts = os.path.join(path_outputs, "prompts.txt")
 
-    last_prompt_processed = 0
+    last_prompt_processed = -1
 
     if os.path.exists(path_arquivo_de_prompts):
         with open(path_arquivo_de_prompts, "r") as f:
