@@ -46,7 +46,7 @@ def execute_test(df, max_prompt_length, path_outputs):
 def verificar_dataframe(path_outputs):
     path_arquivo_de_prompts = os.path.join(path_outputs, "prompts.txt")
 
-    last_prompt_processed = -1
+    last_prompt_processed = 0
 
     if os.path.exists(path_arquivo_de_prompts):
         with open(path_arquivo_de_prompts, "r") as f:
@@ -230,7 +230,7 @@ if __name__ == "__main__":
     #Criando o modelo de recuperação
     # retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': k_max})
 
-    LAST_PROMPT_PROCESSED = verificar_dataframe(path_outputs) + 1
+    LAST_PROMPT_PROCESSED = verificar_dataframe(path_outputs) 
     df_test = df_test.iloc[LAST_PROMPT_PROCESSED:]
     prompt, _chain = config_model()
     run_test(df_test, max_prompt_length, path_outputs)
