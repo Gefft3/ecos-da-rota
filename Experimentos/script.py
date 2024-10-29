@@ -145,42 +145,45 @@ def rag_chain(question, max_prompt_length, i, path_outputs):
     prompt_tokens = num_tokens_question + 318
     
     formatted_context = ""
-    soma_das_distancias = []
+    distancias = []
     for doc in retrieved_docs:
         if len(encoding.encode(doc.page_content)) + prompt_tokens < max_prompt_length:
             prompt_tokens += len(encoding.encode(doc.page_content))
             formatted_context += "\n\n" + doc.page_content
-            soma_das_distancias.append(doc.metadata["score"])
+            distancias.append(doc.metadata["score"]) 
 
-    media_das_distancias = np.mean(soma_das_distancias)
-
-    return ollama_llm(question, formatted_context, i, path_outputs), media_das_distancias
+    return ollama_llm(question, formatted_context, i, path_outputs), distancias
 
 def run_test(df, max_prompt_length, path_outputs):
     
     path_arquivo_de_erros = os.path.join(path_outputs, "Erros.txt")
     path_arquivo_de_classificacoes = os.path.join(path_outputs, "classificacoes.txt")
-    path_arquivo_de_distancias = os.path.join(path_outputs, "distancias.txt")
+    path_distancias_raiz = os.path.join(path_outputs, "distancias")
+
+    if not os.path.exists(path_distancias_raiz):
+        os.makedirs(path_distancias_raiz)
 
     i = LAST_PROMPT_PROCESSED
 
     # signal.signal(signal.SIGALRM, timeout_handler)
 
     for text in tqdm(df['text']):
+
+        path_arquivo_de_distancias = os.path.join(path_distancias_raiz, f"{i}.txt")
+
         try:
 
-            # signal.alarm(300)
-            response, media_das_distancias = rag_chain(text, max_prompt_length, i, path_outputs) 
-            # signal.alarm(0)
+            response, distancias = rag_chain(text, max_prompt_length, i, path_outputs) 
+
+            with open(path_arquivo_de_distancias, "w") as f:
+                for j, distancia in enumerate(distancias):
+                    f.write(f"{j} {distancia}\n")
 
             choice = response.news_class
 
             if choice == "Relevante" or choice == "Irrelevante":
                 with open(path_arquivo_de_classificacoes, "a") as f:
                     f.write(f"{i} {choice}\n")
-                
-                with open(path_arquivo_de_distancias, "a") as f:
-                    f.write(f"{i} {media_das_distancias}\n")
                     
             else:
                 with open(path_arquivo_de_erros, "a") as f:
@@ -218,8 +221,7 @@ if __name__ == "__main__":
     df_train, df_test = load_data(sys.argv[1], sys.argv[2])
 
     if not os.path.exists(path_outputs):
-        os.makedirs(path_outputs)
-
+            os.makedirs(path_outputs)
 
     #Carregando os documentos de treino
     # loader = DataFrameLoader(df_train, page_content_column="text")
