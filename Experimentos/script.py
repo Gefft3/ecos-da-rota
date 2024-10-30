@@ -99,7 +99,7 @@ Contexto: {context}
 
     _chain = prompt | structured_llm
 
-    
+    gc.collect()
 
     return prompt, _chain 
 
@@ -210,7 +210,6 @@ def run_test(df, max_prompt_length, path_outputs):
 
 if __name__ == "__main__":
     
-    gc.collect()
     
     K_MAX = int(sys.argv[3])
     tipo = sys.argv[4]
