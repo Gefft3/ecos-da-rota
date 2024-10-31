@@ -160,8 +160,8 @@ def run_test(df, max_prompt_length, path_outputs):
     path_arquivo_de_classificacoes = os.path.join(path_outputs, "classificacoes.txt")
     path_distancias_raiz = os.path.join(path_outputs, "distancias")
 
-    if not os.path.exists(path_distancias_raiz):
-        os.makedirs(path_distancias_raiz)
+    # if not os.path.exists(path_distancias_raiz):
+    #     os.makedirs(path_distancias_raiz)
 
     i = LAST_PROMPT_PROCESSED
 
@@ -175,9 +175,9 @@ def run_test(df, max_prompt_length, path_outputs):
 
             response, distancias = rag_chain(text, max_prompt_length, i, path_outputs) 
 
-            with open(path_arquivo_de_distancias, "w") as f:
-                for j, distancia in enumerate(distancias):
-                    f.write(f"{j} {distancia}\n")
+            # with open(path_arquivo_de_distancias, "w") as f:
+            #     for j, distancia in enumerate(distancias):
+            #         f.write(f"{j} {distancia}\n")
 
             choice = response.news_class
 
