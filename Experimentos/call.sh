@@ -10,7 +10,7 @@ url_test='../datasets/relevantes/EIOS_test_filtrado.csv'
 #url_test='../datasets/irrelevantes/_GPT_test.csv'
 
 #Tamanho máximo do k (número de documentos retornados)
-k_max=2
+k_max=1
 
 #Tamanho máximo de tokens por prompt
 max_prompt_tokens=128000
