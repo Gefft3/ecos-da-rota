@@ -68,3 +68,31 @@ Erro (exception): 'NoneType' object has no attribute 'news_class'
 
 ------------------------------------------------
 
+Question 895
+Texto de entrada: Estudantes do curso de Geologia da Universidade Federal do Sul e Sudeste do Pará (Unifesspa), Campus Marabá, realizaram uma visita técnica ao Parque Estadual da Serra dos Martírios/Andorinhas e à Área de Proteção Ambiental (APA) Araguaia, localizadas no município de São Geraldo do Araguaia, no sudeste paraense.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 896
+Texto de entrada: O deputado estadual Eduardo Suplicy (PT-SP) foi diagnosticado com um quadro de não Hodgkin e passa por tratamento com imunoterapia. De acordo com Suplicy, os exames "já apresentam bons resultados". Ele passa por cuidados com a equipe do hematologista Celso Arrais.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 897
+Texto de entrada: Volta Redonda - Dando sequência à força-tarefa para tirar das ruas de Volta Redonda veículos clonados, a Secretaria Municipal de Ordem Pública (Semop) apreendeu nesse fim de semana mais um carro e uma moto suspeitos de adulteração. A operação conta com o uso de câmeras de leitura de placas....
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
+Question 899
+Texto de entrada: Profissional médica da unidade do Governo de Goiás em Trindade lembra que, embora simples, esse tipo de procedimento ainda é cercada de dúvidas, por falta de informação adequada Doação é simples e pode ser feita também em unidades móveis como a da Rede Hemocentro.
+
+Erro (exception): 'NoneType' object has no attribute 'news_class'
+
+------------------------------------------------
+
