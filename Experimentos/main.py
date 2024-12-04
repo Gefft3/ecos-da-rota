@@ -42,7 +42,6 @@ def execute_test(df, max_prompt_length, path_outputs):
         execute_test(df, max_prompt_length, path_outputs)
 
 
-
 def verificar_dataframe(path_outputs):
     path_arquivo_de_prompts = os.path.join(path_outputs, "prompts.txt")
 
