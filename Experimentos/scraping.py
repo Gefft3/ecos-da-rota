@@ -1,77 +1,88 @@
-import pandas as pd 
-from langchain_ollama import ChatOllama
-from langchain.prompts import PromptTemplate
-from langchain_core.runnables import chain
+import pandas as pd
 from bs4 import BeautifulSoup
 import requests
-from pydantic import BaseModel, Field
 from tqdm import tqdm
 import gc
-
-class Response(BaseModel):
-    summary: str = Field(description="Resumo da notícia fornecida.", required=True)
+import ollama  
 
 def fetch_page_content(url):
     try:
         response = requests.get(url)
         soup = BeautifulSoup(response.content, "html.parser")
-        text = soup.get_text(separator="\n").strip()
+        
+        main_content = soup.find("main") or soup.find("article")   
+        
+        if main_content:
+            text = main_content.get_text(separator="\n").strip()
+        else:
+            text = soup.get_text(separator="\n").strip()
+
         return text if text else "Conteúdo vazio ou indisponível."
     except Exception as e:
         return f"Erro ao acessar o link: {e}"
-    
-def summarize_web_content(url, summary_chain):
+
+
+def call_ollama(content, model):
+    prompt = f"""
+Você é um assistente especializado em gerar resumos detalhados.
+
+Tarefa: Seu objetivo é fornecer um resumo claro e completo, destacando os principais pontos, argumentos e informações relevantes do conteúdo. O resumo deve ser informativo e bem estruturado, com foco nas ideias principais. 
+
+Restrições:
+- O limite mínimo do resumo é de 350 palavras e o máximo é de 400.
+- Mesmo que haja poucas informações, foque no principal conteúdo. 
+- Caso não haja informações suficientes para gerar um resumo, você pode informar que o conteúdo é vazio ou indisponível.
+- O resumo deve ser escrito em terceira pessoa, ou de forma impessoal.
+- Retorne apenas o resumo, sem nenhuma mensagem adicional.
+- O resumo deve estar em português brasileiro.
+
+Texto:
+{content}
+"""
+    try:
+        response = ollama.chat(model=model, messages=[{"role": "user", "content": prompt}])
+        return response["message"]["content"]
+    except Exception as e:
+        return f"Erro ao acessar o Ollama: {e}"
+  
+
+  
+
+def clear_page(page_content):
+    return page_content.replace("\n", " ").replace("\r", " ").replace("\t", " ").replace("\xa0", " ").strip()
+
+def summarize_web_content(url, model):
     page_content = fetch_page_content(url)
     
     if "Erro" in page_content or "Conteúdo vazio" in page_content:
         return page_content  
     
-    summary = summary_chain.invoke(page_content)
+    page_content = clear_page(page_content)
+    
+    # print('-------------------')
+    # print("page: \n")
+    # print(page_content)
+    
+    summary = call_ollama(page_content, model=model)
     return summary
 
-def model_config():
-
-    summary_prompt = PromptTemplate(
-    input_variables=["content"],
-    template="""
-Você é um assistente especializado em gerar resumos detalhados.
-
-Seu objetivo é fornecer um resumo claro e completo, destacando os principais pontos, argumentos e informações relevantes do conteúdo. O resumo deve ser informativo e bem estruturado, com foco nas ideias principais. 
-
-Lembre-se de que o resumo deve ser coeso e coerente, respeitando um limite máximo de 350 palavras, para permitir um pouco mais de profundidade e detalhes.
-
-Texto:
-{content}
-"""
-)
-
-    llm = ChatOllama(model="llama3.1", format="json", temperature=0.1)
-
-    structured_llm = llm.with_structured_output(Response)
-
-    summary_chain = summary_prompt | structured_llm
-    
-    return summary_chain
 
 def main():
-
     url_dataset = '../datasets/irrelevantes/dataset_links.csv'
-
     dataset = pd.read_csv(url_dataset)
-
     dataset_output = pd.DataFrame(columns=['link', 'summary'])
 
-    summary_chain = model_config()
+    model_name = "llama3.1"  
 
     for url in tqdm(dataset['link']):
-        gc.collect()
         try:
-            response = summarize_web_content(url, summary_chain)
-            df_aux = pd.DataFrame({'link': [url], 'summary': [response.summary]})
-
+            response = summarize_web_content(url, model_name)
+            # print('-------------------')
+            # print('llm: \n')
+            # print(response)
+            df_aux = pd.DataFrame({'link': [url], 'summary': [response]})
             dataset_output = pd.concat([dataset_output, df_aux])
             dataset_output.to_csv('../datasets/irrelevantes/dataset_links_summary.csv', index=False)
-        
         except Exception as e:
             print(f'Erro: {e}')
 
