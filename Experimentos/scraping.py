@@ -44,9 +44,6 @@ Texto:
         return response["message"]["content"]
     except Exception as e:
         return f"Erro ao acessar o Ollama: {e}"
-  
-
-  
 
 def clear_page(page_content):
     return page_content.replace("\n", " ").replace("\r", " ").replace("\t", " ").replace("\xa0", " ").strip()
@@ -59,16 +56,12 @@ def summarize_web_content(url, model):
     
     page_content = clear_page(page_content)
     
-    # print('-------------------')
-    # print("page: \n")
-    # print(page_content)
-    
     summary = call_ollama(page_content, model=model)
     return summary
 
 
 def main():
-    url_dataset = '../datasets/irrelevantes/dataset_links.csv'
+    url_dataset = '../datasets/relevantes/dataset_links.csv'
     dataset = pd.read_csv(url_dataset)
     dataset_output = pd.DataFrame(columns=['link', 'summary'])
 
@@ -77,12 +70,10 @@ def main():
     for url in tqdm(dataset['link']):
         try:
             response = summarize_web_content(url, model_name)
-            # print('-------------------')
-            # print('llm: \n')
-            # print(response)
+    
             df_aux = pd.DataFrame({'link': [url], 'summary': [response]})
             dataset_output = pd.concat([dataset_output, df_aux])
-            dataset_output.to_csv('../datasets/irrelevantes/dataset_links_summary.csv', index=False)
+            dataset_output.to_csv('../datasets/relevantes/dataset_links_summary.csv', index=False)
         except Exception as e:
             print(f'Erro: {e}')
 
